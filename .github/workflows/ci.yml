@@ -1,0 +1,90 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main, stable]
+
+permissions:
+  contents: read
+
+jobs:
+  rust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: 1.95.0
+          components: rustfmt, clippy
+          targets: wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo fmt --all --check
+      - run: cargo clippy --workspace --all-targets --all-features -- -D warnings
+      - run: cargo test --workspace
+      - run: cargo check -p unciv-wasm-api --target wasm32-unknown-unknown
+      - run: node --test scripts/lib/inventory.test.mjs
+
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.15.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+      - run: pnpm --dir web install --frozen-lockfile
+      - run: pnpm --dir web lint
+      - run: pnpm --dir web format:check
+      - run: pnpm --dir web test
+      - run: pnpm --dir web build
+      - run: pnpm --dir web exec playwright install --with-deps chromium webkit
+      - run: pnpm --dir web test:e2e
+
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: EmbarkStudios/cargo-deny-action@v2
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.15.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: pnpm --dir web install --frozen-lockfile
+      - run: pnpm --dir web audit --audit-level high
+
+  oracle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: yairm210/Unciv
+          ref: 19de45e6eef6245f1a9774b2e1a080a0f1c87174
+          path: .upstream/Unciv
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: 1.95.0
+      - uses: Swatinem/rust-cache@v2
+      - name: Verify pinned upstream
+        env:
+          UNCIV_UPSTREAM_DIR: ${{ github.workspace }}/.upstream/Unciv
+        run: ./scripts/verify-upstream.sh
+      - name: Verify compatibility inventories and task ledger
+        run: |
+          node scripts/check-inventories.mjs
+          node scripts/check-task-ledger.mjs
+      - name: Run Kotlin/Rust smoke comparison
+        env:
+          UNCIV_UPSTREAM_DIR: ${{ github.workspace }}/.upstream/Unciv
+        run: cargo test -p unciv-test-oracle --test smoke -- --ignored

@@ -1,0 +1,16 @@
+repository = "https://github.com/yairm210/Unciv.git"
+version = "4.21.10"
+commit = "19de45e6eef6245f1a9774b2e1a080a0f1c87174"
+tree = "71c09d4ecc91656f9bcf301ac0ca0e1e44604205"
+
+[[critical_file]]
+path = "buildSrc/src/main/kotlin/BuildConfig.kt"
+sha256 = "36ab55bf03cccc319079974a2142f444aff842864bc32ff99c2c540544907d95"
+
+[[critical_file]]
+path = "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+sha256 = "2ec2b371cfac8e169c157f2c3f3b37a1b8c3591a883af2d57aaf8b982d84d136"
+
+[[critical_file]]
+path = "core/src/com/unciv/logic/multiplayer/apiv2/EndpointImplementations.kt"
+sha256 = "0f2421752ce7c5f0c2d04b311bd38113f08b5d42de9a791817318d2c72e4887a"

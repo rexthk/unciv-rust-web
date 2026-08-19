@@ -1,0 +1,308 @@
+[
+  {
+    "path": "Civ V - Gods & Kings/Beliefs.json",
+    "category": "Beliefs",
+    "bytes": 10643,
+    "sha256": "1041512886da13be3da4fa84422af47ab3aad36b549fb10e65f6e259f8837f34"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Buildings.json",
+    "category": "Buildings",
+    "bytes": 40149,
+    "sha256": "2e01b25ba19292cf4d42e364031e541f7e4c8dd725ad1a903ec7abfd64b7bc6d"
+  },
+  {
+    "path": "Civ V - Gods & Kings/CityStateTypes.json",
+    "category": "CityStateTypes",
+    "bytes": 2098,
+    "sha256": "bb69d67b0b1efad907234905f1cc5a14afcf338dc993980d91b3475e5b5f908b"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Difficulties.json",
+    "category": "Difficulties",
+    "bytes": 7410,
+    "sha256": "0dc02b92db372561441a6754cb2fcbd2fd60849dccc1d31f4975ae91ebc31167"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Eras.json",
+    "category": "Eras",
+    "bytes": 11135,
+    "sha256": "fbdc455bfe8f7f4b8678a94d8daec092cdbb534468e91ac99add53f1b395d2f2"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Events.json",
+    "category": "Events",
+    "bytes": 8067,
+    "sha256": "acc8e12f7bfee29ec01f212675c2db27ebac7f6723031d075e0d7ac1aea69b87"
+  },
+  {
+    "path": "Civ V - Gods & Kings/GlobalUniques.json",
+    "category": "GlobalUniques",
+    "bytes": 1347,
+    "sha256": "2512c8a18ec8c1214ce222c603fc38718371f7956982eede097c6f9f11717e99"
+  },
+  {
+    "path": "Civ V - Gods & Kings/ModOptions.json",
+    "category": "ModOptions",
+    "bytes": 30,
+    "sha256": "eb7485303a4b9ebcb2a6a8f077a0fcb9331043051e8f0fc8d12e00c307818989"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Nations.json",
+    "category": "Nations",
+    "bytes": 105386,
+    "sha256": "5f1e7f2b19bb070b30c2981da2780ac4e8bccaaa8fab83de9ac43648b5d24010"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Personalities.json",
+    "category": "Personalities",
+    "bytes": 26296,
+    "sha256": "af210120b5ddd42f881eaceb7815600b5ce35b16e6db3d813396bd20f190c5d7"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Policies.json",
+    "category": "Policies",
+    "bytes": 24544,
+    "sha256": "f724b15cca730295ad3c87f0ca8cedabee90aaae3262680595d6af8a47f57455"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Quests.json",
+    "category": "Quests",
+    "bytes": 5524,
+    "sha256": "088d64b392f3aef6abb1d7e66f284b96e8d58e08a2bb076a1e260331e05f422a"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Religions.json",
+    "category": "Religions",
+    "bytes": 184,
+    "sha256": "d57f06a81da239ffd2944950e92b61abc30313646938505533eb50efe121a1a8"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Ruins.json",
+    "category": "Ruins",
+    "bytes": 4003,
+    "sha256": "5bc6f97a83a701931ef283f436b4b99563ea1d20bd353d35fd485b1cdd5c5b0d"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Specialists.json",
+    "category": "Specialists",
+    "bytes": 444,
+    "sha256": "741b8bfca3c42837bee68f5d5a9af6a82ed771049243b386884f82af5cfd5d61"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Speeds.json",
+    "category": "Speeds",
+    "bytes": 5154,
+    "sha256": "49239006d57bf1866df07aa543feb4a6972dedcafeacfe67575eee76d978b031"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Techs.json",
+    "category": "Techs",
+    "bytes": 25554,
+    "sha256": "415cbf1c42de6396238330e4e185276e66879d28e8abdc9bee1ce03788aaa987"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Terrains.json",
+    "category": "Terrains",
+    "bytes": 23600,
+    "sha256": "676b546845a072e615669a0fba7404d02c912b3dd0f45dd2a7822c1aadfef836"
+  },
+  {
+    "path": "Civ V - Gods & Kings/TileImprovements.json",
+    "category": "TileImprovements",
+    "bytes": 11244,
+    "sha256": "ab7daa7c65ec5c7396d829ba5c3db68536198a088935fbf3ad2d4f9462be1242"
+  },
+  {
+    "path": "Civ V - Gods & Kings/TileResources.json",
+    "category": "TileResources",
+    "bytes": 21862,
+    "sha256": "44f379560eab1122906d806aa9d1dd4a43f9b8b31af0bdeca7cb9324cbec5dce"
+  },
+  {
+    "path": "Civ V - Gods & Kings/UnitNameGroups.json",
+    "category": "UnitNameGroups",
+    "bytes": 7077,
+    "sha256": "eec585e3feeec114bc360d91840c48f7eb7f56fa189fe864fdeafbd84f5d5930"
+  },
+  {
+    "path": "Civ V - Gods & Kings/UnitPromotions.json",
+    "category": "UnitPromotions",
+    "bytes": 22291,
+    "sha256": "2c662d46106d095f05ab64f59b01d8aa91809c1b4fa3612f56cb4e0b5589a2f6"
+  },
+  {
+    "path": "Civ V - Gods & Kings/Units.json",
+    "category": "Units",
+    "bytes": 49220,
+    "sha256": "f2786a1da6d444789f7c4d1c391294f94e4a59f2024524ccd3b8f1477d4b0ce0"
+  },
+  {
+    "path": "Civ V - Gods & Kings/UnitTypes.json",
+    "category": "UnitTypes",
+    "bytes": 2877,
+    "sha256": "765e74e9603145b9673cee7662175fbae20ec82caab9c50c37b070ce0bf4d7a9"
+  },
+  {
+    "path": "Civ V - Gods & Kings/VictoryTypes.json",
+    "category": "VictoryTypes",
+    "bytes": 3469,
+    "sha256": "259a700c2b3cdb54c47a1f6394f8253762be0fab5cc1a4861ca88e00cf6f3c5b"
+  },
+  {
+    "path": "Civ V - Vanilla/Buildings.json",
+    "category": "Buildings",
+    "bytes": 31136,
+    "sha256": "013a206e662e1da2f9dc570dcb9de0b2f21748ecc65228a6d4664bdff805163d"
+  },
+  {
+    "path": "Civ V - Vanilla/CityStateTypes.json",
+    "category": "CityStateTypes",
+    "bytes": 2097,
+    "sha256": "9987854f03afa9ecee576e87b1b910a85eb4128327354888b7bbb584ab986ed4"
+  },
+  {
+    "path": "Civ V - Vanilla/Difficulties.json",
+    "category": "Difficulties",
+    "bytes": 7408,
+    "sha256": "08f540f956a0ca795ca82409f72120311a7c41529eb053aeb90883d3cf5b4ff1"
+  },
+  {
+    "path": "Civ V - Vanilla/Eras.json",
+    "category": "Eras",
+    "bytes": 8678,
+    "sha256": "0cb7174a8be1eded1f90a0b1c437edf04448c7913a2175c9c65a265e4efc0c7d"
+  },
+  {
+    "path": "Civ V - Vanilla/GlobalUniques.json",
+    "category": "GlobalUniques",
+    "bytes": 1274,
+    "sha256": "2bee516f0866b2a0672b8167dba10e05582cb354ffb422077e72197eff31e745"
+  },
+  {
+    "path": "Civ V - Vanilla/ModOptions.json",
+    "category": "ModOptions",
+    "bytes": 67,
+    "sha256": "97649557b9ee420060febe3b61d5faf91a5c2fbe9f62a34dc0fcc86e771729ba"
+  },
+  {
+    "path": "Civ V - Vanilla/Nations.json",
+    "category": "Nations",
+    "bytes": 73053,
+    "sha256": "f6920dc32d96cb6c09680de1c7f7cba339ca738d2ef13e20555e3e36cff2eccf"
+  },
+  {
+    "path": "Civ V - Vanilla/Policies.json",
+    "category": "Policies",
+    "bytes": 22205,
+    "sha256": "e4e642fdd914cffd9732c8951308bffe50c5c57001f12634a193eb5a10930c5f"
+  },
+  {
+    "path": "Civ V - Vanilla/Quests.json",
+    "category": "Quests",
+    "bytes": 6026,
+    "sha256": "1fa12f4d5d4842b624e268aad94e70b2b8c32629faed3fbb9c4802d5c5dd6911"
+  },
+  {
+    "path": "Civ V - Vanilla/Ruins.json",
+    "category": "Ruins",
+    "bytes": 2667,
+    "sha256": "814e2ba39971fcbd3b38d015f8d931beddda792cbb202744f86e11dcc762de7b"
+  },
+  {
+    "path": "Civ V - Vanilla/Specialists.json",
+    "category": "Specialists",
+    "bytes": 444,
+    "sha256": "741b8bfca3c42837bee68f5d5a9af6a82ed771049243b386884f82af5cfd5d61"
+  },
+  {
+    "path": "Civ V - Vanilla/Speeds.json",
+    "category": "Speeds",
+    "bytes": 4121,
+    "sha256": "e0c7a1ab16d307dc930f357205217a4360ac38f45c2f4b5128bf22a0bb1504f3"
+  },
+  {
+    "path": "Civ V - Vanilla/Techs.json",
+    "category": "Techs",
+    "bytes": 20439,
+    "sha256": "26a3526f03bfa987540dfe93fde1b706d27b84b850619185697f724b73c63f62"
+  },
+  {
+    "path": "Civ V - Vanilla/Terrains.json",
+    "category": "Terrains",
+    "bytes": 21484,
+    "sha256": "77a6b88f16b9a09aebf522c70ce678e75a72fb69494500e75c00338b3af06f5f"
+  },
+  {
+    "path": "Civ V - Vanilla/TileImprovements.json",
+    "category": "TileImprovements",
+    "bytes": 10903,
+    "sha256": "2475fad4eaa897607b1dabbf31656cd08bdec189251810f315359dc9e2ff0f4e"
+  },
+  {
+    "path": "Civ V - Vanilla/TileResources.json",
+    "category": "TileResources",
+    "bytes": 18616,
+    "sha256": "9544d3e58f83b7464c8f9e6764f28fc506e2c77a7ff50dcaf857e9a72ee8a908"
+  },
+  {
+    "path": "Civ V - Vanilla/UnitPromotions.json",
+    "category": "UnitPromotions",
+    "bytes": 17798,
+    "sha256": "9e852164126a02bd19d291c20696d9338e4468a866e74d84db6b5717a2ad3ee5"
+  },
+  {
+    "path": "Civ V - Vanilla/Units.json",
+    "category": "Units",
+    "bytes": 38551,
+    "sha256": "db4c8de902bf73fc970ca212e61c2b94b5424a89ec0b699f50437edaba993765"
+  },
+  {
+    "path": "Civ V - Vanilla/UnitTypes.json",
+    "category": "UnitTypes",
+    "bytes": 2877,
+    "sha256": "765e74e9603145b9673cee7662175fbae20ec82caab9c50c37b070ce0bf4d7a9"
+  },
+  {
+    "path": "Civ V - Vanilla/VictoryTypes.json",
+    "category": "VictoryTypes",
+    "bytes": 3469,
+    "sha256": "259a700c2b3cdb54c47a1f6394f8253762be0fab5cc1a4861ca88e00cf6f3c5b"
+  },
+  {
+    "path": "ModCategories.json",
+    "category": "ModCategories",
+    "bytes": 1067,
+    "sha256": "8d4dc29a8f28a57cb967760824cf30d734540515bce71abec346b1785b4ec55e"
+  },
+  {
+    "path": "TileSets/FantasyHex.json",
+    "category": "FantasyHex",
+    "bytes": 6560,
+    "sha256": "befa493810d58690ae783be5ae876499fa27753c74e92f03c74a13e111451783"
+  },
+  {
+    "path": "TileSets/HexaRealm.json",
+    "category": "HexaRealm",
+    "bytes": 61577,
+    "sha256": "3d2ff2fc7af5768322ca2c328e510518a6bd8b856eda01609231fd620899a20b"
+  },
+  {
+    "path": "TileSets/Minimal.json",
+    "category": "Minimal",
+    "bytes": 435,
+    "sha256": "baca630f41e8ba86822e0ee5e8b308590f84764d753d4979c932dfa4bd9f3eca"
+  },
+  {
+    "path": "Tutorials.json",
+    "category": "Tutorials",
+    "bytes": 66211,
+    "sha256": "6dad4e017aa405acf6e2f6531f21fc76b2626a02c884c2007a03c2d8b5b5faa6"
+  },
+  {
+    "path": "WesnothImportMappings.json",
+    "category": "WesnothImportMappings",
+    "bytes": 3309,
+    "sha256": "de84f5148dfdff58a43fc8ee6d002ee11477c1aa161de65d267de8d6d9ff4ac1"
+  }
+]

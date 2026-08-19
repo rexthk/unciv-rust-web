@@ -1,0 +1,19 @@
+[package]
+name = "unciv-server"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+unciv-compat = { version = "0.1.0", path = "../compat" }
+anyhow.workspace = true
+axum.workspace = true
+serde.workspace = true
+sqlx.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+[lints]
+workspace = true

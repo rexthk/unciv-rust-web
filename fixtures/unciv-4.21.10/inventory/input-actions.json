@@ -1,0 +1,797 @@
+[
+  {
+    "id": "AddConstruction",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AddConstructionAll",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AddConstructionAllTop",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AddConstructionTop",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AddInCapital",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AirSweep",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Automate",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AutoPlay",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AutoPlayMenu",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AutoPlayMenuCivilians",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AutoPlayMenuEconomy",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AutoPlayMenuEndTurn",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AutoPlayMenuMilitary",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "AvoidGrowth",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "BuildBuildings",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "BuildDisabled",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "BuildingsDetail",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "BuildNationalWonders",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "BuildOther",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "BuildUnits",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "BuildWonders",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "BuyConstruction",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "BuyTile",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Cancel",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "CitizenManagement",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Civilopedia",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ConductTradeMission",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Confirm",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ConnectRoad",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ConstructImprovement",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Create",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "CultureFocus",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Cycle",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "DeselectOrQuit",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "DeveloperConsole",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Diplomacy",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "DisbandUnit",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "EmpireOverview",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "EmpireOverviewNotifications",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "EmpireOverviewPolitics",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "EmpireOverviewResources",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "EmpireOverviewStats",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "EmpireOverviewTrades",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "EmpireOverviewUnits",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "EnhanceReligion",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Espionage",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Explore",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "FaithFocus",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "FoodFocus",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Fortify",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "FortifyUntilHealed",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "FoundCity",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "FoundReligion",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "GiftUnit",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "GoldFocus",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "GreatPeopleDetail",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "HideAdditionalActions",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "HurryBuilding",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "HurryResearch",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "HurryWonder",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "LoadGame",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "LowerPriority",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "MainMenuLoad",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "MainMenuOptions",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "MapEditor",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Menu",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ModManager",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Multiplayer",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "MusicPlayer",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "NewGame",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "NextCity",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "NextIdleButton",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "NextTurn",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "NextTurnAlternate",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "NextTurnMenuMoveAutomatedUnits",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "NextTurnMenuNextTurn",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "NoFocus",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "None",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Options",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PanDown",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PanDownAlternate",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PanLeft",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PanLeftAlternate",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PanRight",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PanRightAlternate",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PanUp",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PanUpAlternate",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Paradrop",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaBeliefs",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaBuildings",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaDifficulties",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaEras",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaImprovements",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaNations",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaPolicies",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaPromotions",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaResources",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaSearch",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaSpeeds",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaTechnologies",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaTerrains",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaTutorials",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaUnitNameGroups",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaUnits",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaUnitTypes",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaVictoryTypes",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PediaWonders",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Pillage",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PrevIdleButton",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "PreviousCity",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ProductionFocus",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Promote",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "QuickLoad",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "QuickSave",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Quickstart",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "QuitGame",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "QuitMainMenu",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "RaisePriority",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ReligionDetail",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "RemoveConstructionAll",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "RemoveHeresy",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Repair",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ResetCitizens",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Resume",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "SaveGame",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Scenarios",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ScienceFocus",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "SetUp",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ShowAdditionalActions",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ShowStatDetails",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ShowStats",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ShowUnitDestination",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Skip",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Sleep",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "SleepUntilHealed",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "SocialPolicies",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "SpecialistDetail",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "SpreadReligion",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "StartNewGame",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "StopAutomation",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "StopExploration",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "StopMovement",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "SwapUnits",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "TechnologyTree",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ToggleImprovementDisplay",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ToggleMovementDisplay",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ToggleResourceDisplay",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ToggleUI",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ToggleWorkedTilesDisplay",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ToggleYieldDisplay",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Transform",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "TriggerUnique",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Undo",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "Upgrade",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "UpgradeAll",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "VictoryScreen",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ViewCapitalCity",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ZoomIn",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  },
+  {
+    "id": "ZoomOut",
+    "source": "KeyboardBinding.kt",
+    "status": "pending"
+  }
+]

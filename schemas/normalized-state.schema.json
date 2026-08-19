@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unciv-rust-web.invalid/schemas/normalized-state.schema.json",
+  "title": "Normalized oracle state",
+  "type": "object",
+  "required": ["schemaVersion", "compatibilityVersion", "seed", "turn", "instructionsApplied"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "compatibilityVersion": { "const": "4.21.10" },
+    "seed": { "type": "integer" },
+    "turn": { "type": "integer", "minimum": 0 },
+    "instructionsApplied": { "type": "array", "items": { "type": "string" } },
+    "metadata": { "type": "object" }
+  },
+  "additionalProperties": false
+}

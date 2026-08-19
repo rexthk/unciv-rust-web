@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "name": "new-game-and-select-unit",
+  "seed": 42,
+  "instructions": [
+    { "type": "new_game", "payload": {} },
+    { "type": "select_first_unit", "payload": {} },
+    { "type": "noop", "payload": {} }
+  ]
+}

@@ -1,0 +1,512 @@
+[
+  {
+    "path": "jsons/translations/Afrikaans.properties",
+    "bytes": 403700,
+    "sha256": "af14c67081a1de684ff05e92ae5f33df66407ecc69a9d0ed465aa02add254eea"
+  },
+  {
+    "path": "jsons/translations/Bangla.properties",
+    "bytes": 452603,
+    "sha256": "962196db4780749156c9dc23a0899e2dc6b1065f1fdeae27fee074a7573113cf"
+  },
+  {
+    "path": "jsons/translations/Belarusian.properties",
+    "bytes": 422353,
+    "sha256": "a9dda9839238f9ff6797dc6ffe25b6577d767219ef54da993057249ced6f9715"
+  },
+  {
+    "path": "jsons/translations/Bosnian.properties",
+    "bytes": 403277,
+    "sha256": "9ca06b626708865f686d8828deea2215784d021f784370ff896f3c5f40908b31"
+  },
+  {
+    "path": "jsons/translations/Brazilian_Portuguese.properties",
+    "bytes": 533047,
+    "sha256": "6a51dc0c7efc71f3626eeababef561e14c9b4ce5f6fd98190c95ccd07701af69"
+  },
+  {
+    "path": "jsons/translations/Bulgarian.properties",
+    "bytes": 469624,
+    "sha256": "1c9e2b576db4ed25d8b8e50ca99787e0cca176bbb0a0a1466659a167934c3a14"
+  },
+  {
+    "path": "jsons/translations/Catalan.properties",
+    "bytes": 538435,
+    "sha256": "db778d4c9fca560889554bf0d3323d726a7cf078e2de1c1278d236a4cc8d627e"
+  },
+  {
+    "path": "jsons/translations/completionPercentages.properties",
+    "bytes": 734,
+    "sha256": "509debeb411479a8106b82f3c11b9cbc56349d167ba545f77916e18b3dd7cb52"
+  },
+  {
+    "path": "jsons/translations/Croatian instructions.md",
+    "bytes": 16366,
+    "sha256": "edec7c9448414d0140e940b8bad69c0805910006364413172786186c06980eea"
+  },
+  {
+    "path": "jsons/translations/Croatian.properties",
+    "bytes": 514368,
+    "sha256": "0ef11be309ff189d13267abbee5b83103d9d2e7ce881f11c69671338775de6f6"
+  },
+  {
+    "path": "jsons/translations/Czech.properties",
+    "bytes": 452579,
+    "sha256": "cbe536b66280ff8291daded8417fd3822791d1534c85daf963236ca3daec6837"
+  },
+  {
+    "path": "jsons/translations/Dutch.properties",
+    "bytes": 527268,
+    "sha256": "4d7d39025a47eeb3e354a8b7f95fc4726b26c7f6731a1a625ca4fa4a93678969"
+  },
+  {
+    "path": "jsons/translations/English.properties",
+    "bytes": 401182,
+    "sha256": "35ad533e1e3146e6b55503a0b21d8e454dfe76de9f196ebbe81c8d2ad1282b6f"
+  },
+  {
+    "path": "jsons/translations/Esperanto.properties",
+    "bytes": 512860,
+    "sha256": "db9a7c0771baf469918767a70c33f73fe8e893e8629136a1d19f0eeb59d62aae"
+  },
+  {
+    "path": "jsons/translations/Filipino.properties",
+    "bytes": 463085,
+    "sha256": "19355e8c3116de85f573ec0cbd01533a7ad0f831e213ed6c954ed09d40167d25"
+  },
+  {
+    "path": "jsons/translations/Finnish.properties",
+    "bytes": 406709,
+    "sha256": "06be270059b6a2929dd0857a46a06c2d8469a1d37d9eb809cda3c54c34cb0597"
+  },
+  {
+    "path": "jsons/translations/French.properties",
+    "bytes": 549854,
+    "sha256": "3594991fdc72a30ff20172a3c9cad7cb51857268c0ce2416f8b2ebdb0049ef4c"
+  },
+  {
+    "path": "jsons/translations/Galician.properties",
+    "bytes": 524718,
+    "sha256": "3b837cf0c48e65e9c8fc73f100985dc6654b195f566efccd7a0ccc5c969d9761"
+  },
+  {
+    "path": "jsons/translations/German.properties",
+    "bytes": 546802,
+    "sha256": "0b375895fe7783be5a356348a10347b2afe3f77a8a3bd83b69881db54461d214"
+  },
+  {
+    "path": "jsons/translations/Greek.properties",
+    "bytes": 407159,
+    "sha256": "7ca82756cfc5f54ca4912f72cddbb145f7c74115c194009e5884a4cc87910730"
+  },
+  {
+    "path": "jsons/translations/Hindi.properties",
+    "bytes": 416253,
+    "sha256": "0ed03c8b23d110d708568e911bfbce869e0550dad71ce36aab00601bac0c99d0"
+  },
+  {
+    "path": "jsons/translations/Hungarian.properties",
+    "bytes": 555389,
+    "sha256": "6ff00bd60c77caff2dbe40f4e45a23326b99f6c8154431d9daa4e0b5837cb7b1"
+  },
+  {
+    "path": "jsons/translations/Indonesian.properties",
+    "bytes": 533498,
+    "sha256": "5fce933801c73b1910e123f7bee1d1d568bf68dfd5d976f4f7cc9ea6975fad78"
+  },
+  {
+    "path": "jsons/translations/Italian.properties",
+    "bytes": 538311,
+    "sha256": "765a3760c597a59c578998bf69496603632fa4dd809c47b95e7d3d1b26f9d700"
+  },
+  {
+    "path": "jsons/translations/Japanese.properties",
+    "bytes": 532182,
+    "sha256": "38c071ff27e1e19fe392be86cc016da90714c9d566c5cdf42990ca1974d4ec56"
+  },
+  {
+    "path": "jsons/translations/Korean.properties",
+    "bytes": 490504,
+    "sha256": "c60a91220182f4798a404712eb770920c60359ce9f6bd14fa024520a05f24f88"
+  },
+  {
+    "path": "jsons/translations/Latin.properties",
+    "bytes": 456862,
+    "sha256": "fa43f7d9c0655fe40658ee89511dbbb99a7625c7935f83756f222b27eeefa6b8"
+  },
+  {
+    "path": "jsons/translations/Lithuanian.properties",
+    "bytes": 450336,
+    "sha256": "e995050e0c32f5d08c5b128a064d4df17b7b8666daee080e516d42ea1c0e91be"
+  },
+  {
+    "path": "jsons/translations/Malay.properties",
+    "bytes": 400258,
+    "sha256": "e65dfcaf40e81a76d14898580e16862fb58839e5eb26bd4b6994b5cbba0f0728"
+  },
+  {
+    "path": "jsons/translations/Maltese.properties",
+    "bytes": 530915,
+    "sha256": "bbd90b49fdec222a560086c740a556d4d9171e4f02927c0e4bb1e140c4d57934"
+  },
+  {
+    "path": "jsons/translations/Navajo.properties",
+    "bytes": 402965,
+    "sha256": "ae94882d7a39ac0910391c8cfc907b547ac1d493e33eb1d9518e1c1d4681a4c9"
+  },
+  {
+    "path": "jsons/translations/Norwegian.properties",
+    "bytes": 411030,
+    "sha256": "26756cd2f5e15b79984cd2cbce84852c7f5bc43d3452d768e06e682d9167b082"
+  },
+  {
+    "path": "jsons/translations/Persian instructions.txt",
+    "bytes": 2622,
+    "sha256": "3ba7ae4176127f011f3a047c04b38512e9cfcc90a06fb884f0206fb714fe6f0c"
+  },
+  {
+    "path": "jsons/translations/Persian_(Pinglish-DIN).properties",
+    "bytes": 406024,
+    "sha256": "8ce306e3f3363c6d6b264b1b83f50019e04e78e9a0c6eda0de34024aabda6b2b"
+  },
+  {
+    "path": "jsons/translations/Persian_(Pinglish-UN).properties",
+    "bytes": 407489,
+    "sha256": "8df1b75d0587e75ef53fff11c0699d987b70eec6acab81d23719407c0619608c"
+  },
+  {
+    "path": "jsons/translations/Polish.properties",
+    "bytes": 532393,
+    "sha256": "207f7a183395dff53ddccb26dae675b2fae660cfbfd42e991872cd0b5d4fe84a"
+  },
+  {
+    "path": "jsons/translations/Portuguese.properties",
+    "bytes": 526543,
+    "sha256": "c11d9a9c1dc2588945a48dc9e9107571a486d3e9fa50130e9fc5d283ca958bbf"
+  },
+  {
+    "path": "jsons/translations/Romanian.properties",
+    "bytes": 438454,
+    "sha256": "a6635b3d36f642f249a0bc03d2a5e89413ac416c696231b80f04881b4b0eea19"
+  },
+  {
+    "path": "jsons/translations/Russian.properties",
+    "bytes": 701697,
+    "sha256": "3e3ea75987d95073b1e0a5b1ab594043fce8f3b5aee02df2b907a750ba137cc7"
+  },
+  {
+    "path": "jsons/translations/Rusyn.properties",
+    "bytes": 446479,
+    "sha256": "2ad39f867db71d3d6a1f412425b0640718b99f41e92ef3ad799acddf058015a7"
+  },
+  {
+    "path": "jsons/translations/Simplified_Chinese.properties",
+    "bytes": 502218,
+    "sha256": "1b641762b10f5fa23542ba3324bcdb51581b801a9b5cc4bdf29bb42b3167f38a"
+  },
+  {
+    "path": "jsons/translations/Spanish.properties",
+    "bytes": 531768,
+    "sha256": "261d965ed78e6fe5a6bc85848cd2a4285f610b969202694dbc04ed6b3208018e"
+  },
+  {
+    "path": "jsons/translations/Swedish.properties",
+    "bytes": 515658,
+    "sha256": "bad1429eb70ab5d0a33e551972e43dd141029e5b3897f77fc755f95fd491afb7"
+  },
+  {
+    "path": "jsons/translations/template.properties",
+    "bytes": 65999,
+    "sha256": "2b99dd20138b05cfc295ab4ee41eda98a7839f7bc90389c47486782944b67d7c"
+  },
+  {
+    "path": "jsons/translations/Thai.properties",
+    "bytes": 421643,
+    "sha256": "e7e15fef1abdbcc771bc237a3d8b5565148977afac07cd16a7de7fd0a860f04c"
+  },
+  {
+    "path": "jsons/translations/Toki_Pona.properties",
+    "bytes": 468377,
+    "sha256": "879c097478b996d95222047d4a5e7fd70e961493a5be1a48a803842af23a5b11"
+  },
+  {
+    "path": "jsons/translations/Traditional_Chinese.properties",
+    "bytes": 499316,
+    "sha256": "613fd5911b56c821ed35f47a910e9eeafab886b7c85d7e3fa2ba47c4f159a164"
+  },
+  {
+    "path": "jsons/translations/Turkish.properties",
+    "bytes": 520382,
+    "sha256": "27032db20f64ba3e880ab1f0d5cefc8743a56e080f3199370a1e9d4ff3dcd493"
+  },
+  {
+    "path": "jsons/translations/Ukrainian.properties",
+    "bytes": 684044,
+    "sha256": "98b20c0b8332fdb0d569e15fe9bdece09b420dd57cebad19204e2bb131ce3ebd"
+  },
+  {
+    "path": "jsons/translations/Vietnamese.properties",
+    "bytes": 608891,
+    "sha256": "6e4a64db2d3148db0e3e77568e6e875f57ffef44e81c9bed76ea78dc3f54dc05"
+  },
+  {
+    "path": "jsons/translations/Zulu.properties",
+    "bytes": 404274,
+    "sha256": "3004c7020c807862a86ad975bca83c48c3414298c91ff3cd9cabd9bfc54c917f"
+  },
+  {
+    "path": "sounds/arrow.mp3",
+    "bytes": 8976,
+    "sha256": "3e1a29ade3ecd58e0db08847166f1ae52ff1a9d9ea2b192e8007d2a4c71ab401"
+  },
+  {
+    "path": "sounds/artillery.mp3",
+    "bytes": 15600,
+    "sha256": "66ccc5182a7d351463b1fb47bdb64d928d39f7d18593370d0b29a5713cc5ca5e"
+  },
+  {
+    "path": "sounds/bombard.mp3",
+    "bytes": 36447,
+    "sha256": "06eef1d86e84dcc3cf3c78453147cdd96e4c538ccd620fdf4b6ff398162c02a2"
+  },
+  {
+    "path": "sounds/bombing.mp3",
+    "bytes": 18312,
+    "sha256": "34cd16f9339b76054de6e2aaf711dba7ac815dbd1484c188e46699e7ca52d370"
+  },
+  {
+    "path": "sounds/cannon.mp3",
+    "bytes": 14736,
+    "sha256": "2dc02607f4a52d587f0af03571d03b568147c5761bb4e223646f1a88c447920a"
+  },
+  {
+    "path": "sounds/cavalry.mp3",
+    "bytes": 13824,
+    "sha256": "cdd41fdba9baa7c0072c5d3e189f773b11d904b8c0d0c776843cb32a274be652"
+  },
+  {
+    "path": "sounds/chimes.mp3",
+    "bytes": 29520,
+    "sha256": "96d00d0768d3ef50f1e77cf971f3f734e5390f7195494b4da21f75706e3d1cbf"
+  },
+  {
+    "path": "sounds/choir.mp3",
+    "bytes": 27288,
+    "sha256": "99559c308f7748866f7a9e07ea2bbf0540ebe4168a623dbb1751ec95e24f1640"
+  },
+  {
+    "path": "sounds/cityAncient.ogg",
+    "bytes": 169030,
+    "sha256": "477e8fb7787223544d3a7e03678af026dc8f8f5dcfedba9ff1862ca79ee9dab7"
+  },
+  {
+    "path": "sounds/cityAtomic.ogg",
+    "bytes": 146521,
+    "sha256": "86c7ea447a567f307e0c2c1f234c04cdedaf5451c3192c3d7b0917b9c0aa0682"
+  },
+  {
+    "path": "sounds/cityClassical.ogg",
+    "bytes": 103654,
+    "sha256": "49b88ab02599b0a3ef74496904c6d90606a04f638121ed3222f3ad062556c0af"
+  },
+  {
+    "path": "sounds/cityFuture.ogg",
+    "bytes": 132824,
+    "sha256": "b98415ca80f6f5ed0fc6413733a5f5ea01933c99ef8dac8859bc6a358d30c4c2"
+  },
+  {
+    "path": "sounds/cityIndustrial.ogg",
+    "bytes": 162433,
+    "sha256": "54f7ea82fd18c3c4c4c1de217183da9e983973f1a8adbd18651890f7fdac4567"
+  },
+  {
+    "path": "sounds/cityInformation.ogg",
+    "bytes": 138114,
+    "sha256": "35a8fea459c3dea08ae1d93fa82d1fd509c6ec0710e00504e3648651ac04fd6a"
+  },
+  {
+    "path": "sounds/cityMedieval.ogg",
+    "bytes": 176251,
+    "sha256": "1699ce40ebc289c5145257619e948496108101f2c7cd662b19c73676c1237db9"
+  },
+  {
+    "path": "sounds/cityModern.ogg",
+    "bytes": 159677,
+    "sha256": "768bc5f55b745fe436d3eac55afb633706c73ee845afd2fa4c567ba682c8ec39"
+  },
+  {
+    "path": "sounds/cityRenaissance.ogg",
+    "bytes": 176251,
+    "sha256": "1699ce40ebc289c5145257619e948496108101f2c7cd662b19c73676c1237db9"
+  },
+  {
+    "path": "sounds/click.mp3",
+    "bytes": 2763,
+    "sha256": "f86539908defd4e6db4b96c2df711a7a2401df5d41b4d93710ff9b67ee419fc4"
+  },
+  {
+    "path": "sounds/coin.mp3",
+    "bytes": 15792,
+    "sha256": "ab757400a31309f63cb3877d74da87f9b5ad82c8f2534173e87230950b5ffd07"
+  },
+  {
+    "path": "sounds/construction.mp3",
+    "bytes": 7083,
+    "sha256": "3a6ff2b925a73f943c3ce6b2a4a0a088ebdbd1791ccc2f5238b2d83d19704441"
+  },
+  {
+    "path": "sounds/crossbow.mp3",
+    "bytes": 16754,
+    "sha256": "2c75ee4053dc1b21ce9e5633076d89c1cfdd4e9ed713a5426c82e967649da19e"
+  },
+  {
+    "path": "sounds/elephant.mp3",
+    "bytes": 6048,
+    "sha256": "1e575e79fad925d673f5f5064461defcd95c752a0a74477c23d6608db8a96bc5"
+  },
+  {
+    "path": "sounds/fire.mp3",
+    "bytes": 149277,
+    "sha256": "4e3ffdfa56cd6b4eb636e287fab7324098734ba3ebd70386a13b0778b68b1791"
+  },
+  {
+    "path": "sounds/fortify.mp3",
+    "bytes": 22536,
+    "sha256": "703df38a9883315787f87b68263505e863548b922865ac86dab460efb5278ce9"
+  },
+  {
+    "path": "sounds/gdrAttack.mp3",
+    "bytes": 18834,
+    "sha256": "6000d2f5e3b117ad03db9b289f2f6b64ab54a4c2f8a05011696b7de23f9e4302"
+  },
+  {
+    "path": "sounds/horse.mp3",
+    "bytes": 13584,
+    "sha256": "6c43578752166eb7247a8af5a06369b64ae3d250c5f31b0576627ccba5a737be"
+  },
+  {
+    "path": "sounds/jetgun.mp3",
+    "bytes": 19464,
+    "sha256": "11960e26744688d61fae8d3b4d15688587d44473d2c0659ea9c17779de627781"
+  },
+  {
+    "path": "sounds/machinegun.mp3",
+    "bytes": 7680,
+    "sha256": "2550b8050166954f3f1b0b07714db19e381eb0614e5eb2eacdb5b3ff6d24ec88"
+  },
+  {
+    "path": "sounds/metalhit.mp3",
+    "bytes": 6586,
+    "sha256": "af799e86d09866730217d02cf72684551a0f04a5e6aab1d672c6896d46f4348f"
+  },
+  {
+    "path": "sounds/missile.mp3",
+    "bytes": 26946,
+    "sha256": "649bd5d46097bd4445d6d66a636206c3c546049ac45de46c38ef1752c9072e19"
+  },
+  {
+    "path": "sounds/nonmetalhit.mp3",
+    "bytes": 3168,
+    "sha256": "cb5f88ef0ce666f488adf93973b6168dc2d6c1cba07dac6fa4a19fa9f04a091c"
+  },
+  {
+    "path": "sounds/notification1.mp3",
+    "bytes": 8949,
+    "sha256": "1ef754da414bee7ddcbb2020d44afd672c831ed646748f07bdab44fd4f142f83"
+  },
+  {
+    "path": "sounds/notification2.mp3",
+    "bytes": 6504,
+    "sha256": "ab72336069a1a8882925e60af5ccd230a20354d4f11c77d42d04143321ecac7d"
+  },
+  {
+    "path": "sounds/nuke_long.mp3",
+    "bytes": 308769,
+    "sha256": "b14778ed90681ba64a0a0251dc533bd38723051b0830cf08fa90765892a2d3e2"
+  },
+  {
+    "path": "sounds/nuke.mp3",
+    "bytes": 84234,
+    "sha256": "080f864562e3128829e9611ad262dd429206835951b1df68a99fc6ad08f32293"
+  },
+  {
+    "path": "sounds/paper.mp3",
+    "bytes": 5499,
+    "sha256": "102db107978d8498a1bacbbc15fae326d0875fa02ad5fc55bb10162a63a057a1"
+  },
+  {
+    "path": "sounds/policy.mp3",
+    "bytes": 9720,
+    "sha256": "3ab860dd3fa05c96e210e25c1d1663a38eaa5361522c84ac31ac867fa6edb1f4"
+  },
+  {
+    "path": "sounds/promote.mp3",
+    "bytes": 7272,
+    "sha256": "1536ce04a91079ad0ed2750f6416fad27a175d90ab7efd04d426dcb0ea5103b0"
+  },
+  {
+    "path": "sounds/setup.mp3",
+    "bytes": 5328,
+    "sha256": "6bc0223514f95ef7574645d951945a41ecda288e69d3050d85ed69d008c4d2d7"
+  },
+  {
+    "path": "sounds/shipCannonVolley.mp3",
+    "bytes": 103704,
+    "sha256": "a987bf27023349c9dcd38da9585688616cd56630feadcd368b419b5ff06ea95b"
+  },
+  {
+    "path": "sounds/shipguns.mp3",
+    "bytes": 20688,
+    "sha256": "0b16cce8b02f592eeb0a02bf2e8fd5bea4324e41fcdc272db54c5ac98a458427"
+  },
+  {
+    "path": "sounds/shot.mp3",
+    "bytes": 3600,
+    "sha256": "f650a5d309850b285dde6018ce65810650edabdc35c59a5c74a5915ef46e02e6"
+  },
+  {
+    "path": "sounds/slider.mp3",
+    "bytes": 2996,
+    "sha256": "5dbd8a20977eb32142752f33ef8493ceb96b0f9464c663ce45ce2730e369a5e5"
+  },
+  {
+    "path": "sounds/swap.mp3",
+    "bytes": 3816,
+    "sha256": "988937c2885cf66d7ee5e94be9f9f1bbef126a2dc2fb9cd5248eed93d7c1888a"
+  },
+  {
+    "path": "sounds/tankshot.mp3",
+    "bytes": 13752,
+    "sha256": "20dfd7fe6f84669dd56bf037206dafafeb4a1972116249d75b655fe7f5e3f4d2"
+  },
+  {
+    "path": "sounds/throw.mp3",
+    "bytes": 3912,
+    "sha256": "a5d1c0075fefc7dc890c2e193275fd90b4f597aec1dbb23ff77bdee00bd1cc2c"
+  },
+  {
+    "path": "sounds/torpedo.mp3",
+    "bytes": 15792,
+    "sha256": "f77623fb7bf5f8b03d172402be70c0ea461278a8e7a3758d7d0249e64c51e640"
+  },
+  {
+    "path": "sounds/upgrade.mp3",
+    "bytes": 8621,
+    "sha256": "4836a8aa9fa5557f42c66490838529220af1ab2846f2f0ddb8db7d835ec1091c"
+  },
+  {
+    "path": "sounds/wagon.mp3",
+    "bytes": 30093,
+    "sha256": "ac8b564062c65fce6ef3248e16c2ca1d166ae5f195e3defa5eca45b6277712ad"
+  },
+  {
+    "path": "sounds/whoosh.mp3",
+    "bytes": 4632,
+    "sha256": "8cca84de4ee3f0aef3e5ee0b673e6eba045c06e7d1a33360274e5f73bc2a9f8f"
+  },
+  {
+    "path": "sounds/WLTK.ogg",
+    "bytes": 34496,
+    "sha256": "62ad731c78215b147288e2bb059f365858fd8d39ae67dfd78634b49afc732bfe"
+  }
+]

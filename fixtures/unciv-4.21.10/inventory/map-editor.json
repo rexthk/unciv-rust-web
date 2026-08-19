@@ -1,0 +1,308 @@
+[
+  {
+    "id": "EDITORMAPHOLDER-CLASS-EDITORMAPHOLDER",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/EditorMapHolder.kt",
+    "symbol": "EditorMapHolder",
+    "status": "pending"
+  },
+  {
+    "id": "EDITORMAPHOLDER-FUNCTION-GETCLOSESTTILETO",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/EditorMapHolder.kt",
+    "symbol": "getClosestTileTo",
+    "status": "pending"
+  },
+  {
+    "id": "EDITORMAPHOLDER-FUNCTION-SETACTHIT",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/EditorMapHolder.kt",
+    "symbol": "setActHit",
+    "status": "pending"
+  },
+  {
+    "id": "EDITORMAPHOLDER-FUNCTION-SETCENTERPOSITION",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/EditorMapHolder.kt",
+    "symbol": "setCenterPosition",
+    "status": "pending"
+  },
+  {
+    "id": "EDITORMAPHOLDER-FUNCTION-SETTRANSIENTS",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/EditorMapHolder.kt",
+    "symbol": "setTransients",
+    "status": "pending"
+  },
+  {
+    "id": "EDITORMAPHOLDER-FUNCTION-UPDATETILEGROUPS",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/EditorMapHolder.kt",
+    "symbol": "updateTileGroups",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORFILESSCROLL-CLASS-MAPEDITORFILESSCROLL",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorFilesScroll.kt",
+    "symbol": "MapEditorFilesScroll",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORFILESSCROLL-FUNCTION-NOMAPSAVAILABLE",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorFilesScroll.kt",
+    "symbol": "noMapsAvailable",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORFILESSCROLL-FUNCTION-UPDATEMAPS",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorFilesScroll.kt",
+    "symbol": "updateMaps",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORMAINTABS-CLASS-MAPEDITORMAINTABS",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorMainTabs.kt",
+    "symbol": "MapEditorMainTabs",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-CLASS-MAPEDITORSCREEN",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "MapEditorScreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-APPLYRULESET",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "applyRuleset",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-ASKIFDIRTYFORLOAD",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "askIfDirtyForLoad",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-GETMAPCLONEFORSAVE",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "getMapCloneForSave",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-GETTOOLSWIDTH",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "getToolsWidth",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-HIDESELECTION",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "hideSelection",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-HIGHLIGHTTILE",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "highlightTile",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-LOADMAP",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "loadMap",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-SAVEDEFAULTPARAMETERS",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "saveDefaultParameters",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-SELECTGENERATEPAGE",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "selectGeneratePage",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-SETWORLDWRAP",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "setWorldWrap",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-STARTBACKGROUNDJOB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "startBackgroundJob",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-UPDATEANDHIGHLIGHT",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "updateAndHighlight",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-FUNCTION-UPDATETILE",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "symbol": "updateTile",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORTOOLSDRAWER-CLASS-MAPEDITORTOOLSDRAWER",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorToolsDrawer.kt",
+    "symbol": "MapEditorToolsDrawer",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORTOOLSDRAWER-FUNCTION-REPOSITION",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorToolsDrawer.kt",
+    "symbol": "reposition",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORWESNOTHIMPORTER-FUNCTION-ONIMPORTBUTTONCLICKED",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorWesnothImporter.kt",
+    "symbol": "onImportButtonClicked",
+    "status": "pending"
+  },
+  {
+    "id": "MAPGENERATORSTEPS",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapGeneratorSteps.kt",
+    "symbol": null,
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITSUBTABS-CLASS-MAPEDITOREDITFEATURESTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditSubTabs.kt",
+    "symbol": "MapEditorEditFeaturesTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITSUBTABS-CLASS-MAPEDITOREDITIMPROVEMENTSTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditSubTabs.kt",
+    "symbol": "MapEditorEditImprovementsTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITSUBTABS-CLASS-MAPEDITOREDITRESOURCESTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditSubTabs.kt",
+    "symbol": "MapEditorEditResourcesTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITSUBTABS-CLASS-MAPEDITOREDITRIVERSTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditSubTabs.kt",
+    "symbol": "MapEditorEditRiversTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITSUBTABS-CLASS-MAPEDITOREDITSTARTSTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditSubTabs.kt",
+    "symbol": "MapEditorEditStartsTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITSUBTABS-CLASS-MAPEDITOREDITTERRAINTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditSubTabs.kt",
+    "symbol": "MapEditorEditTerrainTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITSUBTABS-CLASS-MAPEDITOREDITUNITSTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditSubTabs.kt",
+    "symbol": "MapEditorEditUnitsTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITSUBTABS-CLASS-MAPEDITOREDITWONDERSTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditSubTabs.kt",
+    "symbol": "MapEditorEditWondersTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITSUBTABS-FUNCTION-ISDISABLED",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditSubTabs.kt",
+    "symbol": "isDisabled",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITTAB-CLASS-MAPEDITOREDITTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditTab.kt",
+    "symbol": "MapEditorEditTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOREDITTAB-FUNCTION-SETBRUSH",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditTab.kt",
+    "symbol": "setBrush",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITORGENERATETAB-CLASS-MAPEDITORGENERATESTEPSTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorGenerateTab.kt",
+    "symbol": "MapEditorGenerateStepsTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITORGENERATETAB-CLASS-MAPEDITORGENERATETAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorGenerateTab.kt",
+    "symbol": "MapEditorGenerateTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITORGENERATETAB-CLASS-MAPEDITORNEWMAPTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorGenerateTab.kt",
+    "symbol": "MapEditorNewMapTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITORGENERATETAB-FUNCTION-FRESHMAPCOMPLETED",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorGenerateTab.kt",
+    "symbol": "freshMapCompleted",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITORGENERATETAB-FUNCTION-STEPCOMPLETED",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorGenerateTab.kt",
+    "symbol": "stepCompleted",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITORLOADTAB-CLASS-MAPEDITORLOADTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorLoadTab.kt",
+    "symbol": "MapEditorLoadTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITORLOADTAB-FUNCTION-NOMAPSAVAILABLE",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorLoadTab.kt",
+    "symbol": "noMapsAvailable",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITORMODSTAB-CLASS-MAPEDITORMODSTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorModsTab.kt",
+    "symbol": "MapEditorModsTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOROPTIONSTAB-CLASS-MAPEDITOROPTIONSTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorOptionsTab.kt",
+    "symbol": "MapEditorOptionsTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITOROPTIONSTAB-FUNCTION-UPDATE",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorOptionsTab.kt",
+    "symbol": "update",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITORSAVETAB-CLASS-MAPEDITORSAVETAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorSaveTab.kt",
+    "symbol": "MapEditorSaveTab",
+    "status": "pending"
+  },
+  {
+    "id": "TABS-MAPEDITORVIEWTAB-CLASS-MAPEDITORVIEWTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorViewTab.kt",
+    "symbol": "MapEditorViewTab",
+    "status": "pending"
+  }
+]

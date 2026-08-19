@@ -1,0 +1,138 @@
+[
+  {
+    "method": "DELETE",
+    "path": "api/v2/accounts/me"
+  },
+  {
+    "method": "DELETE",
+    "path": "api/v2/friends/{dynamic}"
+  },
+  {
+    "method": "DELETE",
+    "path": "api/v2/invites/{dynamic}"
+  },
+  {
+    "method": "DELETE",
+    "path": "api/v2/lobbies/{dynamic}"
+  },
+  {
+    "method": "DELETE",
+    "path": "api/v2/lobbies/{dynamic}/{dynamic}"
+  },
+  {
+    "method": "GET",
+    "path": "api/v2/auth/logout"
+  },
+  {
+    "method": "GET",
+    "path": "api/v2/chats"
+  },
+  {
+    "method": "GET",
+    "path": "api/v2/chats/{dynamic}"
+  },
+  {
+    "method": "GET",
+    "path": "api/v2/friends"
+  },
+  {
+    "method": "GET",
+    "path": "api/v2/games"
+  },
+  {
+    "method": "GET",
+    "path": "api/v2/invites"
+  },
+  {
+    "method": "GET",
+    "path": "api/v2/lobbies"
+  },
+  {
+    "method": "GET",
+    "path": "api/v2/lobbies/{dynamic}"
+  },
+  {
+    "method": "GET",
+    "path": "api/version"
+  },
+  {
+    "method": "GET",
+    "path": "auth"
+  },
+  {
+    "method": "GET",
+    "path": "files/{fileName}"
+  },
+  {
+    "method": "GET",
+    "path": "isalive"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/accounts/lookup"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/accounts/register"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/accounts/setPassword"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/auth/login"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/chats/{dynamic}"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/friends"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/invites"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/lobbies"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/lobbies/{dynamic}/join"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/lobbies/{dynamic}/leave"
+  },
+  {
+    "method": "POST",
+    "path": "api/v2/lobbies/{dynamic}/start"
+  },
+  {
+    "method": "PUT",
+    "path": "api/v2/accounts/me"
+  },
+  {
+    "method": "PUT",
+    "path": "api/v2/friends/{dynamic}"
+  },
+  {
+    "method": "PUT",
+    "path": "api/v2/games/{dynamic}"
+  },
+  {
+    "method": "PUT",
+    "path": "auth"
+  },
+  {
+    "method": "PUT",
+    "path": "files/{fileName}"
+  },
+  {
+    "method": "WS",
+    "path": "api/v2/ws"
+  }
+]

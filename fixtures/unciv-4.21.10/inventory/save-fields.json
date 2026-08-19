@@ -1,0 +1,5827 @@
+[
+  {
+    "file": "core/src/com/unciv/logic/automation/civilization/BarbarianEncampment.kt",
+    "name": "countdown",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/civilization/BarbarianEncampment.kt",
+    "name": "destroyed",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/civilization/BarbarianEncampment.kt",
+    "name": "gameInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/civilization/BarbarianEncampment.kt",
+    "name": "position",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/civilization/BarbarianEncampment.kt",
+    "name": "spawnedUnits",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/civilization/BarbarianManager.kt",
+    "name": "encampments",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/civilization/BarbarianManager.kt",
+    "name": "gameInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/civilization/BarbarianManager.kt",
+    "name": "tileMap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/Timers.kt",
+    "name": "spanTimesInMicroseconds",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/Timers.kt",
+    "name": "startGcCount",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/Timers.kt",
+    "name": "timingEnabledTimestamp",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/unit/WorkerAutomation.kt",
+    "name": "cachedForTurn",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/unit/WorkerAutomation.kt",
+    "name": "civInfo",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/unit/WorkerAutomation.kt",
+    "name": "roadBetweenCitiesAutomation",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/automation/unit/WorkerAutomation.kt",
+    "name": "roadToAutomation",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/battle/AttackableTile.kt",
+    "name": "combatant",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/battle/AttackableTile.kt",
+    "name": "movementLeftAfterMovingToAttackTile",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/battle/AttackableTile.kt",
+    "name": "tileToAttack",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/battle/AttackableTile.kt",
+    "name": "tileToAttackFrom",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "attackedThisTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "avoidGrowth",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "cityConstructions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "cityStats",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "civ",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "connectedToCapitalStatus",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "demandedResource",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "disabledConstructions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "espionage",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "expansion",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "foundingCivObject",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "hasJustBeenConquered",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "hasSoldBuildingThisTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "health",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "id",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "isBeingRazed",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "isOriginalCapital",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "isPuppet",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "location",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "lockedTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "manualSpecialists",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "neighboringCities",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "population",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "previousOwner",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "religion",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "resourceStockpiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "shouldReassignPopulation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "tileMap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "tiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "tilesInRange",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "turnAcquired",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "unitShouldUseSavedPromotion",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "unitToPromotions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/City.kt",
+    "name": "workedTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityConstructions.kt",
+    "name": "builtBuildings",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityConstructions.kt",
+    "name": "builtBuildingUniqueMap",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityConstructions.kt",
+    "name": "city",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityConstructions.kt",
+    "name": "constructionQueue",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityConstructions.kt",
+    "name": "currentConstructionIsUserSet",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityConstructions.kt",
+    "name": "freeBuildingsProvidedFromThisCity",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityConstructions.kt",
+    "name": "inProgressConstructions",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityConstructions.kt",
+    "name": "productionOverflow",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityStats.kt",
+    "name": "baseStatTree",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityStats.kt",
+    "name": "children",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityStats.kt",
+    "name": "currentCityStats",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityStats.kt",
+    "name": "finalStatList",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityStats.kt",
+    "name": "happinessList",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityStats.kt",
+    "name": "statPercentBonusTree",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityStats.kt",
+    "name": "statsFromTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/CityStats.kt",
+    "name": "totalStats",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/GreatPersonPointsBreakdown.kt",
+    "name": "allNames",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/GreatPersonPointsBreakdown.kt",
+    "name": "basePoints",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/GreatPersonPointsBreakdown.kt",
+    "name": "percentBonuses",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/managers/CityEspionageManager.kt",
+    "name": "city",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/managers/CityExpansionManager.kt",
+    "name": "city",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/managers/CityExpansionManager.kt",
+    "name": "cultureStored",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/managers/CityPopulationManager.kt",
+    "name": "city",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/managers/CityPopulationManager.kt",
+    "name": "foodStored",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/managers/CityPopulationManager.kt",
+    "name": "population",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/managers/CityPopulationManager.kt",
+    "name": "specialistAllocations",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/managers/CityReligionManager.kt",
+    "name": "city",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/managers/CityReligionManager.kt",
+    "name": "isBlockedHolyCity",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/city/managers/CityReligionManager.kt",
+    "name": "religionThisIsTheHolyCityOf",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/CivConstructions.kt",
+    "name": "boughtItemsWithIncreasingPrice",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/CivConstructions.kt",
+    "name": "builtItemsWithIncreasingCost",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/CivConstructions.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "allyCiv",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "attacksSinceTurnStart",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "cache",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "cities",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "citiesCreated",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "cityStateFunctions",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "cityStatePersonality",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "cityStateResource",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "cityStateType",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "cityStateUniqueUnit",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "civConstructions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "civID",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "civName",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "civResourcesUniqueMap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "detailedCivResources",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "diplomacy",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "diplomacyFunctions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "disabledCityConstructions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "enemyMovementPenaltyUniques",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "espionageManager",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "exploredRegion",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "flagsCountdown",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "gameInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "gold",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "goldenAges",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "greatPeople",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "hasActiveEnemyMovementPenalty",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "hasEverOwnedOriginalCapital",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "hasLongCountDisplayUnique",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "hasMovedAutomatedUnits",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "isBarbarian",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "isCityState",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "lastSeenImprovement",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "leaderTitle",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "modConstants",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "nation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "naturalWonders",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "neutralRoads",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "notificationCountAtStartTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "notifications",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "notificationsLog",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "passableImpassables",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "passThroughImpassableUnlocked",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "playerId",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "playerMinutesBeforeForceResign",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "playerType",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "policies",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "popupAlerts",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "proximity",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "questManager",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "religionManager",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "resourceStockpiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "ruinsManager",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "state",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "stats",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "statsHistory",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "summarizedCivResourceSupply",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "tech",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "temporaryUniques",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "threatManager",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "totalCultureForContests",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "totalFaithForContests",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "totalTurnTimeSeconds",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "tradeRequests",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "turnsPlayedAsHuman",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "units",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "victoryManager",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "viewableInvisibleUnitsTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Civilization.kt",
+    "name": "viewableTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/diplomacy/DiplomacyManager.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/diplomacy/DiplomacyManager.kt",
+    "name": "diplomaticModifiers",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/diplomacy/DiplomacyManager.kt",
+    "name": "diplomaticStatus",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/diplomacy/DiplomacyManager.kt",
+    "name": "hasOpenBorders",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/diplomacy/DiplomacyManager.kt",
+    "name": "otherCivName",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/diplomacy/DiplomacyManager.kt",
+    "name": "smoothedOpinionOfOtherCiv",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/diplomacy/DiplomacyManager.kt",
+    "name": "trades",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/EspionageManager.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/EspionageManager.kt",
+    "name": "dismissedShouldMoveSpies",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/EspionageManager.kt",
+    "name": "erasSpyEarnedFor",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/EspionageManager.kt",
+    "name": "spyList",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GoldenAgeManager.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GoldenAgeManager.kt",
+    "name": "storedHappiness",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GoldenAgeManager.kt",
+    "name": "turnsLeftForCurrentGoldenAge",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GreatPersonManager.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GreatPersonManager.kt",
+    "name": "freeGreatPeople",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GreatPersonManager.kt",
+    "name": "greatGeneralPoints",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GreatPersonManager.kt",
+    "name": "greatGeneralPointsCounter",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GreatPersonManager.kt",
+    "name": "greatPersonPointsCounter",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GreatPersonManager.kt",
+    "name": "longCountGPPool",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GreatPersonManager.kt",
+    "name": "mayaLimitedFreeGP",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GreatPersonManager.kt",
+    "name": "pointsForNextGreatGeneral",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GreatPersonManager.kt",
+    "name": "pointsForNextGreatGeneralCounter",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/GreatPersonManager.kt",
+    "name": "pointsForNextGreatPersonCounter",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/PolicyManager.kt",
+    "name": "adoptableBranches",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/PolicyManager.kt",
+    "name": "branchCompletionMap",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/PolicyManager.kt",
+    "name": "branches",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/PolicyManager.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/PolicyManager.kt",
+    "name": "completedBranches",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/PolicyManager.kt",
+    "name": "freePolicies",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/PolicyManager.kt",
+    "name": "incompleteBranches",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/PolicyManager.kt",
+    "name": "priorityMap",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/PolicyManager.kt",
+    "name": "shouldOpenPolicyPicker",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/PolicyManager.kt",
+    "name": "storedCulture",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/quests/AssignedQuest.kt",
+    "name": "assignedOnTurn",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/quests/AssignedQuest.kt",
+    "name": "assignee",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/quests/AssignedQuest.kt",
+    "name": "assigneeCiv",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/quests/AssignedQuest.kt",
+    "name": "assigner",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/quests/AssignedQuest.kt",
+    "name": "assignerCiv",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/quests/AssignedQuest.kt",
+    "name": "data1",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/quests/AssignedQuest.kt",
+    "name": "data2",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/quests/AssignedQuest.kt",
+    "name": "quest",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/quests/AssignedQuest.kt",
+    "name": "questName",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/quests/AssignedQuest.kt",
+    "name": "questNameInstance",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/ReligionManager.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/ReligionManager.kt",
+    "name": "freeBeliefs",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/ReligionManager.kt",
+    "name": "religion",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/ReligionManager.kt",
+    "name": "religionState",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/ReligionManager.kt",
+    "name": "storedFaith",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/RuinsManager.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/RuinsManager.kt",
+    "name": "validRewards",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "allTechsAreResearched",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "allUnitsCanEnterOcean",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "embarkedUnitsCanEnterOcean",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "era",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "freeTechs",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "goldPercentConvertedToScience",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "movementSpeedOnRoads",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "repeatingTechsResearched",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "researchedTechnologies",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "roadsConnectAcrossRivers",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "scienceFromResearchAgreements",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "scienceOfLast8Turns",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "specificUnitsCanEnterOcean",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "techsInProgress",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "techsResearched",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "techsToResearch",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/TechManager.kt",
+    "name": "unitsCanEmbark",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/VictoryManager.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/VictoryManager.kt",
+    "name": "currentsSpaceshipParts",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/managers/VictoryManager.kt",
+    "name": "hasEverWonDiplomaticVote",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Notification.kt",
+    "name": "actions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Notification.kt",
+    "name": "category",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Notification.kt",
+    "name": "icons",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/Notification.kt",
+    "name": "text",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/NotificationActions.kt",
+    "name": "id",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/PopupAlert.kt",
+    "name": "type",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/PopupAlert.kt",
+    "name": "value",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/transients/CivInfoStatsForNextTurn.kt",
+    "name": "happiness",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/transients/CivInfoStatsForNextTurn.kt",
+    "name": "statsForNextTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/transients/CivInfoTransientCache.kt",
+    "name": "citiesConnectedToCapitalToMediums",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/transients/CivInfoTransientCache.kt",
+    "name": "cityStateBonusUniqueMaps",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/transients/CivInfoTransientCache.kt",
+    "name": "lastEraResourceUsedForBuilding",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/transients/CivInfoTransientCache.kt",
+    "name": "lastEraResourceUsedForUnit",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/transients/CivInfoTransientCache.kt",
+    "name": "ourTilesAndNeighboringTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/transients/CivInfoTransientCache.kt",
+    "name": "uniqueBuildings",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/transients/CivInfoTransientCache.kt",
+    "name": "uniqueImprovements",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/civilization/transients/CivInfoTransientCache.kt",
+    "name": "uniqueUnits",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/files/MapSaver.kt",
+    "name": "saveZipped",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/files/UncivFiles.kt",
+    "name": "autoSaveJob",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/files/UncivFiles.kt",
+    "name": "autosaves",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/files/UncivFiles.kt",
+    "name": "customDataDirectory",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/files/UncivFiles.kt",
+    "name": "version",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "barbarians",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "checksum",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "civilizations",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "civMap",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "currentPlayer",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "currentPlayerCiv",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "currentTurnStartTime",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "customSaveLocation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "difficulty",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "diplomaticVictoryVotesCast",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "diplomaticVictoryVotesProcessed",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "gameId",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "gameParameters",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "historyStartTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "isUpToDate",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "oneMoreTurnMode",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "religions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "ruleset",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "simulateMaxTurns",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "simulateUntilWin",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "spaceResources",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "speed",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "tileMap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "turns",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "unitNamesTaken",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "version",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "victoryData",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "victoryTurn",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "victoryType",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "winningCiv",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/GameInfo.kt",
+    "name": "winningCivObject",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/AStar.kt",
+    "name": "maxSize",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/AStar.kt",
+    "name": "startingPoint",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/BFS.kt",
+    "name": "maxSize",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/BFS.kt",
+    "name": "startingPoint",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/MapGenerationRandomness.kt",
+    "name": "RNG",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapGenTileData.kt",
+    "name": "closeStartPenalty",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapGenTileData.kt",
+    "name": "impacts",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapGenTileData.kt",
+    "name": "isFood",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapGenTileData.kt",
+    "name": "isGood",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapGenTileData.kt",
+    "name": "isGoodStart",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapGenTileData.kt",
+    "name": "isJunk",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapGenTileData.kt",
+    "name": "isProd",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapGenTileData.kt",
+    "name": "isTwoFromCoast",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapGenTileData.kt",
+    "name": "startScore",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapRegions.kt",
+    "name": "fertility",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/MapRegions.kt",
+    "name": "size",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/Region.kt",
+    "name": "affectedByWorldWrap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/Region.kt",
+    "name": "assignedMinorCivs",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/Region.kt",
+    "name": "luxury",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/Region.kt",
+    "name": "startPosition",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/Region.kt",
+    "name": "terrainCounts",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/Region.kt",
+    "name": "tiles",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/Region.kt",
+    "name": "totalFertility",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapgenerator/mapregions/Region.kt",
+    "name": "type",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "allValues",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "baseRuleset",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "createdWithVersion",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "elevationExponent",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "legendaryStart",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "mapResources",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "mapSize",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "maxCoastExtension",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "mirroring",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "mods",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "noNaturalWonders",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "noRuins",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "rareFeaturesRichness",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "resourceRichness",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "seed",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "shape",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "strategicBalance",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "temperatureintensity",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "temperatureShift",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "tilesPerBiomeArea",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "type",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "vegetationRichness",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "waterThreshold",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapParameters.kt",
+    "name": "worldWrap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapSize.kt",
+    "name": "height",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapSize.kt",
+    "name": "name",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapSize.kt",
+    "name": "radius",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/MapSize.kt",
+    "name": "width",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "abilityToTimesUsed",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "action",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "attacksSinceTurnStart",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "attacksThisTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "automated",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "automatedRoadConnectionDestination",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "automatedRoadConnectionPath",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "baseUnit",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "cache",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "civ",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "currentMovement",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "currentTile",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "due",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "health",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "id",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "instanceName",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "isDestroyed",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "isTransported",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "mostRecentMoveType",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "movement",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "movementMemories",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "originalOwner",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "originalOwningCiv",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "owner",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "promotions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "religion",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "religiousStrengthLost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "statusMap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "turnsFortified",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "type",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "upgrade",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnit.kt",
+    "name": "viewableTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "allTilesCosts1",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "canEnterCityStates",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "canEnterForeignTerrain",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "canEnterIceTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "canMoveOnWater",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "cannotEmbark",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "cannotEnterOceanTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "cannotMove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "canPassThroughImpassableTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "costToDisembark",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "costToEmbark",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "doubleMovementInTerrain",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "hasCitadelPlacementUnique",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "hasStrengthBonusInRadiusUnique",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "hasUniqueToBuildImprovements",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "hasUniqueToCreateWaterImprovements",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "ignoresTerrainCost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "ignoresZoneOfControl",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "noBaseTerrainOrHillDoubleMovementUniques",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "noFilteredDoubleMovementUniques",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "noTerrainMovementUniques",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "paradropDestinationTileFilters",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "roughTerrainPenalty",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/MapUnitCache.kt",
+    "name": "state",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/UnitPromotions.kt",
+    "name": "numberOfPromotions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/UnitPromotions.kt",
+    "name": "promotions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/mapunit/UnitPromotions.kt",
+    "name": "XP",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/PathingMapCache.kt",
+    "name": "fullMove",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/PathingMapCache.kt",
+    "name": "moveRemaining",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/PathingMapCache.kt",
+    "name": "startingPoint",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "airUnits",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "allTerrains",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "baseTerrain",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "cachedTerrainData",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "civilianUnit",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "hasBottomLeftRiver",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "hasBottomRightRiver",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "hasBottomRiver",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "hasVegetation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "history",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "humidity",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "improvement",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "improvementFunctions",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "improvementInProgress",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "improvementIsPillaged",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "isLand",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "isOcean",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "isWater",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "lastTerrain",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "latitude",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "longitude",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "militaryUnit",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "naturalWonder",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "neighbors",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "owningCity",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "position",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "resource",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "resourceAmount",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "roadIsPillaged",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "roadStatus",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "ruleset",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "stats",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "temperature",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "terrainFeatureObjects",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "terrainFeatures",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "tileHeight",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "tileImprovement",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "tileMap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "tileResource",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "turnsToImprovement",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "unitHeight",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/tile/Tile.kt",
+    "name": "zeroBasedIndex",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "continentSizes",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "continentsSortedBySize",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "description",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "gameInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "mapParameters",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "maxLatitude",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "maxLongitude",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "naturalWonders",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "resourceObjects",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "resources",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "ruleset",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "startingLocations",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "startingLocationsByNation",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "tileList",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "tileMatrix",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "tileUniqueMapCache",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/map/TileMap.kt",
+    "name": "values",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "displayName",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "friendUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "gameData",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "lobbyUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "maxPlayers",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "message",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "name",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "newPassword",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "oldPassword",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "password",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "username",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/RequestStructs.kt",
+    "name": "uuid",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "chatRoomUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "chatUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "createdAt",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "currentPlayers",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "displayName",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "friend",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "friendChatRooms",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "friendRequests",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "friends",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "from",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "gameChatRooms",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "gameChatUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "gameData",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "gameDataID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "games",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "gameUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "hasPassword",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "invites",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "joinedAt",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "lastActivity",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "lastMessageUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "lastPlayer",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "lobbies",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "lobbyChatRooms",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "lobbyChatRoomUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "lobbyUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "maxPlayers",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "members",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "message",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "messages",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "name",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "online",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "owner",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "sender",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "statusCode",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "to",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "username",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "uuid",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/ResponseStructs.kt",
+    "name": "version",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "account",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "chatUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "content",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "event",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "friend",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "from",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "gameChatUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "gameData",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "gameDataID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "gameUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "inviteUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "lobbyChatUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "lobbyUUID",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "message",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "player",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "type",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/apiv2/WebSocketStructs.kt",
+    "name": "uuid",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/chat/ChatStore.kt",
+    "name": "chatPopup",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/chat/ChatStore.kt",
+    "name": "gameId",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/chat/ChatStore.kt",
+    "name": "hasGlobalMessage",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/chat/ChatStore.kt",
+    "name": "length",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/chat/ChatStore.kt",
+    "name": "unreadCount",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/FriendList.kt",
+    "name": "listOfFriends",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/Multiplayer.kt",
+    "name": "games",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/Multiplayer.kt",
+    "name": "lastExecution",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/Multiplayer.kt",
+    "name": "multiplayerFiles",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/Multiplayer.kt",
+    "name": "multiplayerGameUpdater",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/Multiplayer.kt",
+    "name": "multiplayerServer",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/Multiplayer.kt",
+    "name": "now",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/Multiplayer.kt",
+    "name": "shouldRunAction",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/MultiplayerGamePreview.kt",
+    "name": "error",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/MultiplayerGamePreview.kt",
+    "name": "fileHandle",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/MultiplayerGamePreview.kt",
+    "name": "name",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/MultiplayerGamePreview.kt",
+    "name": "preview",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/MultiplayerGamePreview.kt",
+    "name": "status",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/MultiplayerGamePreview.kt",
+    "name": "type",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/OnlineMultiplayerEvents.kt",
+    "name": "error",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/OnlineMultiplayerEvents.kt",
+    "name": "name",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/OnlineMultiplayerEvents.kt",
+    "name": "newName",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/OnlineMultiplayerEvents.kt",
+    "name": "preview",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/ServerFeatureSet.kt",
+    "name": "authVersion",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/ServerFeatureSet.kt",
+    "name": "chatVersion",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/storage/ApiV2FileStorageEmulator.kt",
+    "name": "api",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/storage/ApiV2FileStorageEmulator.kt",
+    "name": "storage",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/storage/MultiplayerServer.kt",
+    "name": "fileStorageIdentifier",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/storage/UncivServerFileStorage.kt",
+    "name": "authHeader",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/storage/UncivServerFileStorage.kt",
+    "name": "serverUrl",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/multiplayer/storage/UncivServerFileStorage.kt",
+    "name": "timeout",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/simulation/Simulation.kt",
+    "name": "numWins",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/simulation/Simulation.kt",
+    "name": "simulationsPerThread",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/simulation/Simulation.kt",
+    "name": "steps",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/simulation/SimulationStep.kt",
+    "name": "currentPlayer",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/simulation/SimulationStep.kt",
+    "name": "turns",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/simulation/SimulationStep.kt",
+    "name": "turnStatsCities",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/simulation/SimulationStep.kt",
+    "name": "turnStatsPop",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/simulation/SimulationStep.kt",
+    "name": "turnStatsProd",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/simulation/SimulationStep.kt",
+    "name": "victoryType",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/simulation/SimulationStep.kt",
+    "name": "winner",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/trade/Trade.kt",
+    "name": "ourOffers",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/trade/Trade.kt",
+    "name": "requestingCiv",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/trade/Trade.kt",
+    "name": "theirOffers",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/trade/Trade.kt",
+    "name": "trade",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/trade/TradeLogic.kt",
+    "name": "currentTrade",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/trade/TradeLogic.kt",
+    "name": "ourAvailableOffers",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/trade/TradeLogic.kt",
+    "name": "theirAvailableOffers",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/logic/UncivExceptions.kt",
+    "name": "missingMods",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/UncivKtor.kt",
+    "name": "client",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/Versioning.kt",
+    "name": "createdWith",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/Versioning.kt",
+    "name": "number",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/Versioning.kt",
+    "name": "text",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/logic/Versioning.kt",
+    "name": "version",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "acceptedModCheckErrors",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "anyoneCanSpectate",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "baseRuleset",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "difficulty",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "enableRandomNationsPool",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "espionageEnabled",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "godMode",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "hideOtherCivilizationStats",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "isOnlineMultiplayer",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "maxNumberOfCityStates",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "maxNumberOfPlayers",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "maxTurns",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "minNumberOfCityStates",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "minNumberOfPlayers",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "minutesRecoveredPerTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "minutesUntilForceResign",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "minutesUntilSkipTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "mods",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "multiplayerServerUrl",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "noBarbarians",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "noCityRazing",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "noStartBias",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "nuclearWeaponsEnabled",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "numberOfCityStates",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "oneCityChallenge",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "players",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "ragingBarbarians",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "randomNationsPool",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "randomNumberOfCityStates",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "randomNumberOfPlayers",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "showAdditionalRankingTypes",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "showCharts",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "showCivilizationStats",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "showDemographics",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "showRankings",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "showVictoryStats",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "shufflePlayerOrder",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "speed",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "startingEra",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameParameters.kt",
+    "name": "victoryTypes",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "alternateUnitCycleOrder",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "androidCutout",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "androidHideSystemUi",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "autoAssignCityProduction",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "autoBuildingRoads",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "automatedUnitsCanUpgrade",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "automatedUnitsChoosePromotions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "automatedUnitsMoveOnTurnStart",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "automatedWorkersReplaceImprovements",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "autoPlay",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "autoUnitCycle",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "checkForDueUnits",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "checkForDueUnitsCycles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "citiesAutoBombardAtEndOfTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "citySoundsVolume",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "confirmNextTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "consoleCommandHistory",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "continuousRendering",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "displayOrientation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "enableEasterEggs",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "enlargeSelectedNotification",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "fontFamilyData",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "fontSizeMultiplier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "forbidPopupClickBehindToClose",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "isFreshlyCreated",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "keepConsoleOpen",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "keyBindings",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "language",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "lastGameSetup",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "locale",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "longPressDelay",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "longTapMove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "mapAutoScroll",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "mapPanningSpeed",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "maxAutosavesStored",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "maxWorldZoomOut",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "minimapSize",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "multiplayer",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "multiTapInterval",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "musicVolume",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "nationPickerListMode",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "notificationScroll",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "notificationsLogMaxTurns",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "orderTradeOffersByAmount",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "overview",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "pauseBetweenTracks",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "pediaUnitArtSize",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "screenMode",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "screenSize",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showAutosaves",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showLongPressIndicators",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showMinimap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showPixelImprovements",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showPixelUnits",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showResourcesAndImprovements",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showSettlersSuggestedCityLocations",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showTileYields",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showTutorials",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showUnitMovements",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showWorkedTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "showZoomButtons",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "singleTapMove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "skin",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "smallUnitButton",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "soundEffectsVolume",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "stopAutomatedWorkersRemoveVegetation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "tileSet",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "turnsBetweenAutosaves",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "tutorialsShown",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "tutorialTasksCompleted",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "unitActionsTableAnimation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "unitIconOpacity",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "unitMovementButtonAnimation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "unitSet",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "useAStarPathfinding",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "useCirclesToIndicateMovableTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "version",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "visualMods",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "voicesVolume",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSettings.kt",
+    "name": "windowState",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSetupInfo.kt",
+    "name": "gameParameters",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSetupInfo.kt",
+    "name": "mapFile",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/GameSetupInfo.kt",
+    "name": "mapParameters",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/OverviewPersistableData.kt",
+    "name": "last",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/Player.kt",
+    "name": "chosenCiv",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/Player.kt",
+    "name": "chosenNation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/Player.kt",
+    "name": "playerId",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/metadata/Player.kt",
+    "name": "playerType",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "ancientRuinCountMultiplier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "baseCityBombardRange",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "baseTurnsUntilRevolt",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "cityAirUnitCapacity",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "cityExpandRange",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "cityStateElectionTurns",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "cityStrengthBase",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "cityStrengthFromGarrison",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "cityStrengthFromTechsExponent",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "cityStrengthFromTechsFullMultiplier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "cityStrengthFromTechsMultiplier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "cityStrengthPerPop",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "cityWorkRange",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "goldGiftDegradationMultiplier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "goldGiftMultiplier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "goldGiftTradeMultiplier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "maxGoldTradeOffer",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "maxImprovementTechErasForward",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "maxLakeSize",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "maxRiverLength",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "maxSpyRank",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "maxXPfromBarbarians",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "minimalCityDistance",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "minimalCityDistanceOnDifferentContinents",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "minimumCityLocationTileValue",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "minimumWarDuration",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "minRiverLength",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "naturalWonderCountAddedConstant",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "naturalWonderCountMultiplier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "pantheonBase",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "pantheonGrowth",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "religionLimitBase",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "religionLimitMultiplier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "riverCountMultiplier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "scoreFromPopulation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "scoreFromWonders",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "spawnIceBelowTemperature",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "spyRankSkillPercentBonus",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "spyRankStealPercentBonus",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "spyTechStealCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "tributeGlobalModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "tributeLocalModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "unitSupplyPerPopulation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "unitUpgradeCost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ModConstants.kt",
+    "name": "workboatAutomationSearchMaxTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/Religion.kt",
+    "name": "buildingsPurchasableByBeliefs",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/Religion.kt",
+    "name": "displayName",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/Religion.kt",
+    "name": "followerBeliefUniqueMap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/Religion.kt",
+    "name": "founderBeliefUniqueMap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/Religion.kt",
+    "name": "foundingCiv",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/Religion.kt",
+    "name": "foundingCivName",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/Religion.kt",
+    "name": "gameInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/Religion.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Belief.kt",
+    "name": "type",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "cityHealth",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "cityStrength",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "cost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "greatPersonPoints",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "hurryCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "isNationalWonder",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "isWonder",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "maintenance",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "quote",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "replacementTextForUniques",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "replaces",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "requiredBuilding",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "requiredNearbyImprovedResources",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "requiredResource",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "requiredTech",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "ruleset",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "specialistSlots",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Building.kt",
+    "name": "uniqueTo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Event.kt",
+    "name": "choices",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Event.kt",
+    "name": "keyShortcut",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Event.kt",
+    "name": "presentation",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Event.kt",
+    "name": "text",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/GlobalUniques.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/GlobalUniques.kt",
+    "name": "unitUniques",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/IConstruction.kt",
+    "name": "defaultInstance",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "author",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "beliefsToRemove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "buildingsToRemove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "constants",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "defaultBranch",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "isBaseRuleset",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "lastUpdated",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "modSize",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "modUrl",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "nationsToRemove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "policiesToRemove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "policyBranchesToRemove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "religionsToRemove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "techsToRemove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "tileset",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "topics",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "uniqueMap",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "uniqueObjects",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "uniques",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "unitset",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/ModOptions.kt",
+    "name": "unitsToRemove",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/CityStateType.kt",
+    "name": "allyBonusUniqueMap",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/CityStateType.kt",
+    "name": "allyBonusUniques",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/CityStateType.kt",
+    "name": "color",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/CityStateType.kt",
+    "name": "friendBonusUniqueMap",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/CityStateType.kt",
+    "name": "friendBonusUniques",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiBuildingCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiBuildingMaintenanceModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiCityGrowthModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiCityStateBonusStartingUnits",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiDifficultyLevel",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiFreeTechs",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiMajorCivBonusStartingUnits",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiUnhappinessModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiUnitCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiUnitMaintenanceModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiUnitSupplyModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "aiWonderCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "barbarianBonus",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "barbarianSpawnDelay",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "baseHappiness",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "buildingCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "clearBarbarianCampReward",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "extraHappinessPerLuxury",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "playerBonusStartingUnits",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "policyCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "researchCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "turnBarbariansCanEnterPlayerTiles",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "unhappinessModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "unitCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "unitSupplyBase",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Difficulty.kt",
+    "name": "unitSupplyPerCity",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "acceptingDemand",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "adjective",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "attacked",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "cities",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "cityStateType",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "declaringFriendship",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "declaringWar",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "defeated",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "denounced",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "favoredReligion",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "forestsAndJunglesAreRoads",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "hateDenouncing",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "hateHello",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "hateRejectingDemand",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "ignoreHillMovementCost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "innerColor",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "introduction",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "isBarbarian",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "isCityState",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "isMajorCiv",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "isSpectator",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "leaderName",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "neutralDenouncing",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "neutralHello",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "neutralRejectingDemand",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "outerColor",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "personality",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "preferredVictoryType",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "spyNames",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "startBias",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "startIntroPart1",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "startIntroPart2",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "style",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "tradeRequest",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "uniqueName",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Nation.kt",
+    "name": "uniqueText",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "aggressive",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "commerce",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "culture",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "declareWar",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "denounceWillingness",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "diplomacy",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "expansion",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "faith",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "food",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "gold",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "happiness",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "isNeutralPersonality",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "loyal",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "military",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "preferredVictoryType",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "priorities",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "production",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/nation/Personality.kt",
+    "name": "science",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/PolicyBranch.kt",
+    "name": "era",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/PolicyBranch.kt",
+    "name": "policies",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/PolicyBranch.kt",
+    "name": "priorities",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Quest.kt",
+    "name": "description",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Quest.kt",
+    "name": "duration",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Quest.kt",
+    "name": "influence",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Quest.kt",
+    "name": "minimumCivs",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Quest.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Quest.kt",
+    "name": "questNameInstance",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Quest.kt",
+    "name": "type",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Quest.kt",
+    "name": "weightForCityStateType",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/RuinReward.kt",
+    "name": "color",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/RuinReward.kt",
+    "name": "excludedDifficulties",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/RuinReward.kt",
+    "name": "notification",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/RuinReward.kt",
+    "name": "weight",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "allHappinessLevelsThatAffectUniques",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "beliefs",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "buildings",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "cityStateTypes",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "difficulties",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "eras",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "events",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "folderLocation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "greatGeneralUnits",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "modOptions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "mods",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "nations",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "nonRoadTileRemovals",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "personalities",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "policies",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "policyBranches",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "quests",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "railroadImprovement",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "religions",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "roadImprovement",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "ruinRewards",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "specialists",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "speeds",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "techColumns",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "technologies",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "terrains",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "tileImprovements",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "tileRemovals",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "tileResources",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "tutorials",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "unitNameGroups",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "unitPromotions",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "units",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "unitTypes",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Ruleset.kt",
+    "name": "victories",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/RulesetCache.kt",
+    "name": "uniqueMisspellingThreshold",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/RulesetName.kt",
+    "name": "componentRulesets",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/RulesetName.kt",
+    "name": "name",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/RulesetName.kt",
+    "name": "originRuleset",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/RulesetName.kt",
+    "name": "source",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Specialist.kt",
+    "name": "color",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Specialist.kt",
+    "name": "colorObject",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Specialist.kt",
+    "name": "greatPersonPoints",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "barbarianModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "cityStateTributeScalingInterval",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "cultureCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "dealDuration",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "faithCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "goldCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "goldenAgeLengthModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "goldGiftModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "improvementBuildLengthModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "modifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "peaceDealDuration",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "productionCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "religiousPressureAdjacentCity",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "scienceCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "startYear",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "statCostModifiers",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "turns",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Speed.kt",
+    "name": "yearsPerTurn",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "allyBonus",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "baseUnitBuyCost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "citySound",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "embarkDefense",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "eraNumber",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "friendBonus",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "researchAgreementCost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "settlerBuildings",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "settlerPopulation",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "startingCulture",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "startingGold",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "startingMilitaryUnit",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "startingMilitaryUnitCount",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "startingObsoleteWonders",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "startingSettlerCount",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "startingSettlerUnit",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "startingWorkerCount",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "startingWorkerUnit",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Era.kt",
+    "name": "startPercent",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/TechColumn.kt",
+    "name": "buildingCost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/TechColumn.kt",
+    "name": "columnNumber",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/TechColumn.kt",
+    "name": "era",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/TechColumn.kt",
+    "name": "techCost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/TechColumn.kt",
+    "name": "techs",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/TechColumn.kt",
+    "name": "wonderCost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Technology.kt",
+    "name": "column",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Technology.kt",
+    "name": "cost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Technology.kt",
+    "name": "prerequisites",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Technology.kt",
+    "name": "quote",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tech/Technology.kt",
+    "name": "row",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "damagePerTurn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "defenceBonus",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "impassable",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "isCoast",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "isFreshwater",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "isHill",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "isIce",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "isMountain",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "isOcean",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "isRough",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "isVegetation",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "movementCost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "occursOn",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "overrideStats",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "RGB",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "turnsInto",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "type",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "unbuildable",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/Terrain.kt",
+    "name": "weight",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileImprovement.kt",
+    "name": "replaces",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileImprovement.kt",
+    "name": "shortcutKey",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileImprovement.kt",
+    "name": "techRequired",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileImprovement.kt",
+    "name": "terrainsCanBeBuiltOn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileImprovement.kt",
+    "name": "turnsToBuild",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileImprovement.kt",
+    "name": "uniqueTo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileResource.kt",
+    "name": "improvedBy",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileResource.kt",
+    "name": "improvement",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileResource.kt",
+    "name": "improvementStats",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileResource.kt",
+    "name": "isCityWide",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileResource.kt",
+    "name": "isStockpiled",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileResource.kt",
+    "name": "majorDepositAmount",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileResource.kt",
+    "name": "minorDepositAmount",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileResource.kt",
+    "name": "resourceType",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileResource.kt",
+    "name": "revealedBy",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/tile/TileResource.kt",
+    "name": "terrainsCanBeFoundOn",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Tutorial.kt",
+    "name": "category",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Tutorial.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Tutorial.kt",
+    "name": "steps",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "attackedTile",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "city",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "civInfo",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "combatAction",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "gameInfo",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "ignoreConditionals",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "otherCiv",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "ourCombatant",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "region",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "relevantCity",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "relevantCiv",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "relevantTile",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "relevantUnit",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "theirCombatant",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "tile",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/GameContext.kt",
+    "name": "unit",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/TemporaryUnique.kt",
+    "name": "turnsLeft",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/TemporaryUnique.kt",
+    "name": "unique",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/TemporaryUnique.kt",
+    "name": "uniqueObject",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "allParams",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "deprecatedType",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "isLocalEffect",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "isOtherModifierType",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "isTimedTriggerable",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "isTriggerable",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "modifiers",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "modifiersMap",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "params",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "placeholderText",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "stats",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/Unique.kt",
+    "name": "type",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/UniqueParameterType.kt",
+    "name": "acceptableParameterTypes",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/UniqueParameterType.kt",
+    "name": "errorSeverity",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unique/UniqueParameterType.kt",
+    "name": "parameterName",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "attackSound",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "cost",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "costFunctions",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "hurryCostModifier",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "interceptRange",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "isGreatPerson",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "isLandUnit",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "isMilitary",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "isWaterUnit",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "movement",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "obsoleteTech",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "promotions",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "range",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "rangedStrength",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "religiousStrength",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "replacementTextForUniques",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "replaces",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "requiredResource",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "requiredTech",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "ruleset",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "rulesetUniqueMap",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "rulesetUniqueObjects",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "strength",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "type",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "uniqueTo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "unitType",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/BaseUnit.kt",
+    "name": "upgradesTo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/Promotion.kt",
+    "name": "column",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/Promotion.kt",
+    "name": "innerColor",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/Promotion.kt",
+    "name": "innerColorObject",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/Promotion.kt",
+    "name": "outerColor",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/Promotion.kt",
+    "name": "outerColorObject",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/Promotion.kt",
+    "name": "prerequisites",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/Promotion.kt",
+    "name": "row",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/Promotion.kt",
+    "name": "unitTypes",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/unit/UnitNameGroup.kt",
+    "name": "unitNames",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "civilopediaText",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "defeatString",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "hiddenInVictoryScreen",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "milestoneObjects",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "milestones",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "params",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "requiredSpaceshipParts",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "requiredSpaceshipPartsAsCounter",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "type",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "victoryScreenHeader",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/ruleset/Victory.kt",
+    "name": "victoryString",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinConfig.kt",
+    "name": "baseColor",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinConfig.kt",
+    "name": "clearColor",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinConfig.kt",
+    "name": "defaultVariantTint",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinConfig.kt",
+    "name": "fallbackSkin",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinConfig.kt",
+    "name": "skinVariants",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "checkboxPressedShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "checkboxShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "rectangleWithOutlineShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "roundedEdgeRectangleMidBorderShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "roundedEdgeRectangleMidShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "roundedEdgeRectangleShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "roundedEdgeRectangleSmallShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "roundedTopEdgeRectangleSmallBorderShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "roundedTopEdgeRectangleSmallShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "selectBoxPressedShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "selectBoxShape",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/skins/SkinStrings.kt",
+    "name": "skinConfig",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/Spy.kt",
+    "name": "action",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/Spy.kt",
+    "name": "civInfo",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/Spy.kt",
+    "name": "name",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/Spy.kt",
+    "name": "rank",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/Spy.kt",
+    "name": "turnsRemainingForAction",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/tilesets/TileSet.kt",
+    "name": "config",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/tilesets/TileSet.kt",
+    "name": "fallback",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/tilesets/TileSetConfig.kt",
+    "name": "fallbackTileSet",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/tilesets/TileSetConfig.kt",
+    "name": "fogOfWarColor",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/tilesets/TileSetConfig.kt",
+    "name": "ruleVariants",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/tilesets/TileSetConfig.kt",
+    "name": "tileScale",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/tilesets/TileSetConfig.kt",
+    "name": "tileScales",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/tilesets/TileSetConfig.kt",
+    "name": "unexploredTileColor",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/tilesets/TileSetConfig.kt",
+    "name": "useColorAsBaseTerrain",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/tilesets/TileSetConfig.kt",
+    "name": "useSummaryImages",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/translations/TranslationFileReader.kt",
+    "name": "charset",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/translations/Translations.kt",
+    "name": "activeMods",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/translations/Translations.kt",
+    "name": "percentCompleteOfLanguages",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/translations/Translations.kt",
+    "name": "translationActiveMods",
+    "mutable": true
+  },
+  {
+    "file": "core/src/com/unciv/models/UncivSound.kt",
+    "name": "fileName",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/UnitAction.kt",
+    "name": "binding",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/UnitAction.kt",
+    "name": "defaultPage",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/UnitAction.kt",
+    "name": "goldCostOfUpgrade",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/UnitAction.kt",
+    "name": "imageGetter",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/UnitAction.kt",
+    "name": "isSkippingToNextUnit",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/UnitAction.kt",
+    "name": "newResourceRequirements",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/UnitAction.kt",
+    "name": "uncivSound",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/UnitAction.kt",
+    "name": "unitToUpgradeTo",
+    "mutable": false
+  },
+  {
+    "file": "core/src/com/unciv/models/UnitAction.kt",
+    "name": "value",
+    "mutable": false
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unciv-rust-web.invalid/schemas/parity-status.schema.json",
+  "title": "Compatibility task status",
+  "type": "object",
+  "required": ["id", "kind", "source", "status"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "kind": { "type": "string", "minLength": 1 },
+    "source": { "type": "string", "minLength": 1 },
+    "status": {
+      "enum": ["pending", "implemented", "alias", "deprecated", "exception"]
+    },
+    "exception": { "type": "string" }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,13 @@
+[package]
+name = "unciv-ai"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+unciv-engine = { version = "0.1.0", path = "../engine" }
+unciv-rules = { version = "0.1.0", path = "../rules" }
+
+[lints]
+workspace = true

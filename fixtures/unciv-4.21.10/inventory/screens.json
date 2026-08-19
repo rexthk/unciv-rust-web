@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "BASESCREEN-BASESCREEN",
+    "path": "core/src/com/unciv/ui/screens/basescreen/BaseScreen.kt",
+    "category": "basescreen",
+    "status": "pending"
+  },
+  {
+    "id": "BASESCREEN-SCENEDEBUGMODE",
+    "path": "core/src/com/unciv/ui/screens/basescreen/SceneDebugMode.kt",
+    "category": "basescreen",
+    "status": "pending"
+  },
+  {
+    "id": "BASESCREEN-STAGEMOUSEOVERDEBUG",
+    "path": "core/src/com/unciv/ui/screens/basescreen/StageMouseOverDebug.kt",
+    "category": "basescreen",
+    "status": "pending"
+  },
+  {
+    "id": "BASESCREEN-TUTORIALCONTROLLER",
+    "path": "core/src/com/unciv/ui/screens/basescreen/TutorialController.kt",
+    "category": "basescreen",
+    "status": "pending"
+  },
+  {
+    "id": "BASESCREEN-UNCIVSTAGE",
+    "path": "core/src/com/unciv/ui/screens/basescreen/UncivStage.kt",
+    "category": "basescreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-BUYBUTTONFACTORY",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/BuyButtonFactory.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-CITIZENMANAGEMENTTABLE",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/CitizenManagementTable.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-CITYCONSTRUCTIONSTABLE",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/CityConstructionsTable.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-CITYMAPHOLDER",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/CityMapHolder.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-CITYRELIGIONINFOTABLE",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/CityReligionInfoTable.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-CITYSCREEN",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/CityScreen.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-CITYSCREENCITYPICKERTABLE",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/CityScreenCityPickerTable.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-CITYSCREENTILETABLE",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/CityScreenTileTable.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-CITYSTATSTABLE",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/CityStatsTable.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-CONSTRUCTIONINFOTABLE",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/ConstructionInfoTable.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-DETAILEDSTATSPOPUP",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/DetailedStatsPopup.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-GREATPERSONPOINTSBREAKDOWNPOPUP",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/GreatPersonPointsBreakdownPopup.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CITYSCREEN-SPECIALISTALLOCATIONTABLE",
+    "path": "core/src/com/unciv/ui/screens/cityscreen/SpecialistAllocationTable.kt",
+    "category": "cityscreen",
+    "status": "pending"
+  },
+  {
+    "id": "CIVILOPEDIASCREEN-CIVILOPEDIACATEGORIES",
+    "path": "core/src/com/unciv/ui/screens/civilopediascreen/CivilopediaCategories.kt",
+    "category": "civilopediascreen",
+    "status": "pending"
+  },
+  {
+    "id": "CIVILOPEDIASCREEN-CIVILOPEDIAIMAGEGETTERS",
+    "path": "core/src/com/unciv/ui/screens/civilopediascreen/CivilopediaImageGetters.kt",
+    "category": "civilopediascreen",
+    "status": "pending"
+  },
+  {
+    "id": "CIVILOPEDIASCREEN-CIVILOPEDIASCREEN",
+    "path": "core/src/com/unciv/ui/screens/civilopediascreen/CivilopediaScreen.kt",
+    "category": "civilopediascreen",
+    "status": "pending"
+  },
+  {
+    "id": "CIVILOPEDIASCREEN-CIVILOPEDIASEARCHPOPUP",
+    "path": "core/src/com/unciv/ui/screens/civilopediascreen/CivilopediaSearchPopup.kt",
+    "category": "civilopediascreen",
+    "status": "pending"
+  },
+  {
+    "id": "CIVILOPEDIASCREEN-FORMATTEDLINE",
+    "path": "core/src/com/unciv/ui/screens/civilopediascreen/FormattedLine.kt",
+    "category": "civilopediascreen",
+    "status": "pending"
+  },
+  {
+    "id": "CIVILOPEDIASCREEN-ICIVILOPEDIATEXT",
+    "path": "core/src/com/unciv/ui/screens/civilopediascreen/ICivilopediaText.kt",
+    "category": "civilopediascreen",
+    "status": "pending"
+  },
+  {
+    "id": "CIVILOPEDIASCREEN-MARKUPRENDERER",
+    "path": "core/src/com/unciv/ui/screens/civilopediascreen/MarkupRenderer.kt",
+    "category": "civilopediascreen",
+    "status": "pending"
+  },
+  {
+    "id": "CIVILOPEDIASCREEN-SIMPLECIVILOPEDIATEXT",
+    "path": "core/src/com/unciv/ui/screens/civilopediascreen/SimpleCivilopediaText.kt",
+    "category": "civilopediascreen",
+    "status": "pending"
+  },
+  {
+    "id": "CIVILOPEDIASCREEN-SUBCATEGORYTABLE",
+    "path": "core/src/com/unciv/ui/screens/civilopediascreen/SubCategoryTable.kt",
+    "category": "civilopediascreen",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-CLIINPUT",
+    "path": "core/src/com/unciv/ui/screens/devconsole/CliInput.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-CONSOLECITYCOMMANDS",
+    "path": "core/src/com/unciv/ui/screens/devconsole/ConsoleCityCommands.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-CONSOLECIVCOMMANDS",
+    "path": "core/src/com/unciv/ui/screens/devconsole/ConsoleCivCommands.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-CONSOLEDIPLOMACYCOMMANDS",
+    "path": "core/src/com/unciv/ui/screens/devconsole/ConsoleDiplomacyCommands.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-CONSOLEGAMECOMMANDS",
+    "path": "core/src/com/unciv/ui/screens/devconsole/ConsoleGameCommands.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-CONSOLEPARAMETERTYPE",
+    "path": "core/src/com/unciv/ui/screens/devconsole/ConsoleParameterType.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-CONSOLETILECOMMANDS",
+    "path": "core/src/com/unciv/ui/screens/devconsole/ConsoleTileCommands.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-CONSOLETRIGGERACTION",
+    "path": "core/src/com/unciv/ui/screens/devconsole/ConsoleTriggerAction.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-CONSOLEUNITCOMMANDS",
+    "path": "core/src/com/unciv/ui/screens/devconsole/ConsoleUnitCommands.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-DEVCONSOLECOMMAND",
+    "path": "core/src/com/unciv/ui/screens/devconsole/DevConsoleCommand.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-DEVCONSOLEPOPUP",
+    "path": "core/src/com/unciv/ui/screens/devconsole/DevConsolePopup.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DEVCONSOLE-DEVCONSOLERESPONSE",
+    "path": "core/src/com/unciv/ui/screens/devconsole/DevConsoleResponse.kt",
+    "category": "devconsole",
+    "status": "pending"
+  },
+  {
+    "id": "DIPLOMACYSCREEN-CITYSTATEDIPLOMACYTABLE",
+    "path": "core/src/com/unciv/ui/screens/diplomacyscreen/CityStateDiplomacyTable.kt",
+    "category": "diplomacyscreen",
+    "status": "pending"
+  },
+  {
+    "id": "DIPLOMACYSCREEN-DIPLOMACYSCREEN",
+    "path": "core/src/com/unciv/ui/screens/diplomacyscreen/DiplomacyScreen.kt",
+    "category": "diplomacyscreen",
+    "status": "pending"
+  },
+  {
+    "id": "DIPLOMACYSCREEN-LEADERINTROTABLE",
+    "path": "core/src/com/unciv/ui/screens/diplomacyscreen/LeaderIntroTable.kt",
+    "category": "diplomacyscreen",
+    "status": "pending"
+  },
+  {
+    "id": "DIPLOMACYSCREEN-MAJORCIVDIPLOMACYTABLE",
+    "path": "core/src/com/unciv/ui/screens/diplomacyscreen/MajorCivDiplomacyTable.kt",
+    "category": "diplomacyscreen",
+    "status": "pending"
+  },
+  {
+    "id": "DIPLOMACYSCREEN-OFFERCOLUMNSTABLE",
+    "path": "core/src/com/unciv/ui/screens/diplomacyscreen/OfferColumnsTable.kt",
+    "category": "diplomacyscreen",
+    "status": "pending"
+  },
+  {
+    "id": "DIPLOMACYSCREEN-OFFERSLISTSCROLL",
+    "path": "core/src/com/unciv/ui/screens/diplomacyscreen/OffersListScroll.kt",
+    "category": "diplomacyscreen",
+    "status": "pending"
+  },
+  {
+    "id": "DIPLOMACYSCREEN-TRADETABLE",
+    "path": "core/src/com/unciv/ui/screens/diplomacyscreen/TradeTable.kt",
+    "category": "diplomacyscreen",
+    "status": "pending"
+  },
+  {
+    "id": "GAMESTARTSCREEN",
+    "path": "core/src/com/unciv/ui/screens/GameStartScreen.kt",
+    "category": "root",
+    "status": "pending"
+  },
+  {
+    "id": "LANGUAGEPICKERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/LanguagePickerScreen.kt",
+    "category": "root",
+    "status": "pending"
+  },
+  {
+    "id": "LOADINGSCREEN",
+    "path": "core/src/com/unciv/ui/screens/LoadingScreen.kt",
+    "category": "root",
+    "status": "pending"
+  },
+  {
+    "id": "MAINMENUSCREEN-EASTEREGGFLOATINGART",
+    "path": "core/src/com/unciv/ui/screens/mainmenuscreen/EasterEggFloatingArt.kt",
+    "category": "mainmenuscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAINMENUSCREEN-EASTEREGGRULESETS",
+    "path": "core/src/com/unciv/ui/screens/mainmenuscreen/EasterEggRulesets.kt",
+    "category": "mainmenuscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAINMENUSCREEN-MAINMENUSCREEN",
+    "path": "core/src/com/unciv/ui/screens/mainmenuscreen/MainMenuScreen.kt",
+    "category": "mainmenuscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-EDITORMAPHOLDER",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/EditorMapHolder.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-MAPEDITORFILESSCROLL",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorFilesScroll.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-MAPEDITORMAINTABS",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorMainTabs.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-MAPEDITORSCREEN",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorScreen.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-MAPEDITORTOOLSDRAWER",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorToolsDrawer.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-MAPEDITORWESNOTHIMPORTER",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapEditorWesnothImporter.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-MAPGENERATORSTEPS",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/MapGeneratorSteps.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-TABS-MAPEDITOREDITSUBTABS",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditSubTabs.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-TABS-MAPEDITOREDITTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorEditTab.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-TABS-MAPEDITORGENERATETAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorGenerateTab.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-TABS-MAPEDITORLOADTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorLoadTab.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-TABS-MAPEDITORMODSTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorModsTab.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-TABS-MAPEDITOROPTIONSTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorOptionsTab.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-TABS-MAPEDITORSAVETAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorSaveTab.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MAPEDITORSCREEN-TABS-MAPEDITORVIEWTAB",
+    "path": "core/src/com/unciv/ui/screens/mapeditorscreen/tabs/MapEditorViewTab.kt",
+    "category": "mapeditorscreen",
+    "status": "pending"
+  },
+  {
+    "id": "MODMANAGER-MODDECORATEDBUTTON",
+    "path": "core/src/com/unciv/ui/screens/modmanager/ModDecoratedButton.kt",
+    "category": "modmanager",
+    "status": "pending"
+  },
+  {
+    "id": "MODMANAGER-MODINFOANDACTIONPANE",
+    "path": "core/src/com/unciv/ui/screens/modmanager/ModInfoAndActionPane.kt",
+    "category": "modmanager",
+    "status": "pending"
+  },
+  {
+    "id": "MODMANAGER-MODMANAGEMENTOPTIONS",
+    "path": "core/src/com/unciv/ui/screens/modmanager/ModManagementOptions.kt",
+    "category": "modmanager",
+    "status": "pending"
+  },
+  {
+    "id": "MODMANAGER-MODMANAGEMENTSCREEN",
+    "path": "core/src/com/unciv/ui/screens/modmanager/ModManagementScreen.kt",
+    "category": "modmanager",
+    "status": "pending"
+  },
+  {
+    "id": "MODMANAGER-MODUIDATA",
+    "path": "core/src/com/unciv/ui/screens/modmanager/ModUIData.kt",
+    "category": "modmanager",
+    "status": "pending"
+  },
+  {
+    "id": "MULTIPLAYERSCREENS-ADDFRIENDSCREEN",
+    "path": "core/src/com/unciv/ui/screens/multiplayerscreens/AddFriendScreen.kt",
+    "category": "multiplayerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "MULTIPLAYERSCREENS-ADDMULTIPLAYERGAMESCREEN",
+    "path": "core/src/com/unciv/ui/screens/multiplayerscreens/AddMultiplayerGameScreen.kt",
+    "category": "multiplayerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "MULTIPLAYERSCREENS-EDITFRIENDSCREEN",
+    "path": "core/src/com/unciv/ui/screens/multiplayerscreens/EditFriendScreen.kt",
+    "category": "multiplayerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "MULTIPLAYERSCREENS-FRIENDPICKERLIST",
+    "path": "core/src/com/unciv/ui/screens/multiplayerscreens/FriendPickerList.kt",
+    "category": "multiplayerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "MULTIPLAYERSCREENS-GAMELIST",
+    "path": "core/src/com/unciv/ui/screens/multiplayerscreens/GameList.kt",
+    "category": "multiplayerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "MULTIPLAYERSCREENS-MULTIPLAYERHELPERS",
+    "path": "core/src/com/unciv/ui/screens/multiplayerscreens/MultiplayerHelpers.kt",
+    "category": "multiplayerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "MULTIPLAYERSCREENS-MULTIPLAYERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/multiplayerscreens/MultiplayerScreen.kt",
+    "category": "multiplayerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "MULTIPLAYERSCREENS-VIEWFRIENDSLISTSCREEN",
+    "path": "core/src/com/unciv/ui/screens/multiplayerscreens/ViewFriendsListScreen.kt",
+    "category": "multiplayerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-ACCEPTMODERRORSPOPUP",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/AcceptModErrorsPopup.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-FRIENDTABLE",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/FriendTable.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-GAMEOPTIONSTABLE",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/GameOptionsTable.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-IPREVIOUSSCREEN",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/IPreviousScreen.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-MAPFILESELECTTABLE",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/MapFileSelectTable.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-MAPOPTIONSTABLE",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/MapOptionsTable.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-MAPPARAMETERSTABLE",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/MapParametersTable.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-MODCHECKBOXTABLE",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/ModCheckboxTable.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-MULTICHECKBOXTABLE",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/MultiCheckboxTable.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-NATIONPICKERPOPUP",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/NationPickerPopup.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-NATIONTABLE",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/NationTable.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-NEWGAMEMODCHECKHELPERS",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/NewGameModCheckHelpers.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-NEWGAMESCREEN",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/NewGameScreen.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-PLAYERPICKERTABLE",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/PlayerPickerTable.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "NEWGAMESCREEN-SCENARIOSELECTTABLE",
+    "path": "core/src/com/unciv/ui/screens/newgamescreen/ScenarioSelectTable.kt",
+    "category": "newgamescreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-CITYOVERVIEWTAB",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/CityOverviewTab.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-CITYOVERVIEWTABCOLUMN",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/CityOverviewTabColumn.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-EMPIREOVERVIEWCATEGORIES",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/EmpireOverviewCategories.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-EMPIREOVERVIEWSCREEN",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/EmpireOverviewScreen.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-EMPIREOVERVIEWTAB",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/EmpireOverviewTab.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-ESPIONAGEOVERVIEWSCREEN",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/EspionageOverviewScreen.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-GLOBALPOLITICSDIAGRAMGROUP",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/GlobalPoliticsDiagramGroup.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-GLOBALPOLITICSOVERVIEWTABLE",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/GlobalPoliticsOverviewTable.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-NOTIFICATIONSOVERVIEWTABLE",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/NotificationsOverviewTable.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-RELIGIONOVERVIEWTAB",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/ReligionOverviewTab.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-RESOURCESOVERVIEWTAB",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/ResourcesOverviewTab.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-STATSOVERVIEWTAB",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/StatsOverviewTab.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-TRADESOVERVIEWTAB",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/TradesOverviewTab.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-UNITOVERVIEWTAB",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/UnitOverviewTab.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-UNITOVERVIEWTABCOLUMN",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/UnitOverviewTabColumn.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-UNITOVERVIEWTABHELPERS",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/UnitOverviewTabHelpers.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-UNITSUPPLYTABLE",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/UnitSupplyTable.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "OVERVIEWSCREEN-WONDEROVERVIEWTAB",
+    "path": "core/src/com/unciv/ui/screens/overviewscreen/WonderOverviewTab.kt",
+    "category": "overviewscreen",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-CITYRENAMEPOPUP",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/CityRenamePopup.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-DIPLOMATICVOTEPICKERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/DiplomaticVotePickerScreen.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-DIPLOMATICVOTERESULTSCREEN",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/DiplomaticVoteResultScreen.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-GREATPERSONPICKERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/GreatPersonPickerScreen.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-IMPROVEMENTPICKERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/ImprovementPickerScreen.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-PANTHEONPICKERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/PantheonPickerScreen.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-PICKERPANE",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/PickerPane.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-PICKERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/PickerScreen.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-POLICYPICKERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/PolicyPickerScreen.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-PROMOTIONBUTTON",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/PromotionButton.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-PROMOTIONPICKERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/PromotionPickerScreen.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-PROMOTIONSCREENCOLORS",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/PromotionScreenColors.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-PROMOTIONTREE",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/PromotionTree.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-RELIGIONPICKERSCREENCOMMON",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/ReligionPickerScreenCommon.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-RELIGIOUSBELIEFSPICKERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/ReligiousBeliefsPickerScreen.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-TECHBUTTON",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/TechButton.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-TECHPICKERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/TechPickerScreen.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "PICKERSCREENS-UNITRENAMEPOPUP",
+    "path": "core/src/com/unciv/ui/screens/pickerscreens/UnitRenamePopup.kt",
+    "category": "pickerscreens",
+    "status": "pending"
+  },
+  {
+    "id": "SAVESCREENS-GZIP",
+    "path": "core/src/com/unciv/ui/screens/savescreens/Gzip.kt",
+    "category": "savescreens",
+    "status": "pending"
+  },
+  {
+    "id": "SAVESCREENS-LOADGAMESCREEN",
+    "path": "core/src/com/unciv/ui/screens/savescreens/LoadGameScreen.kt",
+    "category": "savescreens",
+    "status": "pending"
+  },
+  {
+    "id": "SAVESCREENS-LOADORSAVESCREEN",
+    "path": "core/src/com/unciv/ui/screens/savescreens/LoadOrSaveScreen.kt",
+    "category": "savescreens",
+    "status": "pending"
+  },
+  {
+    "id": "SAVESCREENS-QUICKSAVE",
+    "path": "core/src/com/unciv/ui/screens/savescreens/QuickSave.kt",
+    "category": "savescreens",
+    "status": "pending"
+  },
+  {
+    "id": "SAVESCREENS-SAVEGAMESCREEN",
+    "path": "core/src/com/unciv/ui/screens/savescreens/SaveGameScreen.kt",
+    "category": "savescreens",
+    "status": "pending"
+  },
+  {
+    "id": "SAVESCREENS-VERTICALFILELISTSCROLLPANE",
+    "path": "core/src/com/unciv/ui/screens/savescreens/VerticalFileListScrollPane.kt",
+    "category": "savescreens",
+    "status": "pending"
+  },
+  {
+    "id": "UNIQUEBUILDERSCREEN",
+    "path": "core/src/com/unciv/ui/screens/UniqueBuilderScreen.kt",
+    "category": "root",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-LINECHART",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/LineChart.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-RANKINGTYPE",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/RankingType.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-REPLAYMAP",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/ReplayMap.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-VICTORYSCREEN",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/VictoryScreen.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-VICTORYSCREENCHARTS",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/VictoryScreenCharts.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-VICTORYSCREENCIVGROUP",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/VictoryScreenCivGroup.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-VICTORYSCREENCIVRANKINGS",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/VictoryScreenCivRankings.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-VICTORYSCREENDEMOGRAPHICS",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/VictoryScreenDemographics.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-VICTORYSCREENGLOBALVICTORY",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/VictoryScreenGlobalVictory.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-VICTORYSCREENILLUSTRATIONS",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/VictoryScreenIllustrations.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-VICTORYSCREENOURVICTORY",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/VictoryScreenOurVictory.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "VICTORYSCREEN-VICTORYSCREENREPLAY",
+    "path": "core/src/com/unciv/ui/screens/victoryscreen/VictoryScreenReplay.kt",
+    "category": "victoryscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-ALERTPOPUP",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/AlertPopup.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-BACKGROUNDACTOR",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/BackgroundActor.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-BOTTOMBAR-BATTLETABLE",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/bottombar/BattleTable.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-BOTTOMBAR-BATTLETABLEHELPERS",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/bottombar/BattleTableHelpers.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-BOTTOMBAR-TILEINFOTABLE",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/bottombar/TileInfoTable.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-CHAT-CHATBUTTON",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/chat/ChatButton.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-CHAT-CHATPOPUP",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/chat/ChatPopup.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-MAINMENU-WORLDSCREENMENUPOPUP",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/mainmenu/WorldScreenMenuPopup.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-MAINMENU-WORLDSCREENMUSICPOPUP",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/mainmenu/WorldScreenMusicPopup.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-MINIMAP-MAPOVERLAYTOGGLEBUTTON",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/minimap/MapOverlayToggleButton.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-MINIMAP-MINIMAP",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/minimap/Minimap.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-MINIMAP-MINIMAPHOLDER",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/minimap/MinimapHolder.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-MINIMAP-MINIMAPTILE",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/minimap/MinimapTile.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-MINIMAP-MINIMAPTILEUTIL",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/minimap/MinimapTileUtil.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-NOTIFICATIONSSCROLL",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/NotificationsScroll.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-PLAYERREADYSCREEN",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/PlayerReadyScreen.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-RENDEREVENT",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/RenderEvent.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-STATUS-AUTOPLAYMENU",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/status/AutoPlayMenu.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-STATUS-AUTOPLAYSTATUSBUTTON",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/status/AutoPlayStatusButton.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-STATUS-MULTIPLAYERSTATUSBUTTON",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/status/MultiplayerStatusButton.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-STATUS-MULTIPLAYERSTATUSPOPUP",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/status/MultiplayerStatusPopup.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-STATUS-NEXTTURNACTION",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/status/NextTurnAction.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-STATUS-NEXTTURNBUTTON",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/status/NextTurnButton.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-STATUS-NEXTTURNMENU",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/status/NextTurnMenu.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-STATUS-NEXTTURNPROGRESS",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/status/NextTurnProgress.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-STATUS-SMALLUNITBUTTON",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/status/SmallUnitButton.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-STATUS-STATUSBUTTONS",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/status/StatusButtons.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-TECHPOLICYDIPLOMACYBUTTONS",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/TechPolicyDiplomacyButtons.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-TOPBAR-WORLDSCREENTOPBAR",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/topbar/WorldScreenTopBar.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-TOPBAR-WORLDSCREENTOPBARRESOURCES",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/topbar/WorldScreenTopBarResources.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-TOPBAR-WORLDSCREENTOPBARSTATS",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/topbar/WorldScreenTopBarStats.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-TRADEPOPUP",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/TradePopup.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNDOHANDLER",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/UndoHandler.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-ACTIONS-UNITACTIONMODIFIERS",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/actions/UnitActionModifiers.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-ACTIONS-UNITACTIONS",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/actions/UnitActions.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-ACTIONS-UNITACTIONSFROMUNIQUES",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/actions/UnitActionsFromUniques.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-ACTIONS-UNITACTIONSGREATPERSON",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/actions/UnitActionsGreatPerson.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-ACTIONS-UNITACTIONSPILLAGE",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/actions/UnitActionsPillage.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-ACTIONS-UNITACTIONSRELIGION",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/actions/UnitActionsReligion.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-ACTIONS-UNITACTIONSTABLE",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/actions/UnitActionsTable.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-ACTIONS-UNITACTIONSUPGRADE",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/actions/UnitActionsUpgrade.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-AUTOPLAY",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/AutoPlay.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-IDLEUNITBUTTON",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/IdleUnitButton.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-PRESENTER-CITYPRESENTER",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/presenter/CityPresenter.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-PRESENTER-SPYPRESENTER",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/presenter/SpyPresenter.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-PRESENTER-SUMMARYPRESENTER",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/presenter/SummaryPresenter.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-PRESENTER-UNITPRESENTER",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/presenter/UnitPresenter.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-UNIT-UNITTABLE",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/unit/UnitTable.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-WORLDMAP-OVERLAYBUTTONDATA",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/worldmap/OverlayButtonData.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-WORLDMAP-WORLDMAPHOLDER",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/worldmap/WorldMapHolder.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-WORLDMAP-WORLDMAPTILEUPDATER",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/worldmap/WorldMapTileUpdater.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-WORLDSCREEN",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/WorldScreen.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  },
+  {
+    "id": "WORLDSCREEN-ZOOMBUTTONPAIR",
+    "path": "core/src/com/unciv/ui/screens/worldscreen/ZoomButtonPair.kt",
+    "category": "worldscreen",
+    "status": "pending"
+  }
+]

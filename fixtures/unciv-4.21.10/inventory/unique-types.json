@@ -1,0 +1,3830 @@
+[
+  {
+    "id": "UNIQUE-0001",
+    "name": "Stats",
+    "text": "[stats]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0002",
+    "name": "StatsPerCity",
+    "text": "[stats] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0003",
+    "name": "StatsFromSpecialist",
+    "text": "[stats] from every specialist [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0004",
+    "name": "StatsPerPopulation",
+    "text": "[stats] per [positiveAmount] population [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0005",
+    "name": "StatsPerPolicies",
+    "text": "[stats] per [positiveAmount] social policies adopted",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0006",
+    "name": "StatsPerStat",
+    "text": "[stats] per every [positiveAmount] [civWideStat]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0007",
+    "name": "StatsFromCitiesOnSpecificTiles",
+    "text": "[stats] in cities on [terrainFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0008",
+    "name": "StatsFromBuildings",
+    "text": "[stats] from all [buildingFilter] buildings",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0009",
+    "name": "StatsFromTiles",
+    "text": "[stats] from [tileFilter] tiles [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0010",
+    "name": "StatsFromTilesWithout",
+    "text": "[stats] from [tileFilter] tiles without [tileFilter] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0011",
+    "name": "StatsFromObject",
+    "text": "[stats] from every [tileFilter/specialist/buildingFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0012",
+    "name": "StatsFromTradeRoute",
+    "text": "[stats] from each Trade Route",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0013",
+    "name": "StatsFromGlobalCitiesFollowingReligion",
+    "text": "[stats] for each global city following this religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0014",
+    "name": "StatsFromGlobalFollowers",
+    "text": "[stats] from every [positiveAmount] global followers [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0015",
+    "name": "StatPercentBonus",
+    "text": "[relativeAmount]% [stat]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0016",
+    "name": "StatPercentBonusCities",
+    "text": "[relativeAmount]% [stat] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0017",
+    "name": "StatPercentFromObject",
+    "text": "[relativeAmount]% [stat] from every [tileFilter/buildingFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0018",
+    "name": "StatPercentFromObjectToResource",
+    "text": "[positiveAmount]% of [stat] from every [improvementFilter/buildingFilter] in the city added to [resource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0019",
+    "name": "AllStatsPercentFromObject",
+    "text": "[relativeAmount]% Yield from every [tileFilter/buildingFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0020",
+    "name": "StatPercentFromReligionFollowers",
+    "text": "[relativeAmount]% [stat] from every follower, up to [relativeAmount]%",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0021",
+    "name": "BonusStatsFromCityStates",
+    "text": "[relativeAmount]% [stat] from City-States",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0022",
+    "name": "StatPercentFromTradeRoutes",
+    "text": "[relativeAmount]% [stat] from Trade Routes",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0023",
+    "name": "NullifiesStat",
+    "text": "Nullifies [stat] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0024",
+    "name": "NullifiesGrowth",
+    "text": "Nullifies Growth [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0025",
+    "name": "PercentProductionBuildings",
+    "text": "[relativeAmount]% Production when constructing [buildingFilter] buildings [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0026",
+    "name": "PercentProductionUnits",
+    "text": "[relativeAmount]% Production when constructing [baseUnitFilter] units [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0027",
+    "name": "PercentProductionWonders",
+    "text": "[relativeAmount]% Production when constructing [buildingFilter] wonders [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0028",
+    "name": "PercentProductionBuildingsInCapital",
+    "text": "[relativeAmount]% Production towards any buildings that already exist in the Capital",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0029",
+    "name": "PercentYieldFromPillaging",
+    "text": "[relativeAmount]% Yield from pillaging tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0030",
+    "name": "PercentHealthFromPillaging",
+    "text": "[relativeAmount]% Health from pillaging tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0031",
+    "name": "CityStateMilitaryUnits",
+    "text": "Provides military units every ≈[positiveAmount] turns",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0032",
+    "name": "CityStateUniqueLuxury",
+    "text": "Provides a unique luxury",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0033",
+    "name": "CityStateGiftedUnitsStartWithXp",
+    "text": "Military Units gifted from City-States start with [positiveAmount] XP",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0034",
+    "name": "CityStateMoreGiftedUnits",
+    "text": "Militaristic City-States grant units [positiveAmount] times as fast when you are at war with a common nation",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0035",
+    "name": "CityStateGoldGiftsProvideMoreInfluence",
+    "text": "Gifts of Gold to City-States generate [relativeAmount]% more Influence",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0036",
+    "name": "CityStateCanBeBoughtForGold",
+    "text": "Can spend Gold to annex or puppet a City-State that has been your Ally for [nonNegativeAmount] turns",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0037",
+    "name": "CityStateTerritoryAlwaysFriendly",
+    "text": "City-State territory always counts as friendly territory",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0038",
+    "name": "CityStateCanGiftGreatPeople",
+    "text": "Allied City-States will occasionally gift Great People",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0039",
+    "name": "CityStateInfluenceDegradation",
+    "text": "[relativeAmount]% City-State Influence degradation",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0040",
+    "name": "CityStateRestingPoint",
+    "text": "Resting point for Influence with City-States is increased by [amount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0041",
+    "name": "CityStateStatPercent",
+    "text": "Allied City-States provide [stat] equal to [relativeAmount]% of what they produce for themselves",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0042",
+    "name": "CityStateResources",
+    "text": "[relativeAmount]% resources gifted by City-States",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0043",
+    "name": "CityStateLuxuryHappiness",
+    "text": "[relativeAmount]% Happiness from luxury resources gifted by City-States",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0044",
+    "name": "CityStateInfluenceRecoversTwiceNormalRate",
+    "text": "City-State Influence recovers at twice the normal rate",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0045",
+    "name": "GrowthPercentBonus",
+    "text": "[relativeAmount]% growth [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0046",
+    "name": "CarryOverFood",
+    "text": "[amount]% Food is carried over after population increases [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0047",
+    "name": "FoodConsumptionByPopulation",
+    "text": "[relativeAmount]% Food consumption by [populationFilter] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0048",
+    "name": "FoodConsumptionBySpecialists",
+    "text": "[relativeAmount]% Food consumption by specialists [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0049",
+    "name": "UnhappinessFromCitiesPercentage",
+    "text": "[relativeAmount]% unhappiness from the number of cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0050",
+    "name": "UnhappinessFromPopulationTypePercentageChange",
+    "text": "[relativeAmount]% Unhappiness from [populationFilter] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0051",
+    "name": "BonusHappinessFromLuxury",
+    "text": "[amount] Happiness from each type of luxury resource",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0052",
+    "name": "RetainHappinessFromLuxury",
+    "text": "Retain [relativeAmount]% of the happiness from a luxury after the last copy has been traded away",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0053",
+    "name": "ExcessHappinessToGlobalStat",
+    "text": "[relativeAmount]% of excess happiness converted to [stat]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0054",
+    "name": "CannotBuildUnits",
+    "text": "Cannot build [baseUnitFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0055",
+    "name": "EnablesConstructionOfSpaceshipParts",
+    "text": "Enables construction of Spaceship parts",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0056",
+    "name": "BuyUnitsIncreasingCost",
+    "text": "May buy [baseUnitFilter] units for [nonNegativeAmount] [stat] [cityFilter] at an increasing price ([amount])",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0057",
+    "name": "BuyBuildingsIncreasingCost",
+    "text": "May buy [buildingFilter] buildings for [nonNegativeAmount] [stat] [cityFilter] at an increasing price ([amount])",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0058",
+    "name": "BuyUnitsForAmountStat",
+    "text": "May buy [baseUnitFilter] units for [nonNegativeAmount] [stat] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0059",
+    "name": "BuyBuildingsForAmountStat",
+    "text": "May buy [buildingFilter] buildings for [nonNegativeAmount] [stat] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0060",
+    "name": "BuyUnitsWithStat",
+    "text": "May buy [baseUnitFilter] units with [stat] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0061",
+    "name": "BuyBuildingsWithStat",
+    "text": "May buy [buildingFilter] buildings with [stat] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0062",
+    "name": "BuyUnitsByProductionCost",
+    "text": "May buy [baseUnitFilter] units with [stat] for [nonNegativeAmount] times their normal Production cost",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0063",
+    "name": "BuyBuildingsByProductionCost",
+    "text": "May buy [buildingFilter] buildings with [stat] for [nonNegativeAmount] times their normal Production cost",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0064",
+    "name": "BuyItemsDiscount",
+    "text": "[stat] cost of purchasing items in cities [relativeAmount]%",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0065",
+    "name": "BuyBuildingsDiscount",
+    "text": "[stat] cost of purchasing [buildingFilter] buildings [relativeAmount]%",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0066",
+    "name": "BuyUnitsDiscount",
+    "text": "[stat] cost of purchasing [baseUnitFilter] units [relativeAmount]%",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0067",
+    "name": "EnablesStatProduction",
+    "text": "Enables conversion of city production to [stat]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0068",
+    "name": "ProductionToStatConversionBonus",
+    "text": "Production to [stat] conversion in cities changed by [relativeAmount]%",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0069",
+    "name": "RoadMovementSpeed",
+    "text": "Improves movement speed on roads",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0070",
+    "name": "RoadsConnectAcrossRivers",
+    "text": "Roads connect tiles across rivers",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0071",
+    "name": "RoadMaintenance",
+    "text": "[relativeAmount]% maintenance on road & railroads",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0072",
+    "name": "NoImprovementMaintenanceInSpecificTiles",
+    "text": "No Maintenance costs for improvements in [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0073",
+    "name": "SpecificImprovementTime",
+    "text": "[relativeAmount]% construction time for [improvementFilter] improvements",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0074",
+    "name": "ImprovementTimeIncrease",
+    "text": "Can build [improvementFilter] improvements at a [relativeAmount]% rate",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0075",
+    "name": "GainFreeBuildings",
+    "text": "Gain a free [buildingName] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0076",
+    "name": "BuildingMaintenance",
+    "text": "[relativeAmount]% maintenance cost for [buildingFilter] buildings [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0077",
+    "name": "RemoveBuilding",
+    "text": "Remove [buildingFilter] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0078",
+    "name": "OneTimeSellBuilding",
+    "text": "Sell [buildingFilter] buildings [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0079",
+    "name": "BorderGrowthPercentage",
+    "text": "[relativeAmount]% Culture cost of natural border growth [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0080",
+    "name": "TileCostPercentage",
+    "text": "[relativeAmount]% Gold cost of acquiring tiles [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0081",
+    "name": "LessPolicyCostFromCities",
+    "text": "Each city founded increases culture cost of policies [relativeAmount]% less than normal",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0082",
+    "name": "LessPolicyCost",
+    "text": "[relativeAmount]% Culture cost of adopting new Policies",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0083",
+    "name": "LessTechCostFromCities",
+    "text": "Each city founded increases Science cost of Technologies [relativeAmount]% less than normal",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0084",
+    "name": "LessTechCost",
+    "text": "[relativeAmount]% Science cost of researching new Technologies",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0085",
+    "name": "StatsFromNaturalWonders",
+    "text": "[stats] for every known Natural Wonder",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0086",
+    "name": "StatBonusWhenDiscoveringNaturalWonder",
+    "text": "[stats] for discovering a Natural Wonder (bonus enhanced to [stats] if first to discover it)",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0087",
+    "name": "GreatPersonPointPercentage",
+    "text": "[relativeAmount]% Great Person generation [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0088",
+    "name": "PercentGoldFromTradeMissions",
+    "text": "[relativeAmount]% Gold from Great Merchant trade missions",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0089",
+    "name": "GreatGeneralProvidesDoubleCombatBonus",
+    "text": "Great General provides double combat bonus",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0090",
+    "name": "MayanGainGreatPerson",
+    "text": "Receive a free Great Person at the end of every [comment] (every 394 years), after researching [tech]. Each bonus person can only be chosen once.",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0091",
+    "name": "MayanCalendarDisplay",
+    "text": "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0092",
+    "name": "BaseUnitSupply",
+    "text": "[amount] Unit Supply",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0093",
+    "name": "UnitSupplyPerPop",
+    "text": "[amount] Unit Supply per [positiveAmount] population [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0094",
+    "name": "UnitSupplyPerCity",
+    "text": "[amount] Unit Supply per city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0095",
+    "name": "FreeUnits",
+    "text": "[amount] units cost no maintenance",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0096",
+    "name": "UnitsInCitiesNoMaintenance",
+    "text": "Units in cities cost no Maintenance",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0097",
+    "name": "LandUnitEmbarkation",
+    "text": "Enables embarkation for land units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0098",
+    "name": "UnitsMayEnterOcean",
+    "text": "Enables [mapUnitFilter] units to enter ocean tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0099",
+    "name": "LandUnitsCrossTerrainAfterUnitGained",
+    "text": "Land units may cross [terrainName] tiles after the first [baseUnitFilter] is earned",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0100",
+    "name": "EnemyUnitsSpendExtraMovement",
+    "text": "Enemy [mapUnitFilter] units must spend [positiveAmount] extra movement points when inside your territory",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0101",
+    "name": "UnitStartingExperience",
+    "text": "New [baseUnitFilter] units start with [amount] XP [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0102",
+    "name": "UnitStartingPromotions",
+    "text": "All newly-trained [baseUnitFilter] units [cityFilter] receive the [promotion] promotion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0103",
+    "name": "CityHealingUnits",
+    "text": "[mapUnitFilter] Units adjacent to this city heal [amount] HP per turn when healing",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0104",
+    "name": "XPForPromotionModifier",
+    "text": "[relativeAmount]% XP required for promotions",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0105",
+    "name": "BetterDefensiveBuildings",
+    "text": "[relativeAmount]% City Strength from defensive buildings",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0106",
+    "name": "StrengthForCities",
+    "text": "[relativeAmount]% Strength for cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0107",
+    "name": "ConsumesResources",
+    "text": "Consumes [amount] [resource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0108",
+    "name": "ProvidesResources",
+    "text": "Provides [amount] [resource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0109",
+    "name": "CostsResources",
+    "text": "Costs [amount] [stockpiledResource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0110",
+    "name": "PercentResourceProduction",
+    "text": "[relativeAmount]% [resourceFilter] resource production",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0111",
+    "name": "EnablesEmbassies",
+    "text": "Enables establishment of embassies",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0112",
+    "name": "RequiresEmbassiesForDiplomacy",
+    "text": "Requires establishing embassies to conduct advanced diplomacy",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0113",
+    "name": "EnablesOpenBorders",
+    "text": "Enables Open Borders agreements",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0114",
+    "name": "EnablesResearchAgreements",
+    "text": "Enables Research agreements",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0115",
+    "name": "ScienceFromResearchAgreements",
+    "text": "Science gained from research agreements [relativeAmount]%",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0116",
+    "name": "EnablesDefensivePacts",
+    "text": "Enables Defensive Pacts",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0117",
+    "name": "GreatPersonBoostWithFriendship",
+    "text": "When declaring friendship, both parties gain a [relativeAmount]% boost to great person generation",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0118",
+    "name": "OtherCivsCityStateRelationsDegradeFaster",
+    "text": "Influence of all other civilizations with all city-states degrades [relativeAmount]% faster",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0119",
+    "name": "GainInfluenceWithUnitGiftToCityState",
+    "text": "Gain [amount] Influence with a [baseUnitFilter] gift to a City-State",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0120",
+    "name": "RestingPointOfCityStatesFollowingReligionChange",
+    "text": "Resting point for Influence with City-States following this religion [amount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0121",
+    "name": "NotifiedOfBarbarianEncampments",
+    "text": "Notified of new Barbarian encampments",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0122",
+    "name": "GoldFromEncampmentsAndCities",
+    "text": "Receive [relativeAmount]% Gold from Barbarian encampments and pillaging Cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0123",
+    "name": "GainFromEncampment",
+    "text": "When conquering an encampment, earn [amount] Gold and recruit a Barbarian unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0124",
+    "name": "GainFromDefeatingUnit",
+    "text": "When defeating a [mapUnitFilter] unit, earn [amount] Gold and recruit it",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0125",
+    "name": "DisablesReligion",
+    "text": "Starting in this era disables religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0126",
+    "name": "FreeExtraBeliefs",
+    "text": "May choose [amount] additional [beliefType] beliefs when [foundingOrEnhancing] a religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0127",
+    "name": "FreeExtraAnyBeliefs",
+    "text": "May choose [amount] additional belief(s) of any type when [foundingOrEnhancing] a religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0128",
+    "name": "StatsWhenAdoptingReligion",
+    "text": "[stats] when a city adopts this religion for the first time",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0129",
+    "name": "NaturalReligionSpreadStrength",
+    "text": "[relativeAmount]% Natural religion spread [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0130",
+    "name": "ReligionSpreadDistance",
+    "text": "Religion naturally spreads to cities [amount] tiles away",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0131",
+    "name": "MayNotGenerateGreatProphet",
+    "text": "May not generate great prophet equivalents naturally",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0132",
+    "name": "FaithCostOfGreatProphetChange",
+    "text": "[relativeAmount]% Faith cost of generating Great Prophet equivalents",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0133",
+    "name": "SpyEffectiveness",
+    "text": "[relativeAmount]% spy effectiveness [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0134",
+    "name": "EnemySpyEffectiveness",
+    "text": "[relativeAmount]% enemy spy effectiveness [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0135",
+    "name": "SpyStartingLevel",
+    "text": "New spies start with [amount] level(s)",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0136",
+    "name": "CounterIntelligenceSpyRankBonus",
+    "text": "Spies in [cityFilter] cities act as though they have [relativeAmount] levels for [spyAction]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0137",
+    "name": "StartingTech",
+    "text": "Starting tech",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0138",
+    "name": "StartsWithTech",
+    "text": "Starts with [tech]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0139",
+    "name": "StartsWithPolicy",
+    "text": "Starts with [policy] adopted",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0140",
+    "name": "StartBias",
+    "text": "Start bias [terrainFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0141",
+    "name": "TriggersVictory",
+    "text": "Triggers victory",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0142",
+    "name": "TriggersCulturalVictory",
+    "text": "Triggers a Cultural Victory upon completion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0143",
+    "name": "MayBuyConstructionsInPuppets",
+    "text": "May buy items in puppet cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0144",
+    "name": "MayNotAnnexCities",
+    "text": "May not annex cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0145",
+    "name": "BorrowsCityNames",
+    "text": "\\",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0146",
+    "name": "CitiesAreRazedXTimesFaster",
+    "text": "Cities are razed [amount] times as fast",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0147",
+    "name": "TechBoostWhenScientificBuildingsBuiltInCapital",
+    "text": "Receive a tech boost when scientific buildings/wonders are built in capital",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0148",
+    "name": "ResearchableMultipleTimes",
+    "text": "Can be continually researched",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0149",
+    "name": "GoldenAgeLength",
+    "text": "[relativeAmount]% Golden Age length",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0150",
+    "name": "PopulationLossFromNukes",
+    "text": "Population loss from nuclear attacks [relativeAmount]% [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0151",
+    "name": "GarrisonDamageFromNukes",
+    "text": "Damage to garrison from nuclear attacks [relativeAmount]% [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0152",
+    "name": "SpawnRebels",
+    "text": "Rebel units may spawn",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0153",
+    "name": "Unbuildable",
+    "text": "Unbuildable",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0154",
+    "name": "CannotBePurchased",
+    "text": "Cannot be purchased",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0155",
+    "name": "CanBePurchasedWithStat",
+    "text": "Can be purchased with [stat] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0156",
+    "name": "CanBePurchasedForAmountStat",
+    "text": "Can be purchased for [amount] [stat] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0157",
+    "name": "MaxNumberBuildable",
+    "text": "Limited to [amount] per Civilization",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0158",
+    "name": "OnlyAvailable",
+    "text": "Only available",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0159",
+    "name": "Unavailable",
+    "text": "Unavailable",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0160",
+    "name": "CannotBuildBuildings",
+    "text": "Cannot build [buildingFilter] buildings",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0161",
+    "name": "ConvertFoodToProductionWhenConstructed",
+    "text": "Excess Food converted to Production when under construction",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0162",
+    "name": "RequiresPopulation",
+    "text": "Requires at least [amount] population",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0163",
+    "name": "TriggersAlertOnStart",
+    "text": "Triggers a global alert upon build start",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0164",
+    "name": "TriggersAlertOnCompletion",
+    "text": "Triggers a global alert upon completion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0165",
+    "name": "CostIncreasesPerCity",
+    "text": "Cost increases by [amount] per owned city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0166",
+    "name": "CostIncreasesWhenBuilt",
+    "text": "Cost increases by [amount] when built",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0167",
+    "name": "CostPercentageChange",
+    "text": "[amount]% production cost",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0168",
+    "name": "CanOnlyBeBuiltWhen",
+    "text": "Can only be built",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0169",
+    "name": "MustHaveOwnedWithinTiles",
+    "text": "Must have an owned [tileFilter] within [amount] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0170",
+    "name": "EnablesNuclearWeapons",
+    "text": "Enables nuclear weapon",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0171",
+    "name": "MustBeOn",
+    "text": "Must be on [tileFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0172",
+    "name": "MustNotBeOn",
+    "text": "Must not be on [tileFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0173",
+    "name": "MustBeNextTo",
+    "text": "Must be next to [tileFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0174",
+    "name": "MustNotBeNextTo",
+    "text": "Must not be next to [tileFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0175",
+    "name": "Unsellable",
+    "text": "Unsellable",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0176",
+    "name": "ObsoleteWith",
+    "text": "Obsolete with [tech]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0177",
+    "name": "IndicatesCapital",
+    "text": "Indicates the capital city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0178",
+    "name": "MovesToNewCapital",
+    "text": "Moves to new capital when capital changes",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0179",
+    "name": "ProvidesExtraLuxuryFromCityResources",
+    "text": "Provides 1 extra copy of each improved luxury resource near this City",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0180",
+    "name": "DestroyedWhenCityCaptured",
+    "text": "Destroyed when the city is captured",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0181",
+    "name": "NotDestroyedWhenCityCaptured",
+    "text": "Never destroyed when the city is captured",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0182",
+    "name": "GoldFromCapturingCity",
+    "text": "[relativeAmount]% Gold given to enemy if city is captured",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0183",
+    "name": "RemovesAnnexUnhappiness",
+    "text": "Removes extra unhappiness from annexed cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0184",
+    "name": "ConnectTradeRoutes",
+    "text": "Connects trade routes over water",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0185",
+    "name": "GainBuildingWhereBuildable",
+    "text": "Automatically built in all cities where it is buildable",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0186",
+    "name": "CreatesOneImprovement",
+    "text": "Creates a [improvementName] improvement on a specific tile",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0187",
+    "name": "FoundCity",
+    "text": "Founds a new city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0188",
+    "name": "FoundPuppetCity",
+    "text": "Founds a new puppet city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0189",
+    "name": "ConstructImprovementInstantly",
+    "text": "Can instantly construct a [improvementFilter] improvement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0190",
+    "name": "CreateWaterImprovements",
+    "text": "May create improvements on water resources",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0191",
+    "name": "BuildImprovements",
+    "text": "Can build [improvementFilter/terrainFilter] improvements on tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0192",
+    "name": "CanSpreadReligion",
+    "text": "Can Spread Religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0193",
+    "name": "CanRemoveHeresy",
+    "text": "Can remove other religions from cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0194",
+    "name": "MayFoundReligion",
+    "text": "May found a religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0195",
+    "name": "MayEnhanceReligion",
+    "text": "May enhance a religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0196",
+    "name": "AddInCapital",
+    "text": "Can be added to [comment] in the Capital",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0197",
+    "name": "PreventSpreadingReligion",
+    "text": "Prevents spreading of religion to the city it is next to",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0198",
+    "name": "RemoveOtherReligions",
+    "text": "Removes other religions when spreading religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0199",
+    "name": "MayParadrop",
+    "text": "May Paradrop to [tileFilter] tiles up to [positiveAmount] tiles away",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0200",
+    "name": "CanAirsweep",
+    "text": "Can perform Air Sweep",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0201",
+    "name": "CanSpeedupConstruction",
+    "text": "Can speed up construction of a building",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0202",
+    "name": "CanSpeedupWonderConstruction",
+    "text": "Can speed up the construction of a wonder",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0203",
+    "name": "CanHurryResearch",
+    "text": "Can hurry technology research",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0204",
+    "name": "CanHurryPolicy",
+    "text": "Can generate a large amount of culture",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0205",
+    "name": "CanTradeWithCityStateForGoldAndInfluence",
+    "text": "Can undertake a trade mission with City-State, giving a large sum of gold and [amount] Influence",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0206",
+    "name": "CanTransform",
+    "text": "Can transform to [unit]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0207",
+    "name": "AutomationPrimaryAction",
+    "text": "Automation is a primary action",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0208",
+    "name": "Strength",
+    "text": "[relativeAmount]% Strength",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0209",
+    "name": "StrengthAmount",
+    "text": "[relativeAmount] Strength",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0210",
+    "name": "StrengthNearCapital",
+    "text": "[relativeAmount]% Strength decreasing with distance from the capital",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0211",
+    "name": "FlankAttackBonus",
+    "text": "[relativeAmount]% to Flank Attack bonuses",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0212",
+    "name": "StrengthForAdjacentEnemies",
+    "text": "[relativeAmount]% Strength for enemy [mapUnitFilter] units in adjacent [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0213",
+    "name": "StrengthBonusInRadius",
+    "text": "[relativeAmount]% Strength bonus for [mapUnitFilter] units within [amount] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0214",
+    "name": "AdditionalAttacks",
+    "text": "[amount] additional attacks per turn",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0215",
+    "name": "Movement",
+    "text": "[amount] Movement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0216",
+    "name": "Sight",
+    "text": "[amount] Sight",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0217",
+    "name": "Range",
+    "text": "[amount] Range",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0218",
+    "name": "AirInterceptionRange",
+    "text": "[relativeAmount] Air Interception Range",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0219",
+    "name": "Heal",
+    "text": "[amount] HP when healing",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0220",
+    "name": "ExtraRangedAttack",
+    "text": "Before engaging in combat performs an extra ranged attack with [amount]% of melee combat strength",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0221",
+    "name": "SpreadReligionStrength",
+    "text": "[relativeAmount]% Spread Religion Strength",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0222",
+    "name": "StatsWhenSpreading",
+    "text": "When spreading religion to a city, gain [amount] times the amount of followers of other religions as [stat]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0223",
+    "name": "CanOnlyAttackUnits",
+    "text": "Can only attack [combatantFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0224",
+    "name": "CanOnlyAttackTiles",
+    "text": "Can only attack [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0225",
+    "name": "CannotAttack",
+    "text": "Cannot attack",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0226",
+    "name": "MustSetUp",
+    "text": "Must set up to ranged attack",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0227",
+    "name": "SelfDestructs",
+    "text": "Self-destructs when attacking",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0228",
+    "name": "AttackAcrossCoast",
+    "text": "Eliminates combat penalty for attacking across a coast",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0229",
+    "name": "AttackOnSea",
+    "text": "May attack when embarked",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0230",
+    "name": "AttackAcrossRiver",
+    "text": "Eliminates combat penalty for attacking over a river",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0231",
+    "name": "BlastRadius",
+    "text": "Blast radius [amount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0232",
+    "name": "IndirectFire",
+    "text": "Ranged attacks may be performed over obstacles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0233",
+    "name": "NuclearWeapon",
+    "text": "Nuclear weapon of Strength [amount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0234",
+    "name": "NoDefensiveTerrainBonus",
+    "text": "No defensive terrain bonus",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0235",
+    "name": "NoDefensiveTerrainPenalty",
+    "text": "No defensive terrain penalty",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0236",
+    "name": "NoDamagePenaltyWoundedUnits",
+    "text": "No damage penalty for wounded units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0237",
+    "name": "Uncapturable",
+    "text": "Uncapturable",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0238",
+    "name": "WithdrawsBeforeMeleeCombat",
+    "text": "Withdraws before melee combat",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0239",
+    "name": "CannotCaptureCities",
+    "text": "Unable to capture cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0240",
+    "name": "CannotPillage",
+    "text": "Unable to pillage tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0241",
+    "name": "CanDestroyCities",
+    "text": "Destroys [cityFilter] cities instead of capturing",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0242",
+    "name": "NoMovementToPillage",
+    "text": "No movement cost to pillage",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0243",
+    "name": "CanMoveAfterAttacking",
+    "text": "Can move after attacking",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0244",
+    "name": "TransferMovement",
+    "text": "Transfer Movement to [mapUnitFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0245",
+    "name": "CanMoveImmediatelyOnceBought",
+    "text": "Can move immediately once bought",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0246",
+    "name": "HealsOutsideFriendlyTerritory",
+    "text": "May heal outside of friendly territory",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0247",
+    "name": "HealingEffectsDoubled",
+    "text": "All healing effects doubled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0248",
+    "name": "HealsAfterKilling",
+    "text": "Heals [amount] damage if it kills a unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0249",
+    "name": "HealOnlyByPillaging",
+    "text": "Can only heal by pillaging",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0250",
+    "name": "HealsEvenAfterAction",
+    "text": "Unit will heal every turn, even if it performs an action",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0251",
+    "name": "HealAdjacentUnits",
+    "text": "All adjacent units heal [amount] HP when healing",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0252",
+    "name": "NoSight",
+    "text": "No Sight",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0253",
+    "name": "CanSeeOverObstacles",
+    "text": "Can see over obstacles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0254",
+    "name": "CarryAirUnits",
+    "text": "Can carry [amount] [mapUnitFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0255",
+    "name": "CarryExtraAirUnits",
+    "text": "Can carry [amount] extra [mapUnitFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0256",
+    "name": "CannotBeCarriedBy",
+    "text": "Cannot be carried by [mapUnitFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0257",
+    "name": "ChanceInterceptAirAttacks",
+    "text": "[relativeAmount]% chance to intercept air attacks",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0258",
+    "name": "DamageFromInterceptionReduced",
+    "text": "Damage taken from interception reduced by [relativeAmount]%",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0259",
+    "name": "DamageWhenIntercepting",
+    "text": "[relativeAmount]% Damage when intercepting",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0260",
+    "name": "ExtraInterceptionsPerTurn",
+    "text": "[amount] extra interceptions may be made per turn",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0261",
+    "name": "CannotBeIntercepted",
+    "text": "Cannot be intercepted",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0262",
+    "name": "CannotInterceptUnits",
+    "text": "Cannot intercept [mapUnitFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0263",
+    "name": "StrengthWhenAirsweep",
+    "text": "[relativeAmount]% Strength when performing Air Sweep",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0264",
+    "name": "UnitMaintenanceDiscount",
+    "text": "[relativeAmount]% maintenance costs",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0265",
+    "name": "UnitUpgradeCost",
+    "text": "[relativeAmount]% Gold cost of upgrading",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0266",
+    "name": "DamageUnitsPlunder",
+    "text": "Earn [amount]% of the damage done to [combatantFilter] units as [stockpile]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0267",
+    "name": "CaptureCityPlunder",
+    "text": "Upon capturing a city, receive [amount] times its [stat] production as [stockpile] immediately",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0268",
+    "name": "KillUnitPlunder",
+    "text": "Earn [amount]% of killed [mapUnitFilter] unit's [costOrStrength] as [stockpile]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0269",
+    "name": "KillUnitPlunderNearCity",
+    "text": "Earn [amount]% of [mapUnitFilter] unit's [costOrStrength] as [stockpile] when killed within 4 tiles of a city following this religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0270",
+    "name": "KillUnitCapture",
+    "text": "May capture killed [mapUnitFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0271",
+    "name": "FlatXPGain",
+    "text": "[amount] XP gained from combat",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0272",
+    "name": "PercentageXPGain",
+    "text": "[relativeAmount]% XP gained from combat",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0273",
+    "name": "GreatPersonFromCombat",
+    "text": "Can be earned through combat",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0274",
+    "name": "GreatPersonEarnedFaster",
+    "text": "[greatPerson] is earned [relativeAmount]% faster",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0275",
+    "name": "Invisible",
+    "text": "Invisible to others",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0276",
+    "name": "InvisibleToNonAdjacent",
+    "text": "Invisible to non-adjacent units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0277",
+    "name": "CanSeeInvisibleUnits",
+    "text": "Can see invisible [mapUnitFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0278",
+    "name": "RuinsUpgrade",
+    "text": "May upgrade to [unit] through ruins-like effects",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0279",
+    "name": "CanUpgrade",
+    "text": "Can upgrade to [unit]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0280",
+    "name": "DestroysImprovementUponAttack",
+    "text": "Destroys tile improvements when attacking",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0281",
+    "name": "CannotMove",
+    "text": "Cannot move",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0282",
+    "name": "DoubleMovementOnTerrain",
+    "text": "Double movement in [terrainFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0283",
+    "name": "AllTilesCost1Move",
+    "text": "All tiles cost 1 movement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0284",
+    "name": "CanMoveOnWater",
+    "text": "May travel on Water tiles without embarking",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0285",
+    "name": "CanPassImpassable",
+    "text": "Can pass through impassable tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0286",
+    "name": "IgnoresTerrainCost",
+    "text": "Ignores terrain cost",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0287",
+    "name": "IgnoresZOC",
+    "text": "Ignores Zone of Control",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0288",
+    "name": "RoughTerrainPenalty",
+    "text": "Rough terrain penalty",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0289",
+    "name": "CanEnterIceTiles",
+    "text": "Can enter ice tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0290",
+    "name": "CannotEmbark",
+    "text": "Cannot embark",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0291",
+    "name": "CannotEnterOcean",
+    "text": "Cannot enter ocean tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0292",
+    "name": "CanEnterForeignTiles",
+    "text": "May enter foreign tiles without open borders",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0293",
+    "name": "CanEnterForeignTilesButLosesReligiousStrength",
+    "text": "May enter foreign tiles without open borders, but loses [amount] religious strength each turn it ends there",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0294",
+    "name": "ReducedDisembarkCost",
+    "text": "[nonNegativeAmount] Movement point cost to disembark",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0295",
+    "name": "ReducedEmbarkCost",
+    "text": "[nonNegativeAmount] Movement point cost to embark",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0296",
+    "name": "ForestsAndJunglesAreRoads",
+    "text": "All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0297",
+    "name": "IgnoreHillMovementCost",
+    "text": "Units ignore terrain costs when moving into any tile with Hills",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0298",
+    "name": "CannotBeBarbarian",
+    "text": "Never appears as a Barbarian unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0299",
+    "name": "ReligiousUnit",
+    "text": "Religious Unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0300",
+    "name": "SpaceshipPart",
+    "text": "Spaceship part",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0301",
+    "name": "TakeReligionOverBirthCity",
+    "text": "Takes your religion over the one in their birth city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0302",
+    "name": "CannotBeHurried",
+    "text": "Cannot be hurried",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0303",
+    "name": "GreatPerson",
+    "text": "Great Person - [comment]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0304",
+    "name": "GPPointPool",
+    "text": "Is part of Great Person group [comment]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0305",
+    "name": "UnitActionConsumeUnit",
+    "text": "by consuming this unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0306",
+    "name": "UnitActionMovementCost",
+    "text": "for [amount] movement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0307",
+    "name": "UnitActionMovementCostAll",
+    "text": "for all movement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0308",
+    "name": "UnitActionMovementCostRequired",
+    "text": "requires [nonNegativeAmount] movement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0309",
+    "name": "UnitActionStatsCost",
+    "text": "costs [stats] stats",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0310",
+    "name": "UnitActionStockpileCost",
+    "text": "costs [amount] [stockpiledResource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0311",
+    "name": "UnitActionRemovingPromotion",
+    "text": "removing the [promotion] promotion/status",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0312",
+    "name": "UnitActionOnce",
+    "text": "once",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0313",
+    "name": "UnitActionLimitedTimes",
+    "text": "[positiveAmount] times",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0314",
+    "name": "UnitActionExtraLimitedTimes",
+    "text": "[nonNegativeAmount] additional time(s)",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0315",
+    "name": "UnitActionAfterWhichConsumed",
+    "text": "after which this unit is consumed",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0316",
+    "name": "NaturalWonderNeighborCount",
+    "text": "Must be adjacent to [amount] [simpleTerrain] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0317",
+    "name": "NaturalWonderNeighborsRange",
+    "text": "Must be adjacent to [amount] to [amount] [simpleTerrain] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0318",
+    "name": "NaturalWonderSmallerLandmass",
+    "text": "Must not be on [amount] largest landmasses",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0319",
+    "name": "NaturalWonderLargerLandmass",
+    "text": "Must be on [amount] largest landmasses",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0320",
+    "name": "NaturalWonderLatitude",
+    "text": "Occurs on latitudes from [amount] to [amount] percent of distance equator to pole",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0321",
+    "name": "NaturalWonderGroups",
+    "text": "Occurs in groups of [amount] to [amount] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0322",
+    "name": "NaturalWonderConvertNeighbors",
+    "text": "Neighboring tiles will convert to [baseTerrain/terrainFeature]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0323",
+    "name": "GrantsStatsToFirstToDiscover",
+    "text": "Grants [stats] to the first civilization to discover it",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0324",
+    "name": "DamagesContainingUnits",
+    "text": "Units ending their turn on this terrain take [amount] damage",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0325",
+    "name": "TerrainGrantsPromotion",
+    "text": "Grants [promotion] ([comment]) to adjacent [mapUnitFilter] units for the rest of the game",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0326",
+    "name": "GrantsCityStrength",
+    "text": "[amount] Strength for cities built on this terrain",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0327",
+    "name": "ProductionBonusWhenRemoved",
+    "text": "Provides a one-time bonus of [stats] to the closest city when cut down",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0328",
+    "name": "Vegetation",
+    "text": "Vegetation",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0329",
+    "name": "TileProvidesYieldWithoutPopulation",
+    "text": "Tile provides yield without assigned population",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0330",
+    "name": "NullifyYields",
+    "text": "Nullifies all other stats this tile provides",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0331",
+    "name": "RestrictedBuildableImprovements",
+    "text": "Only [improvementFilter] improvements may be built on this tile",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0332",
+    "name": "BlocksLineOfSightAtSameElevation",
+    "text": "Blocks line-of-sight from tiles at same elevation",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0333",
+    "name": "VisibilityElevation",
+    "text": "Has an elevation of [amount] for visibility calculations",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0334",
+    "name": "OverrideFertility",
+    "text": "Always Fertility [amount] for Map Generation",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0335",
+    "name": "AddFertility",
+    "text": "[amount] to Fertility for Map Generation",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0336",
+    "name": "RegionRequirePercentSingleType",
+    "text": "A Region is formed with at least [amount]% [simpleTerrain] tiles, with priority [amount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0337",
+    "name": "RegionRequirePercentTwoTypes",
+    "text": "A Region is formed with at least [amount]% [simpleTerrain] tiles and [simpleTerrain] tiles, with priority [amount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0338",
+    "name": "RegionRequireFirstLessThanSecond",
+    "text": "A Region can not contain more [simpleTerrain] tiles than [simpleTerrain] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0339",
+    "name": "IgnoreBaseTerrainForRegion",
+    "text": "Base Terrain on this tile is not counted for Region determination",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0340",
+    "name": "RegionExtraResource",
+    "text": "Starts in regions of this type receive an extra [resource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0341",
+    "name": "BlocksResources",
+    "text": "Never receives any resources",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0342",
+    "name": "ChangesTerrain",
+    "text": "Becomes [terrainName] when adjacent to [terrainFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0343",
+    "name": "HasQuality",
+    "text": "Considered [terrainQuality] when determining start locations",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0344",
+    "name": "NoNaturalGeneration",
+    "text": "Doesn't generate naturally",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0345",
+    "name": "TileGenerationConditions",
+    "text": "Occurs at temperature between [fraction] and [fraction] and humidity between [fraction] and [fraction]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0346",
+    "name": "OccursInChains",
+    "text": "Occurs in chains at high elevations",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0347",
+    "name": "OccursInGroups",
+    "text": "Occurs in groups around high elevations",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0348",
+    "name": "MajorStrategicFrequency",
+    "text": "Every [amount] tiles with this terrain will receive a major deposit of a strategic resource.",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0349",
+    "name": "RareFeature",
+    "text": "Rare feature",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0350",
+    "name": "DestroyableByNukesChance",
+    "text": "[amount]% Chance to be destroyed by nukes",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0351",
+    "name": "FreshWater",
+    "text": null,
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0352",
+    "name": "RoughTerrain",
+    "text": "Rough terrain",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0353",
+    "name": "CoastalWater",
+    "text": "Coastal Water",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0354",
+    "name": "ExcludedFromMapEditor",
+    "text": "Excluded from map editor",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0355",
+    "name": "ResourceAmountOnTiles",
+    "text": "Deposits in [tileFilter] tiles always provide [amount] resources",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0356",
+    "name": "CityStateOnlyResource",
+    "text": "Can only be created by Mercantile City-States",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0357",
+    "name": "Stockpiled",
+    "text": "Stockpiled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0358",
+    "name": "CityResource",
+    "text": "City-level resource",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0359",
+    "name": "CannotBeTraded",
+    "text": "Cannot be traded",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0360",
+    "name": "NotShownOnWorldScreen",
+    "text": "Not shown on world screen",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0361",
+    "name": "ResourceWeighting",
+    "text": "Generated with weight [amount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0362",
+    "name": "MinorDepositWeighting",
+    "text": "Minor deposits generated with weight [amount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0363",
+    "name": "LuxuryWeightingForCityStates",
+    "text": "Generated near City States with weight [amount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0364",
+    "name": "LuxurySpecialPlacement",
+    "text": "Special placement during map generation",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0365",
+    "name": "ResourceFrequency",
+    "text": "Generated on every [amount] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0366",
+    "name": "StrategicBalanceResource",
+    "text": "Guaranteed with Strategic Balance resource option",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0367",
+    "name": "AiWillSellAt",
+    "text": "AI will sell at [amount] Gold",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0368",
+    "name": "AiWillBuyAt",
+    "text": "AI will buy at [amount] Gold",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0369",
+    "name": "ImprovementBuildableByFreshWater",
+    "text": "Can also be built on tiles adjacent to fresh water",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0370",
+    "name": "ImprovementStatsOnTile",
+    "text": "[stats] from [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0371",
+    "name": "ImprovementStatsForAdjacencies",
+    "text": "[stats] for each adjacent [tileFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0372",
+    "name": "EnsureMinimumStats",
+    "text": "Ensures a minimum tile yield of [stats]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0373",
+    "name": "CanBuildOutsideBorders",
+    "text": "Can be built outside your borders",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0374",
+    "name": "CanBuildJustOutsideBorders",
+    "text": "Can be built just outside your borders",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0375",
+    "name": "CanOnlyBeBuiltOnTile",
+    "text": "Can only be built on [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0376",
+    "name": "CannotBuildOnTile",
+    "text": "Cannot be built on [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0377",
+    "name": "CanOnlyImproveResource",
+    "text": "Can only be built to improve a resource",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0378",
+    "name": "NoFeatureRemovalNeeded",
+    "text": "Does not need removal of [terrainFeature]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0379",
+    "name": "RemovesFeaturesIfBuilt",
+    "text": "Removes removable features when built",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0380",
+    "name": "DefensiveBonus",
+    "text": "Gives a defensive bonus of [relativeAmount]%",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0381",
+    "name": "ImprovementMaintenance",
+    "text": "Costs [amount] [stat] per turn when in your territory",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0382",
+    "name": "ImprovementAllMaintenance",
+    "text": "Costs [amount] [stat] per turn",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0383",
+    "name": "DamagesAdjacentEnemyUnits",
+    "text": "Adjacent enemy units ending their turn take [amount] damage",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0384",
+    "name": "GreatImprovement",
+    "text": "Great Improvement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0385",
+    "name": "IsAncientRuinsEquivalent",
+    "text": "Provides a random bonus when entered",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0386",
+    "name": "IsBarbarianCampEquivalent",
+    "text": "Marks a barbarian camp",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0387",
+    "name": "Unpillagable",
+    "text": "Unpillagable",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0388",
+    "name": "PillageYieldRandom",
+    "text": "Pillaging this improvement yields approximately [stats]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0389",
+    "name": "PillageYieldFixed",
+    "text": "Pillaging this improvement yields [stats]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0390",
+    "name": "DestroyedWhenPillaged",
+    "text": "Destroyed when pillaged",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0391",
+    "name": "Irremovable",
+    "text": "Irremovable",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0392",
+    "name": "AutomatedUnitsWillNotReplace",
+    "text": "Will not be replaced by automated units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0393",
+    "name": "ImprovesResources",
+    "text": "Improves [resourceFilter] resource in this tile",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0394",
+    "name": "WillNotBuild",
+    "text": "Will not build [baseUnitFilter/buildingFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0395",
+    "name": "PersonalityAiWeight",
+    "text": "[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0396",
+    "name": "ConditionalEveryTurns",
+    "text": "every [positiveAmount] turns",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0397",
+    "name": "ConditionalBeforeTurns",
+    "text": "before turn number [nonNegativeAmount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0398",
+    "name": "ConditionalAfterTurns",
+    "text": "after turn number [nonNegativeAmount]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0399",
+    "name": "ConditionalSpeed",
+    "text": "on [speed] game speed",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0400",
+    "name": "ConditionalDifficulty",
+    "text": "on [difficulty] difficulty",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0401",
+    "name": "ConditionalDifficultyOrHigher",
+    "text": "on [difficulty] difficulty or higher",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0402",
+    "name": "ConditionalDifficultyOrLower",
+    "text": "on [difficulty] difficulty or lower",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0403",
+    "name": "ConditionalVictoryEnabled",
+    "text": "when [victoryType] Victory is enabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0404",
+    "name": "ConditionalVictoryDisabled",
+    "text": "when [victoryType] Victory is disabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0405",
+    "name": "ConditionalReligionEnabled",
+    "text": "when religion is enabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0406",
+    "name": "ConditionalReligionDisabled",
+    "text": "when religion is disabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0407",
+    "name": "ConditionalEspionageEnabled",
+    "text": "when espionage is enabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0408",
+    "name": "ConditionalEspionageDisabled",
+    "text": "when espionage is disabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0409",
+    "name": "ConditionalNuclearWeaponsEnabled",
+    "text": "when nuclear weapons are enabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0410",
+    "name": "ConditionalNuclearWeaponsDisabled",
+    "text": "when nuclear weapons are disabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0411",
+    "name": "ConditionalChance",
+    "text": "with [nonNegativeAmount]% chance",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0412",
+    "name": "ConditionalTutorialsEnabled",
+    "text": "if tutorials are enabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0413",
+    "name": "ConditionalTutorialCompleted",
+    "text": "if tutorial [comment] is completed",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0414",
+    "name": "ConditionalCivFilter",
+    "text": "for [civFilter] Civilizations",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0415",
+    "name": "ConditionalWar",
+    "text": "when at war",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0416",
+    "name": "ConditionalNotWar",
+    "text": "when not at war",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0417",
+    "name": "ConditionalGoldenAge",
+    "text": "during a Golden Age",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0418",
+    "name": "ConditionalNotGoldenAge",
+    "text": "when not in a Golden Age",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0419",
+    "name": "ConditionalWLTKD",
+    "text": "during We Love The King Day",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0420",
+    "name": "ConditionalHappy",
+    "text": "while the empire is happy",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0421",
+    "name": "ConditionalDuringEra",
+    "text": "during the [era]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0422",
+    "name": "ConditionalBeforeEra",
+    "text": "before the [era]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0423",
+    "name": "ConditionalStartingFromEra",
+    "text": "starting from the [era]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0424",
+    "name": "ConditionalIfStartingInEra",
+    "text": "if starting in the [era]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0425",
+    "name": "ConditionalFirstCivToResearch",
+    "text": "if no other Civilization has researched this",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0426",
+    "name": "ConditionalTech",
+    "text": "after discovering [techFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0427",
+    "name": "ConditionalNoTech",
+    "text": "before discovering [techFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0428",
+    "name": "ConditionalWhileResearching",
+    "text": "while researching [techFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0429",
+    "name": "ConditionalFirstCivToAdopt",
+    "text": "if no other Civilization has adopted this",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0430",
+    "name": "ConditionalNoCivAdopted",
+    "text": "if no Civilization has adopted [policy/belief]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0431",
+    "name": "ConditionalAfterPolicyOrBelief",
+    "text": "after adopting [policy/belief]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0432",
+    "name": "ConditionalBeforePolicyOrBelief",
+    "text": "before adopting [policy/belief]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0433",
+    "name": "ConditionalBeforePantheon",
+    "text": "before founding a Pantheon",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0434",
+    "name": "ConditionalAfterPantheon",
+    "text": "after founding a Pantheon",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0435",
+    "name": "ConditionalBeforeReligion",
+    "text": "before founding a religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0436",
+    "name": "ConditionalAfterReligion",
+    "text": "after founding a religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0437",
+    "name": "ConditionalBeforeEnhancingReligion",
+    "text": "before enhancing a religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0438",
+    "name": "ConditionalAfterEnhancingReligion",
+    "text": "after enhancing a religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0439",
+    "name": "ConditionalAfterGeneratingGreatProphet",
+    "text": "after generating a Great Prophet",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0440",
+    "name": "ConditionalBuildingBuilt",
+    "text": "if [buildingFilter] is constructed",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0441",
+    "name": "ConditionalBuildingNotBuilt",
+    "text": "if [buildingFilter] is not constructed",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0442",
+    "name": "ConditionalBuildingBuiltAll",
+    "text": "if [buildingFilter] is constructed in all [cityFilter] cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0443",
+    "name": "ConditionalBuildingBuiltAmount",
+    "text": "if [buildingFilter] is constructed in at least [positiveAmount] of [cityFilter] cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0444",
+    "name": "ConditionalBuildingBuiltByAnybody",
+    "text": "if [buildingFilter] is constructed by anybody",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0445",
+    "name": "ConditionalBuildingNotBuiltByAnybody",
+    "text": "if [buildingFilter] is not constructed by anybody",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0446",
+    "name": "ConditionalWithResource",
+    "text": "with [resource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0447",
+    "name": "ConditionalWithoutResource",
+    "text": "without [resource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0448",
+    "name": "ConditionalWhenAboveAmountStatResource",
+    "text": "when above [amount] [stat/resource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0449",
+    "name": "ConditionalWhenBelowAmountStatResource",
+    "text": "when below [amount] [stat/resource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0450",
+    "name": "ConditionalWhenBetweenStatResource",
+    "text": "when between [amount] and [amount] [stat/resource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0451",
+    "name": "ConditionalInThisCity",
+    "text": "in this city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0452",
+    "name": "ConditionalCityFilter",
+    "text": "in [cityFilter] cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0453",
+    "name": "ConditionalCityConnected",
+    "text": "in cities connected to the capital",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0454",
+    "name": "ConditionalCityReligion",
+    "text": "in cities with a [religionFilter] religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0455",
+    "name": "ConditionalCityNotReligion",
+    "text": "in cities not following a [religionFilter] religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0456",
+    "name": "ConditionalCityMajorReligion",
+    "text": "in cities with a major religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0457",
+    "name": "ConditionalCityEnhancedReligion",
+    "text": "in cities with an enhanced religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0458",
+    "name": "ConditionalCityThisReligion",
+    "text": "in cities following our religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0459",
+    "name": "ConditionalCityWithBuilding",
+    "text": "in cities with a [buildingFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0460",
+    "name": "ConditionalCityWithoutBuilding",
+    "text": "in cities without a [buildingFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0461",
+    "name": "ConditionalPopulationFilter",
+    "text": "in cities with at least [positiveAmount] [populationFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0462",
+    "name": "ConditionalExactPopulationFilter",
+    "text": "in cities with [nonNegativeAmount] [populationFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0463",
+    "name": "ConditionalBetweenPopulationFilter",
+    "text": "in cities with between [amount] and [amount] [populationFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0464",
+    "name": "ConditionalBelowPopulationFilter",
+    "text": "in cities with less than [amount] [populationFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0465",
+    "name": "ConditionalWhenGarrisoned",
+    "text": "with a garrison",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0466",
+    "name": "ConditionalOurUnit",
+    "text": "for [mapUnitFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0467",
+    "name": "ConditionalOurUnitOnUnit",
+    "text": "when [mapUnitFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0468",
+    "name": "ConditionalUnitWithPromotion",
+    "text": "for units with [promotion]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0469",
+    "name": "ConditionalUnitWithoutPromotion",
+    "text": "for units without [promotion]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0470",
+    "name": "ConditionalVsCity",
+    "text": "vs cities",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0471",
+    "name": "ConditionalVsUnits",
+    "text": "vs [mapUnitFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0472",
+    "name": "ConditionalVsCombatant",
+    "text": "vs [combatantFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0473",
+    "name": "ConditionalVsLargerCiv",
+    "text": "when fighting units from a Civilization with more Cities than you",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0474",
+    "name": "ConditionalAttacking",
+    "text": "when attacking",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0475",
+    "name": "ConditionalDefending",
+    "text": "when defending",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0476",
+    "name": "ConditionalFightingInTiles",
+    "text": "when fighting in [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0477",
+    "name": "ConditionalForeignContinent",
+    "text": "on foreign continents",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0478",
+    "name": "ConditionalAdjacentUnit",
+    "text": "when adjacent to a [mapUnitFilter] unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0479",
+    "name": "ConditionalAboveHP",
+    "text": "when above [positiveAmount] HP",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0480",
+    "name": "ConditionalBelowHP",
+    "text": "when below [positiveAmount] HP",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0481",
+    "name": "ConditionalBelowMovement",
+    "text": "when below [positiveAmount] movement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0482",
+    "name": "ConditionalAboveMovement",
+    "text": "when above [nonNegativeAmount] movement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0483",
+    "name": "ConditionalHasNotUsedOtherActions",
+    "text": "if it hasn't used other actions yet",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0484",
+    "name": "ConditionalStackedWithUnit",
+    "text": "when stacked with a [mapUnitFilter] unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0485",
+    "name": "ConditionalNotStackedWithUnit",
+    "text": "when not stacked with a [mapUnitFilter] unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0486",
+    "name": "ConditionalNeighborTiles",
+    "text": "with [nonNegativeAmount] to [nonNegativeAmount] neighboring [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0487",
+    "name": "ConditionalInTiles",
+    "text": "in [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0488",
+    "name": "ConditionalInTilesNot",
+    "text": "in tiles without [tileFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0489",
+    "name": "ConditionalNearTiles",
+    "text": "within [positiveAmount] tiles of a [tileFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0490",
+    "name": "ConditionalAdjacentTo",
+    "text": "in tiles adjacent to [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0491",
+    "name": "ConditionalNotAdjacentTo",
+    "text": "in tiles not adjacent to [tileFilter] tiles",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0492",
+    "name": "ConditionalOnWaterMaps",
+    "text": "on water maps",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0493",
+    "name": "ConditionalInRegionOfType",
+    "text": "in [regionType] Regions",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0494",
+    "name": "ConditionalInRegionExceptOfType",
+    "text": "in all except [regionType] Regions",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0495",
+    "name": "ConditionalCountableEqualTo",
+    "text": "when number of [countable] is equal to [countable]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0496",
+    "name": "ConditionalCountableDifferentThan",
+    "text": "when number of [countable] is different than [countable]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0497",
+    "name": "ConditionalCountableMoreThan",
+    "text": "when number of [countable] is more than [countable]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0498",
+    "name": "ConditionalCountableLessThan",
+    "text": "when number of [countable] is less than [countable]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0499",
+    "name": "ConditionalCountableBetween",
+    "text": "when number of [countable] is between [countable] and [countable]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0500",
+    "name": "ConditionalWhenCarriedBy",
+    "text": "when carried by [mapUnitFilter] units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0501",
+    "name": "OneTimeFreeUnit",
+    "text": "Free [unit] appears",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0502",
+    "name": "OneTimeAmountFreeUnits",
+    "text": "[positiveAmount] free [unit] units appear",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0503",
+    "name": "OneTimeRebel",
+    "text": "A [unit] rebels",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0504",
+    "name": "OneTimeAmountRebels",
+    "text": "[positiveAmount] [unit]s rebel",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0505",
+    "name": "OneTimeFreeUnitRuins",
+    "text": "Free [unit] found in the ruins",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0506",
+    "name": "OneTimeFreePolicy",
+    "text": "Free Social Policy",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0507",
+    "name": "OneTimeAmountFreePolicies",
+    "text": "[positiveAmount] Free Social Policies",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0508",
+    "name": "OneTimeEnterGoldenAge",
+    "text": "Empire enters golden age",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0509",
+    "name": "OneTimeEnterGoldenAgeTurns",
+    "text": "Empire enters a [positiveAmount]-turn Golden Age",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0510",
+    "name": "OneTimeFreeGreatPerson",
+    "text": "Free Great Person",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0511",
+    "name": "OneTimeGainPopulation",
+    "text": "[amount] population [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0512",
+    "name": "OneTimeGainPopulationRandomCity",
+    "text": "[amount] population in a random city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0513",
+    "name": "OneTimeDiscoverTech",
+    "text": "Discover [tech]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0514",
+    "name": "OneTimeAdoptPolicyOrBelief",
+    "text": "Adopt [policy/belief]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0515",
+    "name": "OneTimeRemovePolicy",
+    "text": "Remove [policyFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0516",
+    "name": "OneTimeRemovePolicyRefund",
+    "text": "Remove [policyFilter] and refund [amount]% of its cost",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0517",
+    "name": "OneTimeFreeTech",
+    "text": "Free Technology",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0518",
+    "name": "OneTimeAmountFreeTechs",
+    "text": "[positiveAmount] Free Technologies",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0519",
+    "name": "OneTimeFreeTechRuins",
+    "text": "[positiveAmount] free random researchable Tech(s) from the [eraFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0520",
+    "name": "OneTimeRevealEntireMap",
+    "text": "Reveals the entire map",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0521",
+    "name": "OneTimeFreeBelief",
+    "text": "Gain a free [beliefType] belief",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0522",
+    "name": "OneTimeTriggerVoting",
+    "text": "Triggers voting for the Diplomatic Victory",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0523",
+    "name": "OneTimeConsumeResources",
+    "text": "Instantly consumes [positiveAmount] [stockpiledResource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0524",
+    "name": "OneTimeProvideResources",
+    "text": "Instantly provides [positiveAmount] [stockpiledResource]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0525",
+    "name": "OneTimeSetStockpile",
+    "text": "Set [stockpile] to [countable]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0526",
+    "name": "OneTimeGainResource",
+    "text": "Instantly gain [amount] [stockpile]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0527",
+    "name": "OneTimeGainStat",
+    "text": "Gain [amount] [civWideStat]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0528",
+    "name": "OneTimeGainStatRange",
+    "text": "Gain [amount]-[amount] [civWideStat]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0529",
+    "name": "OneTimeGainPantheon",
+    "text": "Gain enough Faith for a Pantheon",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0530",
+    "name": "OneTimeGainProphet",
+    "text": "Gain enough Faith for [positiveAmount]% of a Great Prophet",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0531",
+    "name": "OneTimeGainTechPercent",
+    "text": "Research [relativeAmount]% of [tech]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0532",
+    "name": "OneTimeTakeOverTilesInRadius",
+    "text": "Gain control over [tileFilter] tiles in a [nonNegativeAmount]-tile radius",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0533",
+    "name": "OneTimeTakeOverTilesInCity",
+    "text": "Gain control over [positiveAmount] tiles [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0534",
+    "name": "OneTimeRevealSpecificMapTiles",
+    "text": "Reveal up to [positiveAmount/'all'] [tileFilter] within a [positiveAmount] tile radius",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0535",
+    "name": "OneTimeRevealCrudeMap",
+    "text": "From a randomly chosen tile [positiveAmount] tiles away from the ruins, reveal tiles up to [positiveAmount] tiles away with [positiveAmount]% chance",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0536",
+    "name": "OneTimeGlobalAlert",
+    "text": "Triggers the following global alert: [comment]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0537",
+    "name": "OneTimeGlobalSpiesWhenEnteringEra",
+    "text": "Every major Civilization gains a spy once a civilization enters this era",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0538",
+    "name": "OneTimeSpiesLevelUp",
+    "text": "Promotes all spies [positiveAmount] time(s)",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0539",
+    "name": "OneTimeGainSpy",
+    "text": "Gain an extra spy",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0540",
+    "name": "SkipPromotion",
+    "text": "Doing so will consume this opportunity to choose a Promotion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0541",
+    "name": "FreePromotion",
+    "text": "This Promotion is free",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0542",
+    "name": "OneTimeChangeTerrain",
+    "text": "Turn this tile into a [terrainName] tile",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0543",
+    "name": "OneTimeAddResource",
+    "text": "Add [resource] to this tile",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0544",
+    "name": "OneTimeRemoveResourcesFromTile",
+    "text": "Remove [resourceFilter] resources from this tile",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0545",
+    "name": "OneTimeRemoveImprovementsFromTile",
+    "text": "Remove [improvementFilter] improvements from this tile",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0546",
+    "name": "UnitsGainPromotion",
+    "text": "[mapUnitFilter] units gain the [promotion] promotion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0547",
+    "name": "FreeStatBuildings",
+    "text": "Provides the cheapest [stat] building in your first [positiveAmount] cities for free",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0548",
+    "name": "FreeSpecificBuildings",
+    "text": "Provides a [buildingName] in your first [positiveAmount] cities for free",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0549",
+    "name": "TriggerEvent",
+    "text": "Triggers a [event] event",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0550",
+    "name": "MarkTutorialComplete",
+    "text": "Mark tutorial [comment] complete",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0551",
+    "name": "PlaySound",
+    "text": "Play [comment] sound",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0552",
+    "name": "GetLeaderTitle",
+    "text": "Get the leader title of [leaderTitle]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0553",
+    "name": "ChooseMusic",
+    "text": "Choose a music track for [param], [param], [param]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0554",
+    "name": "OneTimeUnitHeal",
+    "text": "[unitTriggerTarget] heals [positiveAmount] HP",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0555",
+    "name": "OneTimeUnitDamage",
+    "text": "[unitTriggerTarget] takes [positiveAmount] damage",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0556",
+    "name": "OneTimeUnitGainXP",
+    "text": "[unitTriggerTarget] gains [amount] XP",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0557",
+    "name": "OneTimeUnitUpgrade",
+    "text": "[unitTriggerTarget] upgrades for free",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0558",
+    "name": "OneTimeUnitSpecialUpgrade",
+    "text": "[unitTriggerTarget] upgrades for free including special upgrades",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0559",
+    "name": "OneTimeUnitGainPromotion",
+    "text": "[unitTriggerTarget] gains the [promotion] promotion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0560",
+    "name": "OneTimeUnitRemovePromotion",
+    "text": "[unitTriggerTarget] loses the [promotion] promotion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0561",
+    "name": "OneTimeUnitGainMovement",
+    "text": "[unitTriggerTarget] gains [positiveAmount] movement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0562",
+    "name": "OneTimeUnitLoseMovement",
+    "text": "[unitTriggerTarget] loses [positiveAmount] movement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0563",
+    "name": "OneTimeUnitGainStatus",
+    "text": "[unitTriggerTarget] gains the [promotion] status for [positiveAmount] turn(s)",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0564",
+    "name": "OneTimeUnitLoseStatus",
+    "text": "[unitTriggerTarget] loses the [promotion] status",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0565",
+    "name": "OneTimeUnitDestroyed",
+    "text": "[unitTriggerTarget] is destroyed",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0566",
+    "name": "OneTimeUnitGetsName",
+    "text": "[unitTriggerTarget] gets a name from the [unitNameGroup] group",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0567",
+    "name": "TriggerUponResearch",
+    "text": "upon discovering [techFilter] technology",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0568",
+    "name": "TriggerUponEnteringEra",
+    "text": "upon entering the [era]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0569",
+    "name": "TriggerUponEnteringEraUnfiltered",
+    "text": "upon entering a new era",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0570",
+    "name": "TriggerUponAdoptingPolicyOrBelief",
+    "text": "upon adopting [policy/belief]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0571",
+    "name": "TriggerUponDeclaringWarFiltered",
+    "text": "upon declaring war on [civFilter] Civilizations",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0572",
+    "name": "TriggerUponBeingDeclaredWarUpon",
+    "text": "upon being declared war on by [civFilter] Civilizations",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0573",
+    "name": "TriggerUponEnteringWar",
+    "text": "upon entering a war with [civFilter] Civilizations",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0574",
+    "name": "TriggerUponSigningPeace",
+    "text": "upon signing a peace treaty with [civFilter] Civilizations",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0575",
+    "name": "TriggerUponDeclaringFriendship",
+    "text": "upon declaring friendship",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0576",
+    "name": "TriggerUponSigningDefensivePact",
+    "text": "upon declaring a defensive pact",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0577",
+    "name": "TriggerUponEnteringGoldenAge",
+    "text": "upon entering a Golden Age",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0578",
+    "name": "TriggerUpponEndingGoldenAge",
+    "text": "upon ending a Golden Age",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0579",
+    "name": "TriggerUponConqueringCity",
+    "text": "upon conquering a city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0580",
+    "name": "TriggerUponLosingCity",
+    "text": "upon losing a city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0581",
+    "name": "TriggerUponFoundingCity",
+    "text": "upon founding a city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0582",
+    "name": "TriggerUponBuildingImprovement",
+    "text": "upon building a [improvementFilter] improvement",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0583",
+    "name": "TriggerUponDiscoveringNaturalWonder",
+    "text": "upon discovering a Natural Wonder",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0584",
+    "name": "TriggerUponConstructingBuilding",
+    "text": "upon constructing [buildingFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0585",
+    "name": "TriggerUponConstructingBuildingCityFilter",
+    "text": "upon constructing [buildingFilter] [cityFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0586",
+    "name": "TriggerUponGainingUnit",
+    "text": "upon gaining a [baseUnitFilter] unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0587",
+    "name": "TriggerUponLosingUnit",
+    "text": "upon losing a [mapUnitFilter] unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0588",
+    "name": "TriggerUponTurnEnd",
+    "text": "upon turn end",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0589",
+    "name": "TriggerUponTurnStart",
+    "text": "upon turn start",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0590",
+    "name": "TriggerUponFoundingPantheon",
+    "text": "upon founding a Pantheon",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0591",
+    "name": "TriggerUponFoundingReligion",
+    "text": "upon founding a Religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0592",
+    "name": "TriggerUponEnhancingReligion",
+    "text": "upon enhancing a Religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0593",
+    "name": "TriggerUponCombat",
+    "text": "upon entering combat",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0594",
+    "name": "TriggerUponDamagingUnit",
+    "text": "upon damaging a [mapUnitFilter] unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0595",
+    "name": "TriggerUponDefeatingUnit",
+    "text": "upon defeating a [mapUnitFilter] unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0596",
+    "name": "TriggerUponExpendingUnit",
+    "text": "upon expending a [mapUnitFilter] unit",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0597",
+    "name": "TriggerUponDefeat",
+    "text": "upon being defeated",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0598",
+    "name": "TriggerUponPromotion",
+    "text": "upon being promoted",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0599",
+    "name": "TriggerUponPromotionGain",
+    "text": "upon gaining the [promotion] promotion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0600",
+    "name": "TriggerUponPromotionLoss",
+    "text": "upon losing the [promotion] promotion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0601",
+    "name": "TriggerUponStatusGain",
+    "text": "upon gaining the [promotion] status",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0602",
+    "name": "TriggerUponStatusLoss",
+    "text": "upon losing the [promotion] status",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0603",
+    "name": "TriggerUponLosingHealth",
+    "text": "upon losing at least [positiveAmount] HP in a single attack",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0604",
+    "name": "TriggerUponEndingTurnInTile",
+    "text": "upon ending a turn in a [tileFilter] tile",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0605",
+    "name": "TriggerUponDiscoveringTile",
+    "text": "upon discovering a [tileFilter] tile",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0606",
+    "name": "TriggerUponEnteringTile",
+    "text": "upon entering a [tileFilter] tile",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0607",
+    "name": "ConditionalTimedUnique",
+    "text": "for [nonNegativeAmount] turns",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0608",
+    "name": "AiChoiceWeight",
+    "text": "[relativeAmount]% weight to this choice for AI decisions",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0609",
+    "name": "UnitActionPriority",
+    "text": "with [amount] priority",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0610",
+    "name": "HiddenFromCivilopedia",
+    "text": "Will not be displayed in Civilopedia",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0611",
+    "name": "ShowsWhenUnbuilable",
+    "text": "Shown while unbuilable",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0612",
+    "name": "ModifierHiddenFromUsers",
+    "text": "hidden from users",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0613",
+    "name": "WillNotBeChosenForNewGames",
+    "text": "Will not be chosen for new games",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0614",
+    "name": "ForEveryCountable",
+    "text": "for every [countable]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0615",
+    "name": "ForEveryAdjacentTile",
+    "text": "for every adjacent [tileFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0616",
+    "name": "ForEveryAmountCountable",
+    "text": "for every [positiveAmount] [countable]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0617",
+    "name": "ModifiedByGameSpeed",
+    "text": "(modified by game speed)",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0618",
+    "name": "ModifiedByGameProgress",
+    "text": "(modified by game progress up to [relativeAmount]%)",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0619",
+    "name": "Comment",
+    "text": "Comment [comment]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0620",
+    "name": "CivilopediaLink",
+    "text": "Civilopedia link [pediaLink]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0621",
+    "name": "DiplomaticRelationshipsCannotChange",
+    "text": "Diplomatic relationships cannot change",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0622",
+    "name": "ConvertGoldToScience",
+    "text": "Can convert gold to science with sliders",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0623",
+    "name": "AllowCityStatesSpawnUnits",
+    "text": "Allow City States to spawn with additional units",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0624",
+    "name": "TradeCivIntroductions",
+    "text": "Can trade civilization introductions for [positiveAmount] Gold",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0625",
+    "name": "DisableReligion",
+    "text": "Disable religion",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0626",
+    "name": "CanOnlyStartFromStartingEra",
+    "text": "Can only start games from the starting era",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0627",
+    "name": "AllowRazeCapital",
+    "text": "Allow raze capital",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0628",
+    "name": "AllowRazeHolyCity",
+    "text": "Allow raze holy city",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0629",
+    "name": "CityStatesSearchForFirstCitySite",
+    "text": null,
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0630",
+    "name": "SuppressWarnings",
+    "text": "Suppress warning [validationWarning]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0631",
+    "name": "ModIncompatibleWith",
+    "text": "Mod is incompatible with [modFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0632",
+    "name": "ModRequires",
+    "text": "Mod requires [modFilter]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0633",
+    "name": "ModIsAudioVisualOnly",
+    "text": "Should only be used as permanent audiovisual mod",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0634",
+    "name": "ModIsAudioVisual",
+    "text": "Can be used as permanent audiovisual mod",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0635",
+    "name": "ModIsNotAudioVisual",
+    "text": "Cannot be used as permanent audiovisual mod",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0636",
+    "name": "ModMapPreselection",
+    "text": "Mod preselects map [comment]",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0637",
+    "name": "ConditionalModEnabled",
+    "text": "if [modFilter] is enabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  },
+  {
+    "id": "UNIQUE-0638",
+    "name": "ConditionalModNotEnabled",
+    "text": "if [modFilter] is not enabled",
+    "source": "core/src/com/unciv/models/ruleset/unique/UniqueType.kt"
+  }
+]

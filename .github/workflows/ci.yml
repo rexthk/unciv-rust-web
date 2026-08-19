@@ -68,7 +68,7 @@ jobs:
           repository: yairm210/Unciv
           ref: 19de45e6eef6245f1a9774b2e1a080a0f1c87174
           path: .upstream/Unciv
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21

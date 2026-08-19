@@ -134,22 +134,22 @@ git commit -m "<area>: <task outcome>"
 
 **Exit gate**: Platform-neutral engine state can accept a no-op command atomically and serialize deterministically.
 
-| ID | Task | Files | Verification |
-|---|---|---|---|
-| P3-01 | Add strongly typed entity IDs | `crates/engine/src/id.rs` | Round-trip/property tests |
-| P3-02 | Add hex coordinate type | `crates/engine/src/hex.rs` | Neighbor/distance tests |
-| P3-03 | Add deterministic ordered map/set aliases | `crates/engine/src/collections.rs` | Stable serialization test |
-| P3-04 | Add seeded RNG stream identifiers | `crates/engine/src/random.rs` | Golden sequence test |
-| P3-05 | Add game revision type | `crates/engine/src/revision.rs` | Overflow/error test |
-| P3-06 | Define command envelope | `crates/engine/src/command.rs` | serde snapshot |
-| P3-07 | Define domain-event envelope | `crates/engine/src/event.rs` | serde snapshot |
-| P3-08 | Add typed command error enum | `crates/engine/src/error.rs` | Stable error-code test |
-| P3-09 | Add minimal game-state root | `crates/engine/src/state.rs` | Deterministic serialization |
-| P3-10 | Implement atomic no-op command | `crates/engine/src/apply.rs` | Stale/current revision tests |
-| P3-11 | Add invariant-check trait | `crates/engine/src/invariant.rs` | Broken fixture detected |
-| P3-12 | Add state-content hashing | `crates/engine/src/hash.rs` | Golden hash test |
-| P3-13 | Add command journal | `crates/engine/src/journal.rs` | Replay equals original state |
-| P3-14 | Add engine prelude and API documentation | `crates/engine/src/lib.rs` | Rustdoc builds |
+| ID | Status | Task | Files | Verification |
+|---|---|---|---|---|
+| P3-01 | Done | Add strongly typed entity IDs | `crates/engine/src/id.rs` | Round-trip/property tests |
+| P3-02 | Pending | Add hex coordinate type | `crates/engine/src/hex.rs` | Neighbor/distance tests |
+| P3-03 | Pending | Add deterministic ordered map/set aliases | `crates/engine/src/collections.rs` | Stable serialization test |
+| P3-04 | Pending | Add seeded RNG stream identifiers | `crates/engine/src/random.rs` | Golden sequence test |
+| P3-05 | Pending | Add game revision type | `crates/engine/src/revision.rs` | Overflow/error test |
+| P3-06 | Pending | Define command envelope | `crates/engine/src/command.rs` | serde snapshot |
+| P3-07 | Pending | Define domain-event envelope | `crates/engine/src/event.rs` | serde snapshot |
+| P3-08 | Pending | Add typed command error enum | `crates/engine/src/error.rs` | Stable error-code test |
+| P3-09 | Pending | Add minimal game-state root | `crates/engine/src/state.rs` | Deterministic serialization |
+| P3-10 | Pending | Implement atomic no-op command | `crates/engine/src/apply.rs` | Stale/current revision tests |
+| P3-11 | Pending | Add invariant-check trait | `crates/engine/src/invariant.rs` | Broken fixture detected |
+| P3-12 | Pending | Add state-content hashing | `crates/engine/src/hash.rs` | Golden hash test |
+| P3-13 | Pending | Add command journal | `crates/engine/src/journal.rs` | Replay equals original state |
+| P3-14 | Pending | Add engine prelude and API documentation | `crates/engine/src/lib.rs` | Rustdoc builds |
 
 ## Phase 4: Ruleset Parser, Validation, and Compiled Indexes
 

@@ -61,68 +61,74 @@ git commit -m "<area>: <task outcome>"
 
 ## Phase 0: Repository and Toolchain Bootstrap
 
+**Status**: Complete (2026-08-19)
+
 **Exit gate**: Empty engine and web shell build, test, lint, and run in CI on every commit.
 
-| ID | ~30-minute task | Files | Verification |
-|---|---|---|---|
-| P0-01 | Add root README with scope and compatibility baseline | `README.md` | Link checker/manual review |
-| P0-02 | Add Rust toolchain pin and formatter/lint settings | `rust-toolchain.toml`, `rustfmt.toml`, `clippy.toml` | `cargo fmt --check` |
-| P0-03 | Create Cargo workspace and placeholder crates | `Cargo.toml`, `crates/*/Cargo.toml` | `cargo metadata --no-deps` |
-| P0-04 | Add minimal library entry points for all crates | `crates/*/src/lib.rs` | `cargo check --workspace` |
-| P0-05 | Scaffold Vite React TypeScript application | `web/package.json`, `web/vite.config.ts`, `web/src/main.tsx` | `pnpm --dir web build` |
-| P0-06 | Add Vitest smoke test | `web/src/App.test.tsx` | Observe fail, implement shell, observe pass |
-| P0-07 | Add Playwright Chrome smoke configuration | `web/playwright.config.ts`, `web/e2e/smoke.spec.ts` | `pnpm --dir web test:e2e` |
-| P0-08 | Add WebKit Playwright project for iPhone compatibility | Same config, `web/e2e/mobile-smoke.spec.ts` | WebKit test passes |
-| P0-09 | Add workspace Makefile/task runner commands | `justfile` | `just check` |
-| P0-10 | Add `.gitignore`, editor config, and license notices | `.gitignore`, `.editorconfig`, `LICENSES/` | Clean `git status` after builds |
-| P0-11 | Add GitHub Actions Rust job | `.github/workflows/ci.yml` | Local equivalent passes |
-| P0-12 | Add GitHub Actions web job | `.github/workflows/ci.yml` | Web build/test command passes |
-| P0-13 | Add dependency-license audit | `deny.toml`, CI | `cargo deny check` |
-| P0-14 | Add JavaScript dependency audit policy | `web/package.json`, CI | `pnpm audit` policy passes |
-| P0-15 | Record reproducible developer setup | `docs/development.md` | Fresh-directory setup walkthrough |
+| ID | Status | ~30-minute task | Files | Verification |
+|---|---|---|---|---|
+| P0-01 | Done | Add root README with scope and compatibility baseline | `README.md` | Link checker/manual review |
+| P0-02 | Done | Add Rust toolchain pin and formatter/lint settings | `rust-toolchain.toml`, `rustfmt.toml`, `clippy.toml` | `cargo fmt --check` |
+| P0-03 | Done | Create Cargo workspace and placeholder crates | `Cargo.toml`, `crates/*/Cargo.toml` | `cargo metadata --no-deps` |
+| P0-04 | Done | Add minimal library entry points for all crates | `crates/*/src/lib.rs` | `cargo check --workspace` |
+| P0-05 | Done | Scaffold Vite React TypeScript application | `web/package.json`, `web/vite.config.ts`, `web/src/main.tsx` | `pnpm --dir web build` |
+| P0-06 | Done | Add Vitest smoke test | `web/src/App.test.tsx` | Observe fail, implement shell, observe pass |
+| P0-07 | Done | Add Playwright Chrome smoke configuration | `web/playwright.config.ts`, `web/e2e/smoke.spec.ts` | `pnpm --dir web test:e2e` |
+| P0-08 | Done | Add WebKit Playwright project for iPhone compatibility | Same config, `web/e2e/smoke.spec.ts` | WebKit test passes |
+| P0-09 | Done | Add workspace Makefile/task runner commands | `justfile` | `just check` |
+| P0-10 | Done | Add `.gitignore`, editor config, and license notices | `.gitignore`, `.editorconfig`, `LICENSES/` | Clean `git status` after builds |
+| P0-11 | Done | Add GitHub Actions Rust job | `.github/workflows/ci.yml` | Local equivalent passes |
+| P0-12 | Done | Add GitHub Actions web job | `.github/workflows/ci.yml` | Web build/test command passes |
+| P0-13 | Done | Add dependency-license audit | `deny.toml`, CI | `cargo deny check` |
+| P0-14 | Done | Add JavaScript dependency audit policy | `web/package.json`, CI | `pnpm audit` policy passes |
+| P0-15 | Done | Record reproducible developer setup | `docs/development.md` | Fresh-directory setup walkthrough |
 
 ## Phase 1: Pin Upstream and Build the Compatibility Inventory
 
+**Status**: Complete (2026-08-19)
+
 **Exit gate**: Unciv 4.21.10 source, data, formats, screens, effects, and scenarios are represented by machine-readable manifests.
 
-| ID | Task | Files | Verification |
-|---|---|---|---|
-| P1-01 | Record upstream repository URL, commit, version, and license | `upstream/manifest.toml` | Manifest unit test |
-| P1-02 | Add script that verifies the pinned source checksum | `scripts/verify-upstream.sh` | Corrupt SHA fixture causes failure |
-| P1-03 | Copy permitted built-in ruleset fixtures with attribution | `fixtures/unciv-4.21.10/rulesets/` | Fixture checksum test |
-| P1-04 | Inventory all JSON asset categories | `fixtures/unciv-4.21.10/inventory/ruleset-files.json` | Inventory count snapshot |
-| P1-05 | Inventory every `UniqueType` entry | `.../inventory/unique-types.json` | Expected count/checksum test |
-| P1-06 | Inventory save-visible Kotlin model fields | `.../inventory/save-fields.json` | No duplicate type/field keys |
-| P1-07 | Inventory multiplayer endpoints and payloads | `.../inventory/multiplayer-api.json` | JSON schema validation |
-| P1-08 | Inventory user-visible screens and flows | `.../inventory/screens.json` | Every screen has category and parity owner |
-| P1-09 | Inventory keyboard, mouse, and touch actions | `.../inventory/input-actions.json` | Stable action IDs test |
-| P1-10 | Inventory bundled translations and sound assets | `.../inventory/media.json` | File existence/checksum test |
-| P1-11 | Inventory map editor operations | `.../inventory/map-editor.json` | Operation IDs unique |
-| P1-12 | Define parity status schema | `schemas/parity-status.schema.json` | Schema validates sample |
-| P1-13 | Generate initial task ledger from inventories | `scripts/generate-task-ledger.ts`, `docs/task-ledger/` | Deterministic output test |
-| P1-14 | Add task-ledger completeness CI check | `scripts/check-task-ledger.ts`, CI | Missing inventory item fails CI |
-| P1-15 | Document compatibility exception process | `docs/compatibility-policy.md` | Template lint test |
+| ID | Status | Task | Files | Verification |
+|---|---|---|---|---|
+| P1-01 | Done | Record upstream repository URL, commit, version, and license | `upstream/manifest.toml` | Manifest unit test |
+| P1-02 | Done | Add script that verifies the pinned source checksum | `scripts/verify-upstream.sh` | Corrupt SHA fixture causes failure |
+| P1-03 | Done | Copy permitted built-in ruleset fixtures with attribution | `fixtures/unciv-4.21.10/rulesets/` | Fixture checksum test |
+| P1-04 | Done | Inventory all JSON asset categories | `fixtures/unciv-4.21.10/inventory/ruleset-files.json` | Inventory count snapshot |
+| P1-05 | Done | Inventory every `UniqueType` entry | `.../inventory/unique-types.json` | Expected count/checksum test |
+| P1-06 | Done | Inventory save-visible Kotlin model fields | `.../inventory/save-fields.json` | No duplicate type/field keys |
+| P1-07 | Done | Inventory multiplayer endpoints and payloads | `.../inventory/multiplayer-api.json` | JSON schema validation |
+| P1-08 | Done | Inventory user-visible screens and flows | `.../inventory/screens.json` | Every screen has category and parity owner |
+| P1-09 | Done | Inventory keyboard, mouse, and touch actions | `.../inventory/input-actions.json` | Stable action IDs test |
+| P1-10 | Done | Inventory bundled translations and sound assets | `.../inventory/media.json` | File existence/checksum test |
+| P1-11 | Done | Inventory map editor operations | `.../inventory/map-editor.json` | Operation IDs unique |
+| P1-12 | Done | Define parity status schema | `schemas/parity-status.schema.json` | Schema validates sample |
+| P1-13 | Done | Generate initial task ledger from inventories | `scripts/generate-inventories.mjs`, `docs/task-ledger/` | Deterministic output test |
+| P1-14 | Done | Add task-ledger completeness CI check | `scripts/check-task-ledger.mjs`, CI | Missing inventory item fails CI |
+| P1-15 | Done | Document compatibility exception process | `docs/compatibility-policy.md` | Template lint test |
 
 ## Phase 2: Kotlin Oracle and Differential Harness
 
+**Status**: Complete (2026-08-19)
+
 **Exit gate**: A command-line Kotlin oracle and Rust comparator can execute a tiny deterministic scenario and report exact normalized differences.
 
-| ID | Task | Files | Verification |
-|---|---|---|---|
-| P2-01 | Define language-neutral scenario JSON schema | `schemas/scenario.schema.json` | Valid/invalid samples |
-| P2-02 | Define normalized-state JSON schema | `schemas/normalized-state.schema.json` | Schema tests |
-| P2-03 | Add Kotlin oracle wrapper project | `oracle-kotlin/` | Wrapper prints version JSON |
-| P2-04 | Load pinned rulesets in oracle | `oracle-kotlin/src/.../RulesetLoader.kt` | Ruleset checksum output |
-| P2-05 | Execute `new_game` scenario instruction | Oracle command runner | Golden fixture |
-| P2-06 | Execute one unit-selection/no-op instruction | Oracle runner | State remains deterministic |
-| P2-07 | Normalize map coordinates and tile ordering | Oracle normalizer | Repeated output byte-identical |
-| P2-08 | Normalize civilization and unit IDs | Oracle normalizer | Stable-ID fixture |
-| P2-09 | Create Rust scenario reader | `crates/test-oracle/src/scenario.rs` | Schema fixture test |
-| P2-10 | Create normalized diff engine | `crates/test-oracle/src/diff.rs` | Intentional mismatch snapshot |
-| P2-11 | Add process runner for Kotlin oracle | `crates/test-oracle/src/process.rs` | Captures success/error/timeout |
-| P2-12 | Add first cross-language smoke comparison | `crates/test-oracle/tests/smoke.rs` | Comparator passes |
-| P2-13 | Add minimized mismatch artifact writer | `crates/test-oracle/src/report.rs` | Artifact snapshot test |
-| P2-14 | Add oracle job to CI | CI | Pinned smoke comparison passes |
+| ID | Status | Task | Files | Verification |
+|---|---|---|---|---|
+| P2-01 | Done | Define language-neutral scenario JSON schema | `schemas/scenario.schema.json` | Valid/invalid samples |
+| P2-02 | Done | Define normalized-state JSON schema | `schemas/normalized-state.schema.json` | Schema tests |
+| P2-03 | Done | Add Kotlin oracle wrapper project | `oracle-kotlin/` | Wrapper emits versioned normalized JSON |
+| P2-04 | Done | Load pinned rulesets in oracle | `oracle-kotlin/src/main/kotlin/com/unciv/oracle/OracleMain.kt` | Ruleset count in normalized output |
+| P2-05 | Done | Execute `new_game` scenario instruction | Oracle command runner | Golden fixture |
+| P2-06 | Done | Execute one unit-selection/no-op instruction | Oracle runner | State remains deterministic |
+| P2-07 | Done | Normalize map coordinates and tile ordering | Oracle normalizer | Repeated output byte-identical |
+| P2-08 | Done | Normalize civilization and unit IDs | Oracle normalizer | Stable canonical unit descriptors |
+| P2-09 | Done | Create Rust scenario reader | `crates/test-oracle/src/scenario.rs` | Schema fixture test |
+| P2-10 | Done | Create normalized diff engine | `crates/test-oracle/src/lib.rs` | Intentional mismatch test |
+| P2-11 | Done | Add process runner for Kotlin oracle | `crates/test-oracle/src/process.rs` | Captures success/error/timeout |
+| P2-12 | Done | Add first cross-language smoke comparison | `crates/test-oracle/tests/smoke.rs` | Comparator passes |
+| P2-13 | Done | Add minimized mismatch artifact writer | `crates/test-oracle/src/report.rs` | Artifact test |
+| P2-14 | Done | Add oracle job to CI | `.github/workflows/ci.yml` | Pinned smoke comparison passes |
 
 ## Phase 3: Core Types, IDs, Commands, Events, and Revisions
 

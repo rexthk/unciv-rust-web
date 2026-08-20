@@ -1,5 +1,6 @@
 //! Deterministic, platform-neutral Unciv game engine.
 
+pub mod collections;
 pub mod hex;
 pub mod id;
 

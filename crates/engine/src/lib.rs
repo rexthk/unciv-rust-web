@@ -1,5 +1,6 @@
 //! Deterministic, platform-neutral Unciv game engine.
 
+pub mod hex;
 pub mod id;
 
 /// Unciv version whose observable behavior defines compatibility.

@@ -137,7 +137,7 @@ git commit -m "<area>: <task outcome>"
 | ID | Status | Task | Files | Verification |
 |---|---|---|---|---|
 | P3-01 | Done | Add strongly typed entity IDs | `crates/engine/src/id.rs` | Round-trip/property tests |
-| P3-02 | Pending | Add hex coordinate type | `crates/engine/src/hex.rs` | Neighbor/distance tests |
+| P3-02 | Done | Add hex coordinate type | `crates/engine/src/hex.rs` | Neighbor/distance tests |
 | P3-03 | Pending | Add deterministic ordered map/set aliases | `crates/engine/src/collections.rs` | Stable serialization test |
 | P3-04 | Pending | Add seeded RNG stream identifiers | `crates/engine/src/random.rs` | Golden sequence test |
 | P3-05 | Pending | Add game revision type | `crates/engine/src/revision.rs` | Overflow/error test |

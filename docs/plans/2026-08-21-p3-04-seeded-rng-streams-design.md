@@ -8,8 +8,9 @@ The engine exposes `RngStreamId`, a transparent `u64` newtype used to assign sta
 identities to independent deterministic-random consumers. Subsystems will declare explicit
 constants rather than deriving identifiers from Rust names or caller strings, so refactoring a
 module cannot silently change gameplay. Once an identifier contributes to persisted or observable
-behavior, it must not be renumbered or reused. The type supports ordering, hashing, display,
-conversion, and transparent Serde representation like the existing engine ID types.
+behavior, it must not be renumbered or reused. The type supports ordering, hashing, display, and
+numeric conversion. Serde uses a canonical fixed-width hexadecimal string so all 64 bits survive
+JSON and JavaScript round trips without exceeding JavaScript's safe-integer range.
 
 `SeededRng` combines an Unciv-compatible signed 64-bit root seed with an `RngStreamId`. The signed
 seed is reinterpreted as its two's-complement `u64` bit pattern, then both inputs are mixed with the
@@ -35,6 +36,7 @@ opaque implementation cursor.
 
 ## Verification
 
-Contract tests lock the transparent identifier representation, the exact golden sequence for a
-fixed signed seed and stream, reproducibility, and separation between distinct stream identifiers.
+Contract tests lock the identifier's hexadecimal wire representation and malformed-input handling,
+the exact golden sequence for a fixed signed seed and stream, reproducibility, and separation
+between distinct stream identifiers.
 Formatting, Clippy, workspace tests, strict engine Rustdoc, and the Wasm API build must pass.

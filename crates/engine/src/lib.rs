@@ -4,6 +4,7 @@ pub mod collections;
 pub mod hex;
 pub mod id;
 pub mod random;
+pub mod revision;
 
 /// Unciv version whose observable behavior defines compatibility.
 pub const COMPATIBILITY_BASELINE: &str = "4.21.10";

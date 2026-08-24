@@ -140,7 +140,7 @@ git commit -m "<area>: <task outcome>"
 | P3-02 | Done | Add hex coordinate type | `crates/engine/src/hex.rs` | Neighbor/distance tests |
 | P3-03 | Done | Add deterministic ordered map/set aliases | `crates/engine/src/collections.rs` | Stable serialization test |
 | P3-04 | Done | Add seeded RNG stream identifiers | `crates/engine/src/random.rs` | Golden sequence test |
-| P3-05 | Pending | Add game revision type | `crates/engine/src/revision.rs` | Overflow/error test |
+| P3-05 | Done | Add game revision type | `crates/engine/src/revision.rs` | Overflow/error test |
 | P3-06 | Pending | Define command envelope | `crates/engine/src/command.rs` | serde snapshot |
 | P3-07 | Pending | Define domain-event envelope | `crates/engine/src/event.rs` | serde snapshot |
 | P3-08 | Pending | Add typed command error enum | `crates/engine/src/error.rs` | Stable error-code test |
